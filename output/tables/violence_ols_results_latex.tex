@@ -1,23 +1,23 @@
 
 \begin{table}
-\caption{Pooled OLS models by violence outcome (with clash control)}
+\caption{OLS models by violence outcome (with clash control and interaction)}
 \begin{center}
 \begin{tabular}{l c c c c c}
 \toprule
  & Political violence & Civilian targeting & Homicide & Terrorism & Extortion \\
 \midrule
-Constant                   & $7.30^{***}$ & $3.36^{***}$ & $8.09^{***}$ & $6.87^{***}$  & $9.78^{***}$  \\
-                           & $(0.81)$     & $(0.52)$     & $(0.74)$     & $(0.63)$      & $(0.65)$      \\
-Peace talks active         & $-1.92^{*}$  & $-0.47$      & $0.91$       & $-1.34$       & $0.98$        \\
-                           & $(1.05)$     & $(0.68)$     & $(1.02)$     & $(0.89)$      & $(0.90)$      \\
-Active armed-group dispute & $2.62^{***}$ & $2.80^{***}$ & $0.34$       & $-2.55^{***}$ & $-2.84^{***}$ \\
-                           & $(0.98)$     & $(0.64)$     & $(0.92)$     & $(0.83)$      & $(0.83)$      \\
+Peace talks active           & $-6.31^{***}$ & $-3.34^{***}$ & $-2.01$     & $-6.33^{***}$ & $4.70^{***}$  \\
+                             & $(1.78)$      & $(1.15)$      & $(1.63)$    & $(1.84)$      & $(1.40)$      \\
+Active armed-group dispute   & $0.85$        & $1.64^{**}$   & $-0.88$     & $-3.74^{***}$ & $-1.08$       \\
+                             & $(1.13)$      & $(0.73)$      & $(1.05)$    & $(0.90)$      & $(0.96)$      \\
+Peace talks × active dispute & $6.64^{***}$  & $4.35^{***}$  & $4.75^{**}$ & $6.41^{***}$  & $-6.18^{***}$ \\
+                             & $(2.19)$      & $(1.42)$      & $(2.08)$    & $(2.08)$      & $(1.81)$      \\
 \midrule
-R$^2$                      & $0.03$       & $0.06$       & $0.00$       & $0.10$        & $0.05$        \\
-Adj. R$^2$                 & $0.03$       & $0.06$       & $-0.00$      & $0.09$        & $0.04$        \\
-Num. obs.                  & $297$        & $297$        & $274$        & $147$         & $248$         \\
+R$^2$                        & $0.06$        & $0.09$        & $0.02$      & $0.16$        & $0.09$        \\
+Adj. R$^2$                   & $0.05$        & $0.08$        & $0.01$      & $0.14$        & $0.08$        \\
+Num. obs.                    & $297$         & $297$         & $274$       & $147$         & $248$         \\
 \bottomrule
-\multicolumn{6}{l}{\scriptsize{Standard errors in parentheses.}}
+\multicolumn{6}{l}{\scriptsize{\parbox{\linewidth}{Standard errors in parentheses.\\[0.35em] Each column is a separate violence outcome (monthly event counts).}}}
 \end{tabular}
 \label{tab:violence_ols}
 \end{center}

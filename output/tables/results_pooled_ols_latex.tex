@@ -1,15 +1,26 @@
-\begin{table}
 
-\caption{\label{tab:results_pooled_ols}Pooled OLS: effect of peace talks on aggregate monthly event counts}
-\centering
-\begin{tabular}[t]{llll}
+\begin{table}
+\caption{Pooled OLS: effect of peace talks on aggregate monthly event counts}
+\begin{center}
+\begin{tabular}{l c c c}
 \toprule
- & (1) Pooled treat only & (2) + clash & (3) + clash × treat\\
+ & OLS & + Clash Control & + Interaction Term \\
 \midrule
-Constant & 7.36*** (0.23) & 7.16*** (0.33) & 7.51*** (0.35)\\
-Peace talks active & -0.42 (0.44) & -0.46 (0.44) & -2.02*** (0.74)\\
-Active armed-group dispute & NA & 0.34 (0.41) & -0.28 (0.47)\\
-Peace talks × active dispute & NA & NA & 2.38*** (0.92)\\
+Constant                     & $7.36^{***}$ & $7.16^{***}$ & $7.51^{***}$  \\
+                             & $(0.23)$     & $(0.33)$     & $(0.35)$      \\
+Peace talks active           & $-0.42$      & $-0.46$      & $-2.02^{***}$ \\
+                             & $(0.44)$     & $(0.44)$     & $(0.74)$      \\
+Active armed-group dispute   &              & $0.34$       & $-0.28$       \\
+                             &              & $(0.41)$     & $(0.47)$      \\
+Peace talks × active dispute &              &              & $2.38^{***}$  \\
+                             &              &              & $(0.92)$      \\
+\midrule
+R$^2$                        & $0.00$       & $0.00$       & $0.01$        \\
+Adj. R$^2$                   & $-0.00$      & $-0.00$      & $0.00$        \\
+Num. obs.                    & $1263$       & $1263$       & $1263$        \\
 \bottomrule
+\multicolumn{4}{l}{\scriptsize{\parbox{\linewidth}{Standard errors in parentheses.\\[0.35em] \textbf{Col.~(3):} Peace talks, active armed-group dispute, and treat.$\times$dispute.}}}
 \end{tabular}
+\label{tab:results_pooled_ols}
+\end{center}
 \end{table}

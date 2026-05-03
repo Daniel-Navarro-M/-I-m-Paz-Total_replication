@@ -1,19 +1,28 @@
-\begin{table}
 
-\caption{\label{tab:results_twfe}Two-way fixed effects: effect of peace talks on aggregate monthly event counts}
-\centering
-\begin{tabular}[t]{lllll}
+\begin{table}
+\caption{Two-way fixed effects: effect of peace talks on aggregate monthly event counts}
+\begin{center}
+\begin{tabular}{l c c c}
 \toprule
- & (1) TWFE treat only & (2) + clash & (3) + clash × treat & (4) By case + interact\\
+ & TWFE & + Clash Control & + Interaction Term \\
 \midrule
-Peace talks active & 0.21 (0.63) & 0.33 (0.62) & 3.21*** (1.07) & NA\\
-Active armed-group dispute & NA & 4.00*** (0.55) & 5.28*** (0.68) & 5.68*** (0.81)\\
-Peace talks × active dispute & NA & NA & -3.40*** (1.04) & NA\\
-Peace talks (Buenaventura) & NA & NA & NA & 3.23*** (1.07)\\
-Peace talks (Arauca) & NA & NA & NA & -1.01 (1.08)\\
-\addlinespace
-Peace talks (Tumaco) & NA & NA & NA & 0.61 (1.15)\\
-Peace talks × dispute (Buenaventura) & NA & NA & NA & -3.00** (1.40)\\
+Peace talks active           & $0.21$   & $0.33$       & $3.21^{***}$  \\
+                             & $(0.63)$ & $(0.62)$     & $(1.07)$      \\
+Active armed-group dispute   &          & $4.00^{***}$ & $5.28^{***}$  \\
+                             &          & $(0.55)$     & $(0.68)$      \\
+Peace talks × active dispute &          &              & $-3.40^{***}$ \\
+                             &          &              & $(1.04)$      \\
+\midrule
+Num. obs.                    & $1263$   & $1263$       & $1263$        \\
+Num. groups: case id        & $3$      & $3$          & $3$           \\
+Num. groups: month id       & $99$     & $99$         & $99$          \\
+R$^2$ (full model)           & $0.25$   & $0.29$       & $0.29$        \\
+R$^2$ (proj model)           & $0.00$   & $0.04$       & $0.05$        \\
+Adj. R$^2$ (full model)      & $0.19$   & $0.22$       & $0.23$        \\
+Adj. R$^2$ (proj model)      & $-0.00$  & $0.04$       & $0.05$        \\
 \bottomrule
+\multicolumn{4}{l}{\scriptsize{\parbox{\linewidth}{Standard errors in parentheses.\\[0.35em] All columns include territorial-case and month fixed effects.\\[0.35em] \textbf{Col.~(3):} Adds peace talks $\times$ active armed-group dispute.}}}
 \end{tabular}
+\label{tab:results_twfe}
+\end{center}
 \end{table}

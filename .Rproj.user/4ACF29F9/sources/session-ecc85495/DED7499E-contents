@@ -224,13 +224,6 @@ screenreg(list(m1_1))
 m1_2 <- lm(count ~ treatment_dummy + clash_dummy + treatment_dummy * clash_dummy, data = panel)
 screenreg(list(m1_2))
 
-library(sandwich)
-library(lmtest)
-
-# robusness checks for the appendix. One using poisson fixed effects and a coeftest
-coeftest(m1_2, vcov. = vcovHC(m1_2, type = "HC1"))
-fepois(count ~ treatment_dummy * clash_dummy, data = panel)
-
 screenreg(
   list(m1, m1_1, m1_2),
   custom.model.names = c("OLS", "+ Clash Control", "+ Interaction Term"),
@@ -269,28 +262,6 @@ plot_broom_models(
   title       = "Pooled OLS coefficients"
 )
 
-
-mean_difference_interaction <- panel |>
-  mutate(
-    treatment = ifelse(treatment_dummy == 1, "Peace talks", "No talks"),
-    clash     = ifelse(clash_dummy == 1, "Active dispute", "No dispute")
-  ) |>
-  group_by(treatment, clash) |>
-  summarise(
-    mean_count = mean(count),
-    se         = sd(count) / sqrt(n()),
-    .groups = "drop"
-  ) |>
-  ggplot(aes(x = treatment, y = mean_count, color = clash, group = clash)) +
-  geom_pointrange(aes(ymin = mean_count - 1.96*se, ymax = mean_count + 1.96*se),
-                  position = position_dodge(width = 0.3)) +
-  geom_line(position = position_dodge(width = 0.3)) +
-  labs(y = "Mean monthly events", x = NULL) +
-  thesis_theme()
-
-ggsave(mean_difference_interaction, 
-       file = "output/figures/mean_difference_interaction.png", 
-       dpi=320, width=5, height=5, units="in")
 
 ## Case fixed effects ----
 

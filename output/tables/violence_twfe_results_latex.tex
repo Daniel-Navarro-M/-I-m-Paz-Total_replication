@@ -1,13 +1,28 @@
-\begin{table}
 
-\caption{\label{tab:violence_twfe}TWFE models by violence outcome (with clash control)}
-\centering
-\begin{tabular}[t]{llllll}
+\begin{table}
+\caption{TWFE models by violence outcome (with clash control and interaction)}
+\begin{center}
+\begin{tabular}{l c c c c c}
 \toprule
- & Political violence & Civilian targeting & Homicide & Terrorism & Extortion\\
+ & \makecell{Political\\violence} & \makecell{Civilian\\targeting} & Homicide & Terrorism & Extortion \\
 \midrule
-Peace talks active & 0.46 (1.10) & 1.12 (0.74) & 1.56 (1.36) & -1.82 (1.52) & -0.37 (1.26)\\
-Active armed-group dispute & 6.30*** (1.01) & 5.84*** (0.68) & 4.49*** (1.17) & 1.21 (1.28) & 1.75 (1.07)\\
+Peace talks active           & $4.54^{**}$   & $2.30^{*}$   & $2.12$       & $-2.91$  & $6.67^{***}$  \\
+                             & $(1.86)$      & $(1.27)$     & $(2.18)$     & $(3.70)$ & $(2.06)$      \\
+Active armed-group dispute   & $8.05^{***}$  & $6.35^{***}$ & $4.78^{***}$ & $0.86$   & $5.40^{***}$  \\
+                             & $(1.19)$      & $(0.81)$     & $(1.47)$     & $(1.68)$ & $(1.33)$      \\
+Peace talks × active dispute & $-4.95^{***}$ & $-1.43$      & $-0.72$      & $0.93$   & $-8.24^{***}$ \\
+                             & $(1.84)$      & $(1.26)$     & $(2.20)$     & $(2.88)$ & $(1.96)$      \\
+\midrule
+Num. obs.                    & $297$         & $297$        & $274$        & $98$     & $248$         \\
+Num. groups: case id        & $3$           & $3$          & $3$          & $3$      & $3$           \\
+Num. groups: month id       & $99$          & $99$         & $99$         & $46$     & $99$          \\
+R$^2$ (full model)           & $0.73$        & $0.71$       & $0.60$       & $0.71$   & $0.67$        \\
+R$^2$ (proj model)           & $0.20$        & $0.28$       & $0.09$       & $0.04$   & $0.13$        \\
+Adj. R$^2$ (full model)      & $0.58$        & $0.55$       & $0.35$       & $0.40$   & $0.43$        \\
+Adj. R$^2$ (proj model)      & $0.18$        & $0.27$       & $0.07$       & $-0.02$  & $0.11$        \\
 \bottomrule
+\multicolumn{6}{l}{\scriptsize{\parbox{\linewidth}{Standard errors in parentheses.\\[0.35em] Each column is a separate violence outcome (monthly event counts).}}}
 \end{tabular}
+\label{tab:violence_twfe}
+\end{center}
 \end{table}

@@ -1,19 +1,9 @@
 # 03_models.R
-# Simple panel-data models following the course scripts:
+# testing how initiating a peace talk/table on Paz Total Policy affects
+# violent outcomes and war related crime observations
 #   OLS -> Case fixed effects -> TWFE -> TWFE + clash control
 
 options(stringsAsFactors = FALSE)
-
-if (!requireNamespace("fixest", quietly = TRUE)) stop("Install fixest: install.packages('fixest')")
-if (!requireNamespace("texreg", quietly = TRUE)) stop("Install texreg: install.packages('texreg')")
-if (!requireNamespace("writexl", quietly = TRUE)) stop("Install writexl: install.packages('writexl')")
-if (!requireNamespace("modelsummary", quietly = TRUE)) stop("Install modelsummary: install.packages('modelsummary')")
-if (!requireNamespace("ggplot2", quietly = TRUE)) stop("Install ggplot2: install.packages('ggplot2')")
-if (!requireNamespace("broom", quietly = TRUE)) stop("Install broom: install.packages('broom')")
-if (!requireNamespace("knitr", quietly = TRUE)) stop("Install knitr: install.packages('knitr')")
-if (!requireNamespace("readr", quietly = TRUE)) stop("Install readr: install.packages('readr')")
-if (!requireNamespace("dplyr", quietly = TRUE)) stop("Install dplyr: install.packages('dplyr')")
-if (!requireNamespace("tidyr", quietly = TRUE)) stop("Install tidyr: install.packages('tidyr')")
 
 library(fixest)
 library(texreg)
@@ -28,11 +18,87 @@ library(tidyr)
 dir.create("output/tables", recursive = TRUE, showWarnings = FALSE)
 dir.create("output/figures", recursive = TRUE, showWarnings = FALSE)
 
-# -----------------------------------------------------------------------------
-# 1. Load panel
-# -----------------------------------------------------------------------------
 
-panel <- read_csv("data/Processed/panel_long.csv")
+
+# 0. Functions and helpers
+
+plot_broom_models <- function(models, model_names, coef_map, plot_path, title,
+                              drop_intercept = TRUE,
+                              width = 10, height = 5, dpi = 150) {
+  
+  coef_terms <- names(coef_map)
+  
+  pdat <- dplyr::bind_rows(lapply(seq_along(models), function(i) {
+    broom::tidy(models[[i]], conf.int = TRUE) |>
+      dplyr::mutate(model = model_names[i])
+  })) |>
+    dplyr::filter(term %in% coef_terms) |>
+    {\(d) if (drop_intercept) dplyr::filter(d, term != "(Intercept)") else d}() |>
+    dplyr::mutate(
+      estimate    = as.numeric(estimate),
+      conf.low    = as.numeric(conf.low),
+      conf.high   = as.numeric(conf.high),
+      term_label  = factor(
+        unname(coef_map[term]),
+        levels = rev(unname(coef_map))
+      ),
+      model       = factor(model, levels = model_names),
+      stars       = star_code(p.value),
+      sig         = factor(
+        sig_level(p.value),
+        levels = c("p < 0.01", "p < 0.05", "p < 0.10", "n.s.")
+      ),
+      label       = sprintf("%.2f%s", estimate, stars)
+    ) |>
+    dplyr::filter(is.finite(estimate), is.finite(conf.low), is.finite(conf.high))
+  
+  p <- ggplot(pdat, aes(x = term_label, y = estimate)) +
+    geom_hline(yintercept = 0, color = "black", linetype = "dashed") +
+    geom_pointrange(
+      aes(ymin = conf.low, ymax = conf.high, alpha = sig),
+      color = "darkblue"
+    ) +
+    geom_text(
+      aes(label = label, alpha = sig),
+      nudge_x = 0.1,
+      size = 4
+    ) +
+    scale_alpha_manual(
+      name = "Significance",
+      values = c("p < 0.01" = 1, "p < 0.05" = 0.75, "p < 0.10" = 0.5, "n.s." = 0.25),
+      drop = FALSE
+    ) +
+    scale_x_discrete("") +
+    ylab("Estimate") +
+    coord_flip() +
+    facet_grid(~ model) +
+    labs(title = title) +
+    thesis_theme()
+  
+  ggsave(plot_path, p, width = width, height = height, dpi = dpi)
+  
+  invisible(p)
+}
+
+star_code <- function(p) {
+  dplyr::case_when(
+    is.na(p) ~ "",
+    p < 0.01 ~ "***",
+    p < 0.05 ~ "**",
+    p < 0.10 ~ "*",
+    TRUE     ~ ""
+  )
+}
+
+sig_level <- function(p) {
+  dplyr::case_when(
+    is.na(p) ~ "n.s.",
+    p < 0.01 ~ "p < 0.01",
+    p < 0.05 ~ "p < 0.05",
+    p < 0.10 ~ "p < 0.10",
+    TRUE     ~ "n.s."
+  )
+}
 
 violence_types <- c(
   "political_violence",
@@ -49,8 +115,7 @@ violence_labels <- c(
   extortion = "Extortion"
 )
 
-# Two-line column headers for LaTeX (narrower columns). Thesis preamble must include:
-#   \usepackage{makecell}
+# Two-line column headers for LaTeX. Original names make tables too wide
 violence_col_headers_twfe <- c(
   political_violence = "\\makecell{Political\\\\violence}",
   civilian_targeting = "\\makecell{Civilian\\\\targeting}",
@@ -103,6 +168,32 @@ clean_tex_table_text <- function(lines) {
   lines
 }
 
+## Custom theme ----
+
+thesis_theme <- function() {
+  theme_bw() +
+    theme(
+      axis.ticks = element_blank(),
+      axis.text = element_text(size = 12),
+      axis.title = element_text(size = 13),
+      legend.title = element_text(size = 11),
+      legend.text = element_text(size = 10),
+      legend.position = "bottom",
+      legend.box.background = element_blank(),
+      legend.background = element_blank(),
+      panel.background = element_rect(fill = "white"),
+      plot.background = element_rect(fill = "white"),
+      plot.title = element_text(size = 14, face = "bold"),
+      plot.subtitle = element_text(size = 12),
+      text = element_text(family = "sans")
+    )
+}
+
+# 1. Load panel ----
+
+panel <- read_csv("data/Processed/panel_long.csv")
+
+
 # Case-specific treatment_dummy indicators for heterogeneous TWFE effects.
 panel$tr_buenaventura <- ifelse(panel$case_id == "buenaventura", panel$treatment_dummy, 0)
 panel$tr_arauca <- ifelse(panel$case_id == "arauca", panel$treatment_dummy, 0)
@@ -110,24 +201,23 @@ panel$tr_tumaco <- ifelse(panel$case_id == "tumaco", panel$treatment_dummy, 0)
 
 # 2. Main models ----
 
-# (1) Pooled OLS
+## OLS ----
+
+### Simple OLS ----
 m1 <- lm(count ~ treatment_dummy, data = panel)
-screenreg(
-  list(m1),
-  custom.model.names = c("OLS Without control"),
-  caption = "Effect of peace talks on monthly event counts",
-  caption.above = TRUE,
-  include.ci = FALSE,
-  stars = c(0.01, 0.05, 0.10),
-  custom.note = paste(
-    "Standard errors in parentheses."
-  )
-)
+screenreg(list(m1))
 
+### OLS + clash control ----
 m1_1 <- lm(count ~ treatment_dummy + clash_dummy, data = panel)
+screenreg(list(m1_1))
+
+### OLS: clash control + interaction ----
+m1_2 <- lm(count ~ treatment_dummy + clash_dummy + treatment_dummy * clash_dummy, data = panel)
+screenreg(list(m1_2))
+
 screenreg(
-  list(m1_1),
-  custom.model.names = c("OLS Clash Control"),
+  list(m1, m1_1, m1_2),
+  custom.model.names = c("OLS", "+ Clash Control", "+ Interaction Term"),
   caption = "Effect of peace talks on monthly event counts",
   caption.above = TRUE,
   include.ci = FALSE,
@@ -137,11 +227,53 @@ screenreg(
   )
 )
 
-# Pooled OLS: clash control + interaction (explicit RHS)
-m1_2 <- lm(count ~ treatment_dummy + clash_dummy + treatment_dummy * clash_dummy, data = panel)
+#### Save OLS table ----
+
+coef_map_ols <- list(
+  "(Intercept)" = "Constant",
+  "treatment_dummy" = "Peace talks active",
+  "clash_dummy" = "Active armed-group dispute",
+  "treatment_dummy:clash_dummy" = "Peace talks × active dispute"
+)
+
+latex_note_ols <- paste0(
+  "\\parbox{\\linewidth}{",
+  "Standard errors in parentheses.\\\\[0.35em] ",
+  "\\textbf{Col.~(3):} Peace talks, active armed-group dispute, and treat.$\\times$dispute.",
+  "}"
+)
+
+texreg_pooled <- capture.output(
+  texreg(
+    list(m1, m1_1, m1_2),
+    custom.model.names = c("OLS", "+ Clash Control", "+ Interaction Term"),
+    custom.coef.map = coef_map_ols,
+    caption = "Pooled OLS: effect of peace talks on aggregate monthly event counts",
+    caption.above = TRUE,
+    label = "tab:results_pooled_ols",
+    include.ci = FALSE,
+    stars = c(0.01, 0.05, 0.10),
+    booktabs = TRUE,
+    use.packages = FALSE,
+    custom.note = latex_note_ols
+  )
+)
+writeLines(clean_tex_table_text(texreg_pooled),
+           "output/tables/results_pooled_ols_latex.tex")
 
 
-# (2) Case fixed effects
+#### OLS Figure ----
+
+plot_broom_models(
+  models = list(m1, m1_1, m1_2),
+  model_names = c("OLS", "+ Clash Control", "+ Interaction Term"),
+  coef_map = coef_map_pooled,
+  plot_path = "output/figures/coefplot_pooled.png",
+  title = "Pooled OLS coefficients"
+)
+
+
+# Case fixed effects ----
 m2 <- feols(count ~ treatment_dummy | case_id, data = panel)
 
 screenreg(
@@ -596,37 +728,6 @@ build_broom_table <- function(models, model_names, coef_map, path, caption, labe
   writeLines(clean_tex_table_text(latex), path)
 }
 
-plot_broom_models <- function(models, model_names, coef_map, plot_path, title) {
-  coef_terms <- names(coef_map)
-  pdat <- dplyr::bind_rows(lapply(seq_along(models), function(i) {
-    broom::tidy(models[[i]], conf.int = TRUE) |>
-      dplyr::mutate(model = model_names[i])
-  })) |>
-    dplyr::filter(term %in% coef_terms) |>
-    dplyr::mutate(
-      estimate = as.numeric(estimate),
-      conf.low = as.numeric(conf.low),
-      conf.high = as.numeric(conf.high),
-      term_label = as.character(unname(coef_map[term])),
-      significant = ifelse(p.value < 0.05, "yes", "no")
-    ) |>
-    dplyr::filter(is.finite(estimate), is.finite(conf.low), is.finite(conf.high))
-
-  p <- ggplot(
-    pdat,
-    aes(x = estimate, y = term_label, color = model)
-  ) +
-    geom_vline(xintercept = 0, linetype = "dashed", color = "gray60") +
-    geom_pointrange(
-      aes(xmin = conf.low, xmax = conf.high),
-      position = position_dodge(width = 0.5)
-    ) +
-    labs(title = title, x = "Estimate", y = NULL) +
-    theme_bw()
-
-  ggsave(plot_path, p, width = 8, height = 5, dpi = 150)
-}
-
 coef_map_pooled <- list(
   "(Intercept)" = "Constant",
   "treatment_dummy" = "Peace talks active",
@@ -654,14 +755,6 @@ coef_map_violence_int <- list(
   "treatment_dummy:clash_dummy" = "Peace talks × active dispute"
 )
 
-build_broom_table(
-  models = list(m1, m1_1, m1_2),
-  model_names = c("(1) Pooled treat only", "(2) + clash", "(3) + clash × treat"),
-  coef_map = coef_map_pooled,
-  path = "output/tables/results_pooled_ols_latex.tex",
-  caption = "Pooled OLS: effect of peace talks on aggregate monthly event counts",
-  label = "results_pooled_ols"
-)
 plot_broom_models(
   models = list(m1, m1_1, m1_2),
   model_names = c("Pooled 1", "Pooled 2", "Pooled 3"),
@@ -670,14 +763,6 @@ plot_broom_models(
   title = "Pooled OLS coefficients"
 )
 
-build_broom_table(
-  models = list(m2, m2_1, m2_2),
-  model_names = c("(1) Case FE treat only", "(2) + clash", "(3) + clash × treat"),
-  coef_map = coef_map_main,
-  path = "output/tables/results_case_fe_latex.tex",
-  caption = "Case fixed effects: effect of peace talks on aggregate monthly event counts",
-  label = "results_case_fe"
-)
 plot_broom_models(
   models = list(m2, m2_1, m2_2),
   model_names = c("Case FE 1", "Case FE 2", "Case FE 3"),
@@ -686,14 +771,6 @@ plot_broom_models(
   title = "Case FE coefficients"
 )
 
-build_broom_table(
-  models = list(m3, m4, m4_int, m5_int),
-  model_names = c("(1) TWFE treat only", "(2) + clash", "(3) + clash × treat", "(4) By case + interact"),
-  coef_map = coef_map_main,
-  path = "output/tables/results_twfe_latex.tex",
-  caption = "Two-way fixed effects: effect of peace talks on aggregate monthly event counts",
-  label = "results_twfe"
-)
 plot_broom_models(
   models = list(m3, m4, m4_int, m5_int),
   model_names = c("TWFE 1", "TWFE 2", "TWFE 3", "TWFE 4"),
@@ -702,14 +779,6 @@ plot_broom_models(
   title = "TWFE coefficients"
 )
 
-build_broom_table(
-  models = unname(violence_model_results_twfe_main[violence_types]),
-  model_names = unname(violence_labels[violence_types]),
-  coef_map = coef_map_violence,
-  path = "output/tables/violence_twfe_results_latex.tex",
-  caption = "TWFE models by violence outcome (with clash control)",
-  label = "violence_twfe"
-)
 plot_broom_models(
   models = unname(violence_model_results_twfe_main[violence_types]),
   model_names = unname(violence_labels[violence_types]),
@@ -718,14 +787,6 @@ plot_broom_models(
   title = "TWFE by outcome (no interaction)"
 )
 
-build_broom_table(
-  models = unname(violence_model_results_twfe_interaction[violence_types]),
-  model_names = unname(violence_labels[violence_types]),
-  coef_map = coef_map_violence_int,
-  path = "output/tables/violence_twfe_interaction_results_latex.tex",
-  caption = "TWFE models by violence outcome (peace talks, active dispute, and interaction)",
-  label = "violence_twfe_interaction"
-)
 plot_broom_models(
   models = unname(violence_model_results_twfe_interaction[violence_types]),
   model_names = unname(violence_labels[violence_types]),
@@ -839,18 +900,3 @@ writexl::write_xlsx(
   ),
   "output/tables/model_results.xlsx"
 )
-
-cat("\n=== 03_models.R complete ===\n")
-cat("Saved: output/tables/model_results.xlsx\n")
-cat("Saved: output/tables/results_pooled_ols_latex.tex\n")
-cat("Saved: output/tables/results_case_fe_latex.tex\n")
-cat("Saved: output/tables/results_twfe_latex.tex\n")
-cat("Saved: output/tables/main_results_latex.tex (copy of TWFE table)\n")
-cat("Saved: output/tables/main_results_unified_latex.tex (copy of TWFE table)\n")
-cat("Saved: output/tables/supplementary_interaction_results_latex.tex\n")
-cat("Saved: output/tables/violence_case_fe_results_latex.tex\n")
-cat("Saved: output/tables/violence_ols_results_latex.tex\n")
-cat("Saved: output/tables/violence_twfe_results_latex.tex\n")
-cat("Saved: output/tables/violence_twfe_interaction_results_latex.tex\n")
-cat("Saved: output/figures/coefficient_plot.png\n")
-cat("Saved: output/figures/coefficient_plot_by_case.png\n")

@@ -1,0 +1,21 @@
+\begin{table}
+
+\caption{\label{tab:variable_dictionary}Variable dictionary for the aggregate panel.}
+\centering
+\begin{tabular}[t]{ll}
+\toprule
+column\_name & description\\
+\midrule
+case\_id & Study case identifier: buenaventura, arauca, tumaco.\\
+case\_label & Study case label.\\
+spatial\_definition & Territorial scope of each study case.\\
+month\_id & Calendar month in YYYY-MM format.\\
+month\_start & First day of the month for plotting.\\
+\addlinespace
+total\_events & Aggregate monthly count of all violences.\\
+treatment & Peace talks active in that case-month (1=yes, 0=no).\\
+clash\_dummy & Dummy equal to 1 in months with active armed-group clashes in the territorial case.\\
+month\_index & Sequential month index used for panel ordering.\\
+\bottomrule
+\end{tabular}
+\end{table}

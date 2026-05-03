@@ -1,0 +1,298 @@
+"case_id","month_id","month_start","case_label","spatial_definition","total_events","political_violence","civilian_targeting","homicides","terrorism","extortion","source_count","treatment","clash_dummy","gold_price","oil_price","cocaine_price","month_index"
+"buenaventura","2018-01",2018-01-01,"Buenaventura","Municipality only",17,2,2,6,0,7,5,0,0,1333.680952,66.95190476,29496.105383742,1
+"buenaventura","2018-02",2018-02-01,"Buenaventura","Municipality only",20,1,1,6,0,12,5,0,0,1332.757895,65.10157895,29250.1000088579,2
+"buenaventura","2018-03",2018-03-01,"Buenaventura","Municipality only",9,0,0,4,0,5,5,0,0,1326.990476,64.41809524,29027.9016057368,3
+"buenaventura","2018-04",2018-04-01,"Buenaventura","Municipality only",20,2,1,5,0,12,5,0,0,1338.37619,69.7247619,28781.8962308527,4
+"buenaventura","2018-05",2018-05-01,"Buenaventura","Municipality only",18,4,3,8,0,3,5,0,0,1305.522727,75.20136364,28543.8265132229,5
+"buenaventura","2018-06",2018-06-01,"Buenaventura","Municipality only",19,3,3,4,0,9,5,0,0,1283.205,74.7052381,28297.8211383389,6
+"buenaventura","2018-07",2018-07-01,"Buenaventura","Municipality only",30,2,1,11,4,12,5,0,0,1240.480952,74.81428571,28059.7514207091,7
+"buenaventura","2018-08",2018-08-01,"Buenaventura","Municipality only",11,0,0,2,0,9,5,0,0,1207.756522,74.19173913,28287.4234611973,8
+"buenaventura","2018-09",2018-09-01,"Buenaventura","Municipality only",13,1,1,4,0,7,5,0,0,1202.584211,78.72315789,28515.0955016855,9
+"buenaventura","2018-10",2018-10-01,"Buenaventura","Municipality only",20,0,0,12,3,5,5,0,0,1219.063636,80.46409091,28735.4232828031,10
+"buenaventura","2018-11",2018-11-01,"Buenaventura","Municipality only",16,1,0,11,0,4,5,0,0,1223.43,66.373,28963.0953232913,11
+"buenaventura","2018-12",2018-12-01,"Buenaventura","Municipality only",25,1,1,18,0,5,5,0,0,1257.673684,58.08631579,29183.4231044089,12
+"buenaventura","2019-01",2019-01-01,"Buenaventura","Municipality only",20,1,0,9,0,10,5,0,0,1294.309524,60.06714286,29411.0951448972,13
+"buenaventura","2019-02",2019-02-01,"Buenaventura","Municipality only",16,0,0,6,0,10,5,0,0,1322.844444,63.69333333,29638.7671853854,14
+"buenaventura","2019-03",2019-03-01,"Buenaventura","Municipality only",21,2,0,12,0,7,5,0,0,1302.095238,66.05761905,29844.4064477618,15
+"buenaventura","2019-04",2019-04-01,"Buenaventura","Municipality only",15,0,0,9,0,6,5,0,0,1289.93,69.3225,30072.07848825,16
+"buenaventura","2019-05",2019-05-01,"Buenaventura","Municipality only",21,0,0,10,0,11,5,0,0,1285.766667,67.19333333,30292.4062693676,17
+"buenaventura","2019-06",2019-06-01,"Buenaventura","Municipality only",27,2,2,17,0,6,5,0,0,1364.095,61.1145,30520.0783098558,18
+"buenaventura","2019-07",2019-07-01,"Buenaventura","Municipality only",21,3,1,11,0,6,5,0,0,1418.561905,63.35047619,30740.4060909734,19
+"buenaventura","2019-08",2019-08-01,"Buenaventura","Municipality only",25,0,0,10,0,15,5,0,0,1512.67619,58.50666667,30775.1925104794,20
+"buenaventura","2019-09",2019-09-01,"Buenaventura","Municipality only",24,0,0,8,0,16,5,0,0,1515.91,60.1675,30809.9789299853,21
+"buenaventura","2019-10",2019-10-01,"Buenaventura","Municipality only",12,0,0,4,1,7,5,0,0,1499.178261,56.56826087,30843.6432069265,22
+"buenaventura","2019-11",2019-11-01,"Buenaventura","Municipality only",24,1,1,8,0,14,5,0,0,1473.842105,58.3,30878.4296264324,23
+"buenaventura","2019-12",2019-12-01,"Buenaventura","Municipality only",18,0,0,7,0,11,5,0,0,1483.6,60.10210526,30912.0939033736,24
+"buenaventura","2020-01",2020-01-01,"Buenaventura","Municipality only",18,1,0,7,0,10,5,0,0,1563.285714,59.07619048,30946.8803228795,25
+"buenaventura","2020-02",2020-02-01,"Buenaventura","Municipality only",25,2,2,11,0,10,5,0,0,1599.689474,55.17,30981.6667423855,26
+"buenaventura","2020-03",2020-03-01,"Buenaventura","Municipality only",7,2,1,1,0,3,5,0,0,1599.545455,40.74636364,31014.208876762,27
+"buenaventura","2020-04",2020-04-01,"Buenaventura","Municipality only",20,0,0,15,0,5,5,0,0,1707.733333,35.54190476,31048.9952962679,28
+"buenaventura","2020-05",2020-05-01,"Buenaventura","Municipality only",14,0,0,11,1,2,5,0,0,1724.795,35.708,31082.6595732091,29
+"buenaventura","2020-06",2020-06-01,"Buenaventura","Municipality only",17,0,0,13,0,4,5,0,0,1743.809091,41.565,31117.445992715,30
+"buenaventura","2020-07",2020-07-01,"Buenaventura","Municipality only",20,1,0,6,0,13,5,0,0,1856.431818,43.96772727,31151.1102696562,31
+"buenaventura","2020-08",2020-08-01,"Buenaventura","Municipality only",16,1,0,9,0,6,5,0,0,1980.271429,45.89904762,31095.8104933293,32
+"buenaventura","2020-09",2020-09-01,"Buenaventura","Municipality only",23,2,2,12,0,7,5,0,0,1929.961905,42.4347619,31040.5107170023,33
+"buenaventura","2020-10",2020-10-01,"Buenaventura","Municipality only",15,0,0,8,0,7,5,0,0,1905.55,43.64227273,30986.9948044278,34
+"buenaventura","2020-11",2020-11-01,"Buenaventura","Municipality only",18,1,1,5,0,11,5,0,0,1868.56,45.446,30931.6950281008,35
+"buenaventura","2020-12",2020-12-01,"Buenaventura","Municipality only",41,3,2,13,0,23,5,0,1,1862.845455,49.54909091,30878.1791155264,36
+"buenaventura","2021-01",2021-01-01,"Buenaventura","Municipality only",55,0,0,23,0,32,5,0,1,1867.557895,53.15473684,30822.8793391994,37
+"buenaventura","2021-02",2021-02-01,"Buenaventura","Municipality only",36,5,4,10,0,17,5,0,1,1807.452632,58.37368421,30767.5795628724,38
+"buenaventura","2021-03",2021-03-01,"Buenaventura","Municipality only",23,0,0,12,2,9,5,0,1,1720.691304,62.24,30717.6313778029,39
+"buenaventura","2021-04",2021-04-01,"Buenaventura","Municipality only",27,1,1,17,0,8,5,0,1,1760.909524,62.84,30662.3316014759,40
+"buenaventura","2021-05",2021-05-01,"Buenaventura","Municipality only",47,6,6,19,3,13,5,0,1,1851.62,66.2995,30608.8156889015,41
+"buenaventura","2021-06",2021-06-01,"Buenaventura","Municipality only",34,4,2,14,0,14,5,0,1,1835.75,70.91272727,30553.5159125745,42
+"buenaventura","2021-07",2021-07-01,"Buenaventura","Municipality only",56,4,4,27,0,21,5,0,1,1807.433333,71.88380952,30500,43
+"buenaventura","2021-08",2021-08-01,"Buenaventura","Municipality only",54,2,1,16,0,35,5,0,1,1788.372727,69.36409091,30500,44
+"buenaventura","2021-09",2021-09-01,"Buenaventura","Municipality only",31,1,1,13,0,16,5,0,1,1778.161905,74.32047619,30500,45
+"buenaventura","2021-10",2021-10-01,"Buenaventura","Municipality only",52,8,3,16,4,21,5,0,1,1777.480952,82.87952381,30500,46
+"buenaventura","2021-11",2021-11-01,"Buenaventura","Municipality only",46,6,4,14,0,22,5,0,1,1821.085714,73.81428571,30500,47
+"buenaventura","2021-12",2021-12-01,"Buenaventura","Municipality only",45,1,0,12,0,32,5,0,1,1792.636364,71.14,30500,48
+"buenaventura","2022-01",2022-01-01,"Buenaventura","Municipality only",62,13,9,15,0,25,5,0,1,1817.75,78.9725,30500,49
+"buenaventura","2022-02",2022-02-01,"Buenaventura","Municipality only",60,13,11,13,0,23,5,0,1,1858.989474,84.49894737,30500,50
+"buenaventura","2022-03",2022-03-01,"Buenaventura","Municipality only",66,9,8,16,0,33,5,0,1,1954.369565,96.33826087,30500,51
+"buenaventura","2022-04",2022-04-01,"Buenaventura","Municipality only",51,5,3,12,0,31,5,0,1,1937.545,99.2955,30500,52
+"buenaventura","2022-05",2022-05-01,"Buenaventura","Municipality only",39,3,1,9,2,24,5,0,1,1849.357143,101.4547619,30500,53
+"buenaventura","2022-06",2022-06-01,"Buenaventura","Municipality only",37,9,7,7,0,14,5,0,1,1838.780952,107.4790476,30500,54
+"buenaventura","2022-07",2022-07-01,"Buenaventura","Municipality only",35,5,3,10,0,17,5,0,1,1738.96,95.687,30500,55
+"buenaventura","2022-08",2022-08-01,"Buenaventura","Municipality only",37,0,0,15,0,22,5,0,1,1778.647826,95.28130435,30500,56
+"buenaventura","2022-09",2022-09-01,"Buenaventura","Municipality only",18,1,0,1,0,16,5,0,0,1690.057143,89.12952381,30500,57
+"buenaventura","2022-10",2022-10-01,"Buenaventura","Municipality only",23,3,1,4,0,15,5,0,0,1672.738095,92.37809524,30500,58
+"buenaventura","2022-11",2022-11-01,"Buenaventura","Municipality only",24,5,2,2,0,15,5,0,0,1734.966667,83.08,30500,59
+"buenaventura","2022-12",2022-12-01,"Buenaventura","Municipality only",30,2,1,5,0,22,5,0,0,1807.728571,79.13047619,30500,60
+"buenaventura","2023-01",2023-01-01,"Buenaventura","Municipality only",30,6,0,8,0,16,5,0,0,1909.43,80.9545,30500,61
+"buenaventura","2023-02",2023-02-01,"Buenaventura","Municipality only",7,1,0,1,0,5,5,0,0,1864.415789,80.07052632,30500,62
+"buenaventura","2023-03",2023-03-01,"Buenaventura","Municipality only",26,1,1,3,0,21,5,0,0,1925.826087,76.77608696,30500,63
+"buenaventura","2023-04",2023-04-01,"Buenaventura","Municipality only",25,3,0,12,0,10,5,0,0,2013.757895,80.44210526,30500,64
+"buenaventura","2023-05",2023-05-01,"Buenaventura","Municipality only",47,3,2,20,0,22,5,0,0,2005.540909,74.14772727,30500,65
+"buenaventura","2023-06",2023-06-01,"Buenaventura","Municipality only",29,2,2,16,0,9,5,0,0,1954.628571,74.22,30500,66
+"buenaventura","2023-07",2023-07-01,"Buenaventura","Municipality only",33,2,1,19,1,10,5,0,0,1972.1,79.3095,30500,67
+"buenaventura","2023-08",2023-08-01,"Buenaventura","Municipality only",29,2,1,5,0,21,5,1,0,1949.947826,84.18608696,30500,68
+"buenaventura","2023-09",2023-09-01,"Buenaventura","Municipality only",18,0,0,6,0,12,5,1,0,1934.715,91.5905,30500,69
+"buenaventura","2023-10",2023-10-01,"Buenaventura","Municipality only",26,3,2,11,1,9,5,1,0,1928.622727,88.70454545,30500,70
+"buenaventura","2023-11",2023-11-01,"Buenaventura","Municipality only",33,5,2,18,0,8,5,1,0,1997,81.56789474,30500,71
+"buenaventura","2023-12",2023-12-01,"Buenaventura","Municipality only",39,6,0,17,1,15,5,1,0,2046.035,77.139,30500,72
+"buenaventura","2024-01",2024-01-01,"Buenaventura","Municipality only",23,4,2,8,0,9,5,1,0,2040.27619,78.3647619,30500,73
+"buenaventura","2024-02",2024-02-01,"Buenaventura","Municipality only",25,0,0,4,0,21,5,1,0,2038.775,80.3765,30500,74
+"buenaventura","2024-03",2024-03-01,"Buenaventura","Municipality only",19,0,0,9,1,9,5,1,0,2175.09,84.028,30500,75
+"buenaventura","2024-04",2024-04-01,"Buenaventura","Municipality only",28,1,1,10,0,16,5,1,0,2349.3,87.89545455,30500,76
+"buenaventura","2024-05",2024-05-01,"Buenaventura","Municipality only",31,1,1,10,1,18,5,1,0,2363.568182,82.01363636,30500,77
+"buenaventura","2024-06",2024-06-01,"Buenaventura","Municipality only",23,1,0,4,2,16,5,1,0,2343.384211,80.65421053,30500,78
+"buenaventura","2024-07",2024-07-01,"Buenaventura","Municipality only",26,1,0,7,1,17,5,1,0,2415.668182,81.50681818,30500,79
+"buenaventura","2024-08",2024-08-01,"Buenaventura","Municipality only",16,0,0,3,0,13,5,1,0,2506.981818,77.51363636,30500,80
+"buenaventura","2024-09",2024-09-01,"Buenaventura","Municipality only",15,1,0,4,0,10,5,1,0,2601.175,72.1055,30500,81
+"buenaventura","2024-10",2024-10-01,"Buenaventura","Municipality only",11,0,0,4,0,7,5,1,0,2706.173913,75.37565217,30500,82
+"buenaventura","2024-11",2024-11-01,"Buenaventura","Municipality only",14,1,0,8,0,5,5,1,0,2662.2,73.31157895,30500,83
+"buenaventura","2024-12",2024-12-01,"Buenaventura","Municipality only",28,2,2,8,1,15,5,1,1,2662.085714,72.91095238,30500,84
+"buenaventura","2025-01",2025-01-01,"Buenaventura","Municipality only",33,4,0,15,2,12,5,1,1,2735.535,77.5535,30500,85
+"buenaventura","2025-02",2025-02-01,"Buenaventura","Municipality only",34,1,1,13,2,17,5,1,1,2914.915789,74.69736842,30500,86
+"buenaventura","2025-03",2025-03-01,"Buenaventura","Municipality only",30,1,0,20,1,8,5,1,1,2998.995238,70.95428571,30500,87
+"buenaventura","2025-04",2025-04-01,"Buenaventura","Municipality only",33,4,3,9,3,14,5,1,1,3231.538095,66.26142857,30500,88
+"buenaventura","2025-05",2025-05-01,"Buenaventura","Municipality only",19,0,0,9,0,10,5,1,1,3297.452381,63.52142857,30500,89
+"buenaventura","2025-06",2025-06-01,"Buenaventura","Municipality only",34,4,2,13,6,9,5,1,1,3371.285,67.3095,30500,90
+"buenaventura","2025-07",2025-07-01,"Buenaventura","Municipality only",38,2,1,14,5,16,5,1,1,3353.340909,67.76681818,30500,91
+"buenaventura","2025-08",2025-08-01,"Buenaventura","Municipality only",25,4,1,12,1,7,5,1,1,3420.566667,66.20095238,30500,92
+"buenaventura","2025-09",2025-09-01,"Buenaventura","Municipality only",39,11,9,11,1,7,5,1,1,3719.17619,66.98428571,30500,93
+"buenaventura","2025-10",2025-10-01,"Buenaventura","Municipality only",13,4,1,2,5,1,5,1,1,4067.295652,63.8626087,30500,94
+"buenaventura","2025-11",2025-11-01,"Buenaventura","Municipality only",3,2,1,0,0,0,5,1,1,4098.626316,63.21684211,30500,95
+"buenaventura","2025-12",2025-12-01,"Buenaventura","Municipality only",0,0,0,0,0,0,5,1,1,4337.672727,61.16045455,30500,96
+"buenaventura","2026-01",2026-01-01,"Buenaventura","Municipality only",2,1,1,0,0,0,5,0,0,4747.465,63.375,30500,97
+"buenaventura","2026-02",2026-02-01,"Buenaventura","Municipality only",2,1,1,0,0,0,5,0,0,5035.536842,68.43526316,30500,98
+"buenaventura","2026-03",2026-03-01,"Buenaventura","Municipality only",2,2,0,0,0,0,5,0,0,NA,NA,30500,99
+"arauca","2018-01",2018-01-01,"Arauca Department","Entire department",87,36,15,15,14,7,5,0,0,1333.680952,66.95190476,29496.105383742,1
+"arauca","2018-02",2018-02-01,"Arauca Department","Entire department",45,13,3,5,14,10,5,0,0,1332.757895,65.10157895,29250.1000088579,2
+"arauca","2018-03",2018-03-01,"Arauca Department","Entire department",52,14,7,9,17,5,5,0,0,1326.990476,64.41809524,29027.9016057368,3
+"arauca","2018-04",2018-04-01,"Arauca Department","Entire department",49,15,11,13,1,9,5,0,0,1338.37619,69.7247619,28781.8962308527,4
+"arauca","2018-05",2018-05-01,"Arauca Department","Entire department",39,10,7,7,5,10,5,0,0,1305.522727,75.20136364,28543.8265132229,5
+"arauca","2018-06",2018-06-01,"Arauca Department","Entire department",35,8,4,7,3,13,5,0,0,1283.205,74.7052381,28297.8211383389,6
+"arauca","2018-07",2018-07-01,"Arauca Department","Entire department",54,15,8,9,14,8,5,0,0,1240.480952,74.81428571,28059.7514207091,7
+"arauca","2018-08",2018-08-01,"Arauca Department","Entire department",72,22,11,18,13,8,5,0,0,1207.756522,74.19173913,28287.4234611973,8
+"arauca","2018-09",2018-09-01,"Arauca Department","Entire department",38,9,4,6,7,12,5,0,0,1202.584211,78.72315789,28515.0955016855,9
+"arauca","2018-10",2018-10-01,"Arauca Department","Entire department",51,14,11,17,3,6,5,0,0,1219.063636,80.46409091,28735.4232828031,10
+"arauca","2018-11",2018-11-01,"Arauca Department","Entire department",62,15,7,9,13,18,5,0,0,1223.43,66.373,28963.0953232913,11
+"arauca","2018-12",2018-12-01,"Arauca Department","Entire department",44,10,8,13,6,7,5,0,0,1257.673684,58.08631579,29183.4231044089,12
+"arauca","2019-01",2019-01-01,"Arauca Department","Entire department",61,19,8,11,12,11,5,0,0,1294.309524,60.06714286,29411.0951448972,13
+"arauca","2019-02",2019-02-01,"Arauca Department","Entire department",87,33,14,23,8,9,5,0,0,1322.844444,63.69333333,29638.7671853854,14
+"arauca","2019-03",2019-03-01,"Arauca Department","Entire department",87,29,16,19,14,9,5,0,0,1302.095238,66.05761905,29844.4064477618,15
+"arauca","2019-04",2019-04-01,"Arauca Department","Entire department",54,15,7,11,11,10,5,0,0,1289.93,69.3225,30072.07848825,16
+"arauca","2019-05",2019-05-01,"Arauca Department","Entire department",107,33,17,19,29,9,5,0,0,1285.766667,67.19333333,30292.4062693676,17
+"arauca","2019-06",2019-06-01,"Arauca Department","Entire department",73,23,10,17,10,13,5,0,0,1364.095,61.1145,30520.0783098558,18
+"arauca","2019-07",2019-07-01,"Arauca Department","Entire department",74,17,10,16,20,11,5,0,0,1418.561905,63.35047619,30740.4060909734,19
+"arauca","2019-08",2019-08-01,"Arauca Department","Entire department",42,11,7,8,10,6,5,0,0,1512.67619,58.50666667,30775.1925104794,20
+"arauca","2019-09",2019-09-01,"Arauca Department","Entire department",62,18,5,11,12,16,5,0,0,1515.91,60.1675,30809.9789299853,21
+"arauca","2019-10",2019-10-01,"Arauca Department","Entire department",36,6,2,3,3,22,5,0,0,1499.178261,56.56826087,30843.6432069265,22
+"arauca","2019-11",2019-11-01,"Arauca Department","Entire department",41,9,2,8,7,15,5,0,0,1473.842105,58.3,30878.4296264324,23
+"arauca","2019-12",2019-12-01,"Arauca Department","Entire department",31,4,3,14,0,10,5,0,0,1483.6,60.10210526,30912.0939033736,24
+"arauca","2020-01",2020-01-01,"Arauca Department","Entire department",55,15,4,8,17,11,5,0,0,1563.285714,59.07619048,30946.8803228795,25
+"arauca","2020-02",2020-02-01,"Arauca Department","Entire department",47,6,1,9,20,11,5,0,0,1599.689474,55.17,30981.6667423855,26
+"arauca","2020-03",2020-03-01,"Arauca Department","Entire department",28,5,5,9,1,8,5,0,0,1599.545455,40.74636364,31014.208876762,27
+"arauca","2020-04",2020-04-01,"Arauca Department","Entire department",16,5,4,4,1,2,5,0,0,1707.733333,35.54190476,31048.9952962679,28
+"arauca","2020-05",2020-05-01,"Arauca Department","Entire department",44,13,4,4,11,12,5,0,0,1724.795,35.708,31082.6595732091,29
+"arauca","2020-06",2020-06-01,"Arauca Department","Entire department",28,12,2,4,1,9,5,0,0,1743.809091,41.565,31117.445992715,30
+"arauca","2020-07",2020-07-01,"Arauca Department","Entire department",41,11,4,8,7,11,5,0,0,1856.431818,43.96772727,31151.1102696562,31
+"arauca","2020-08",2020-08-01,"Arauca Department","Entire department",44,12,7,12,1,12,5,0,0,1980.271429,45.89904762,31095.8104933293,32
+"arauca","2020-09",2020-09-01,"Arauca Department","Entire department",59,28,7,9,7,8,5,0,0,1929.961905,42.4347619,31040.5107170023,33
+"arauca","2020-10",2020-10-01,"Arauca Department","Entire department",25,5,2,5,3,10,5,0,0,1905.55,43.64227273,30986.9948044278,34
+"arauca","2020-11",2020-11-01,"Arauca Department","Entire department",38,12,9,8,2,7,5,0,0,1868.56,45.446,30931.6950281008,35
+"arauca","2020-12",2020-12-01,"Arauca Department","Entire department",45,14,6,12,8,5,5,0,0,1862.845455,49.54909091,30878.1791155264,36
+"arauca","2021-01",2021-01-01,"Arauca Department","Entire department",50,19,6,11,8,6,5,0,0,1867.557895,53.15473684,30822.8793391994,37
+"arauca","2021-02",2021-02-01,"Arauca Department","Entire department",43,14,5,16,3,5,5,0,0,1807.452632,58.37368421,30767.5795628724,38
+"arauca","2021-03",2021-03-01,"Arauca Department","Entire department",60,22,14,11,5,8,5,0,0,1720.691304,62.24,30717.6313778029,39
+"arauca","2021-04",2021-04-01,"Arauca Department","Entire department",37,9,5,12,0,11,5,0,0,1760.909524,62.84,30662.3316014759,40
+"arauca","2021-05",2021-05-01,"Arauca Department","Entire department",46,10,7,18,2,9,5,0,0,1851.62,66.2995,30608.8156889015,41
+"arauca","2021-06",2021-06-01,"Arauca Department","Entire department",32,8,3,9,3,9,5,0,0,1835.75,70.91272727,30553.5159125745,42
+"arauca","2021-07",2021-07-01,"Arauca Department","Entire department",48,12,7,18,4,7,5,0,0,1807.433333,71.88380952,30500,43
+"arauca","2021-08",2021-08-01,"Arauca Department","Entire department",55,10,2,27,3,13,5,0,0,1788.372727,69.36409091,30500,44
+"arauca","2021-09",2021-09-01,"Arauca Department","Entire department",63,15,6,22,7,13,5,0,0,1778.161905,74.32047619,30500,45
+"arauca","2021-10",2021-10-01,"Arauca Department","Entire department",46,11,6,17,4,8,5,0,0,1777.480952,82.87952381,30500,46
+"arauca","2021-11",2021-11-01,"Arauca Department","Entire department",34,7,7,15,3,2,5,0,0,1821.085714,73.81428571,30500,47
+"arauca","2021-12",2021-12-01,"Arauca Department","Entire department",27,5,3,9,3,7,5,0,0,1792.636364,71.14,30500,48
+"arauca","2022-01",2022-01-01,"Arauca Department","Entire department",137,28,19,65,13,12,5,0,1,1817.75,78.9725,30500,49
+"arauca","2022-02",2022-02-01,"Arauca Department","Entire department",97,27,20,39,3,8,5,0,1,1858.989474,84.49894737,30500,50
+"arauca","2022-03",2022-03-01,"Arauca Department","Entire department",49,8,5,30,0,6,5,0,1,1954.369565,96.33826087,30500,51
+"arauca","2022-04",2022-04-01,"Arauca Department","Entire department",43,7,5,26,1,4,5,0,1,1937.545,99.2955,30500,52
+"arauca","2022-05",2022-05-01,"Arauca Department","Entire department",61,15,12,26,4,4,5,0,1,1849.357143,101.4547619,30500,53
+"arauca","2022-06",2022-06-01,"Arauca Department","Entire department",65,17,13,32,1,2,5,0,1,1838.780952,107.4790476,30500,54
+"arauca","2022-07",2022-07-01,"Arauca Department","Entire department",46,11,6,22,1,6,5,0,1,1738.96,95.687,30500,55
+"arauca","2022-08",2022-08-01,"Arauca Department","Entire department",72,22,21,25,1,3,5,0,1,1778.647826,95.28130435,30500,56
+"arauca","2022-09",2022-09-01,"Arauca Department","Entire department",44,12,9,17,0,6,5,0,1,1690.057143,89.12952381,30500,57
+"arauca","2022-10",2022-10-01,"Arauca Department","Entire department",47,19,8,11,2,7,5,1,1,1672.738095,92.37809524,30500,58
+"arauca","2022-11",2022-11-01,"Arauca Department","Entire department",120,37,29,29,8,17,5,1,1,1734.966667,83.08,30500,59
+"arauca","2022-12",2022-12-01,"Arauca Department","Entire department",73,16,13,34,0,10,5,1,1,1807.728571,79.13047619,30500,60
+"arauca","2023-01",2023-01-01,"Arauca Department","Entire department",53,12,10,23,0,8,5,1,1,1909.43,80.9545,30500,61
+"arauca","2023-02",2023-02-01,"Arauca Department","Entire department",76,29,20,16,6,5,5,1,1,1864.415789,80.07052632,30500,62
+"arauca","2023-03",2023-03-01,"Arauca Department","Entire department",68,30,11,13,7,7,5,1,1,1925.826087,76.77608696,30500,63
+"arauca","2023-04",2023-04-01,"Arauca Department","Entire department",31,15,8,4,1,3,5,1,1,2013.757895,80.44210526,30500,64
+"arauca","2023-05",2023-05-01,"Arauca Department","Entire department",51,13,12,13,9,4,5,1,1,2005.540909,74.14772727,30500,65
+"arauca","2023-06",2023-06-01,"Arauca Department","Entire department",58,16,11,16,4,11,5,1,1,1954.628571,74.22,30500,66
+"arauca","2023-07",2023-07-01,"Arauca Department","Entire department",51,23,13,4,8,3,5,1,1,1972.1,79.3095,30500,67
+"arauca","2023-08",2023-08-01,"Arauca Department","Entire department",56,29,11,9,1,6,5,1,1,1949.947826,84.18608696,30500,68
+"arauca","2023-09",2023-09-01,"Arauca Department","Entire department",62,30,9,19,2,2,5,1,1,1934.715,91.5905,30500,69
+"arauca","2023-10",2023-10-01,"Arauca Department","Entire department",42,11,10,8,6,7,5,1,1,1928.622727,88.70454545,30500,70
+"arauca","2023-11",2023-11-01,"Arauca Department","Entire department",52,16,15,11,2,8,5,1,1,1997,81.56789474,30500,71
+"arauca","2023-12",2023-12-01,"Arauca Department","Entire department",66,18,17,17,3,11,5,1,1,2046.035,77.139,30500,72
+"arauca","2024-01",2024-01-01,"Arauca Department","Entire department",54,17,16,11,2,8,5,1,1,2040.27619,78.3647619,30500,73
+"arauca","2024-02",2024-02-01,"Arauca Department","Entire department",28,6,6,2,4,10,5,1,1,2038.775,80.3765,30500,74
+"arauca","2024-03",2024-03-01,"Arauca Department","Entire department",65,22,21,16,3,3,5,1,1,2175.09,84.028,30500,75
+"arauca","2024-04",2024-04-01,"Arauca Department","Entire department",74,27,26,14,1,6,5,1,1,2349.3,87.89545455,30500,76
+"arauca","2024-05",2024-05-01,"Arauca Department","Entire department",64,19,18,20,1,6,5,1,1,2363.568182,82.01363636,30500,77
+"arauca","2024-06",2024-06-01,"Arauca Department","Entire department",52,12,12,15,8,5,5,1,1,2343.384211,80.65421053,30500,78
+"arauca","2024-07",2024-07-01,"Arauca Department","Entire department",50,10,9,15,12,4,5,1,1,2415.668182,81.50681818,30500,79
+"arauca","2024-08",2024-08-01,"Arauca Department","Entire department",79,26,16,18,14,5,5,1,1,2506.981818,77.51363636,30500,80
+"arauca","2024-09",2024-09-01,"Arauca Department","Entire department",64,18,9,16,14,7,5,0,1,2601.175,72.1055,30500,81
+"arauca","2024-10",2024-10-01,"Arauca Department","Entire department",69,24,19,13,5,8,5,0,1,2706.173913,75.37565217,30500,82
+"arauca","2024-11",2024-11-01,"Arauca Department","Entire department",80,26,19,24,5,6,5,0,1,2662.2,73.31157895,30500,83
+"arauca","2024-12",2024-12-01,"Arauca Department","Entire department",50,15,12,14,2,7,5,0,1,2662.085714,72.91095238,30500,84
+"arauca","2025-01",2025-01-01,"Arauca Department","Entire department",39,13,6,8,8,4,5,0,1,2735.535,77.5535,30500,85
+"arauca","2025-02",2025-02-01,"Arauca Department","Entire department",30,11,4,7,4,4,5,0,1,2914.915789,74.69736842,30500,86
+"arauca","2025-03",2025-03-01,"Arauca Department","Entire department",66,29,14,12,6,5,5,0,1,2998.995238,70.95428571,30500,87
+"arauca","2025-04",2025-04-01,"Arauca Department","Entire department",43,19,9,6,5,4,5,0,1,3231.538095,66.26142857,30500,88
+"arauca","2025-05",2025-05-01,"Arauca Department","Entire department",35,18,7,4,0,6,5,0,1,3297.452381,63.52142857,30500,89
+"arauca","2025-06",2025-06-01,"Arauca Department","Entire department",30,10,3,10,1,6,5,0,1,3371.285,67.3095,30500,90
+"arauca","2025-07",2025-07-01,"Arauca Department","Entire department",45,14,7,9,9,6,5,0,1,3353.340909,67.76681818,30500,91
+"arauca","2025-08",2025-08-01,"Arauca Department","Entire department",59,23,12,15,4,5,5,0,1,3420.566667,66.20095238,30500,92
+"arauca","2025-09",2025-09-01,"Arauca Department","Entire department",82,29,20,19,6,8,5,0,1,3719.17619,66.98428571,30500,93
+"arauca","2025-10",2025-10-01,"Arauca Department","Entire department",52,17,14,13,4,4,5,0,1,4067.295652,63.8626087,30500,94
+"arauca","2025-11",2025-11-01,"Arauca Department","Entire department",13,9,4,0,0,0,5,0,1,4098.626316,63.21684211,30500,95
+"arauca","2025-12",2025-12-01,"Arauca Department","Entire department",12,7,5,0,0,0,5,0,1,4337.672727,61.16045455,30500,96
+"arauca","2026-01",2026-01-01,"Arauca Department","Entire department",16,11,5,0,0,0,5,0,1,4747.465,63.375,30500,97
+"arauca","2026-02",2026-02-01,"Arauca Department","Entire department",19,14,5,0,0,0,5,0,1,5035.536842,68.43526316,30500,98
+"arauca","2026-03",2026-03-01,"Arauca Department","Entire department",5,3,2,0,0,0,5,0,1,NA,NA,30500,99
+"tumaco","2018-01",2018-01-01,"Tumaco Region","Tumaco regional cluster",34,17,12,4,0,1,5,0,1,1333.680952,66.95190476,29496.105383742,1
+"tumaco","2018-02",2018-02-01,"Tumaco Region","Tumaco regional cluster",34,17,11,1,5,0,5,0,1,1332.757895,65.10157895,29250.1000088579,2
+"tumaco","2018-03",2018-03-01,"Tumaco Region","Tumaco regional cluster",28,17,7,2,2,0,5,0,1,1326.990476,64.41809524,29027.9016057368,3
+"tumaco","2018-04",2018-04-01,"Tumaco Region","Tumaco regional cluster",43,22,11,7,3,0,5,0,1,1338.37619,69.7247619,28781.8962308527,4
+"tumaco","2018-05",2018-05-01,"Tumaco Region","Tumaco regional cluster",32,17,10,3,0,2,5,0,1,1305.522727,75.20136364,28543.8265132229,5
+"tumaco","2018-06",2018-06-01,"Tumaco Region","Tumaco regional cluster",41,21,15,5,0,0,5,0,1,1283.205,74.7052381,28297.8211383389,6
+"tumaco","2018-07",2018-07-01,"Tumaco Region","Tumaco regional cluster",45,19,14,12,0,0,5,0,1,1240.480952,74.81428571,28059.7514207091,7
+"tumaco","2018-08",2018-08-01,"Tumaco Region","Tumaco regional cluster",27,13,8,6,0,0,5,0,1,1207.756522,74.19173913,28287.4234611973,8
+"tumaco","2018-09",2018-09-01,"Tumaco Region","Tumaco regional cluster",28,14,8,6,0,0,5,0,1,1202.584211,78.72315789,28515.0955016855,9
+"tumaco","2018-10",2018-10-01,"Tumaco Region","Tumaco regional cluster",26,15,9,1,0,1,5,0,1,1219.063636,80.46409091,28735.4232828031,10
+"tumaco","2018-11",2018-11-01,"Tumaco Region","Tumaco regional cluster",34,19,14,0,1,0,5,0,1,1223.43,66.373,28963.0953232913,11
+"tumaco","2018-12",2018-12-01,"Tumaco Region","Tumaco regional cluster",20,10,8,1,0,1,5,0,1,1257.673684,58.08631579,29183.4231044089,12
+"tumaco","2019-01",2019-01-01,"Tumaco Region","Tumaco regional cluster",27,13,10,1,1,2,5,0,1,1294.309524,60.06714286,29411.0951448972,13
+"tumaco","2019-02",2019-02-01,"Tumaco Region","Tumaco regional cluster",16,7,3,3,2,1,5,0,1,1322.844444,63.69333333,29638.7671853854,14
+"tumaco","2019-03",2019-03-01,"Tumaco Region","Tumaco regional cluster",37,20,12,3,0,2,5,0,1,1302.095238,66.05761905,29844.4064477618,15
+"tumaco","2019-04",2019-04-01,"Tumaco Region","Tumaco regional cluster",16,10,1,5,0,0,5,0,1,1289.93,69.3225,30072.07848825,16
+"tumaco","2019-05",2019-05-01,"Tumaco Region","Tumaco regional cluster",8,2,2,4,0,0,5,0,1,1285.766667,67.19333333,30292.4062693676,17
+"tumaco","2019-06",2019-06-01,"Tumaco Region","Tumaco regional cluster",17,6,6,4,0,1,5,0,1,1364.095,61.1145,30520.0783098558,18
+"tumaco","2019-07",2019-07-01,"Tumaco Region","Tumaco regional cluster",5,1,1,1,1,1,5,0,1,1418.561905,63.35047619,30740.4060909734,19
+"tumaco","2019-08",2019-08-01,"Tumaco Region","Tumaco regional cluster",8,2,1,2,1,2,5,0,1,1512.67619,58.50666667,30775.1925104794,20
+"tumaco","2019-09",2019-09-01,"Tumaco Region","Tumaco regional cluster",2,1,1,0,0,0,5,0,1,1515.91,60.1675,30809.9789299853,21
+"tumaco","2019-10",2019-10-01,"Tumaco Region","Tumaco regional cluster",14,4,3,4,1,2,5,0,1,1499.178261,56.56826087,30843.6432069265,22
+"tumaco","2019-11",2019-11-01,"Tumaco Region","Tumaco regional cluster",4,2,0,2,0,0,5,0,1,1473.842105,58.3,30878.4296264324,23
+"tumaco","2019-12",2019-12-01,"Tumaco Region","Tumaco regional cluster",10,2,1,7,0,0,5,0,1,1483.6,60.10210526,30912.0939033736,24
+"tumaco","2020-01",2020-01-01,"Tumaco Region","Tumaco regional cluster",27,14,4,7,2,0,5,0,1,1563.285714,59.07619048,30946.8803228795,25
+"tumaco","2020-02",2020-02-01,"Tumaco Region","Tumaco regional cluster",13,8,3,1,0,1,5,0,1,1599.689474,55.17,30981.6667423855,26
+"tumaco","2020-03",2020-03-01,"Tumaco Region","Tumaco regional cluster",18,7,1,7,1,2,5,0,1,1599.545455,40.74636364,31014.208876762,27
+"tumaco","2020-04",2020-04-01,"Tumaco Region","Tumaco regional cluster",19,8,8,2,0,1,5,0,1,1707.733333,35.54190476,31048.9952962679,28
+"tumaco","2020-05",2020-05-01,"Tumaco Region","Tumaco regional cluster",15,8,4,2,1,0,5,0,1,1724.795,35.708,31082.6595732091,29
+"tumaco","2020-06",2020-06-01,"Tumaco Region","Tumaco regional cluster",8,4,0,3,0,1,5,0,1,1743.809091,41.565,31117.445992715,30
+"tumaco","2020-07",2020-07-01,"Tumaco Region","Tumaco regional cluster",23,9,6,8,0,0,5,0,1,1856.431818,43.96772727,31151.1102696562,31
+"tumaco","2020-08",2020-08-01,"Tumaco Region","Tumaco regional cluster",18,9,6,2,0,1,5,0,1,1980.271429,45.89904762,31095.8104933293,32
+"tumaco","2020-09",2020-09-01,"Tumaco Region","Tumaco regional cluster",20,12,8,0,0,0,5,0,1,1929.961905,42.4347619,31040.5107170023,33
+"tumaco","2020-10",2020-10-01,"Tumaco Region","Tumaco regional cluster",14,7,5,2,0,0,5,0,1,1905.55,43.64227273,30986.9948044278,34
+"tumaco","2020-11",2020-11-01,"Tumaco Region","Tumaco regional cluster",64,31,23,9,1,0,5,0,1,1868.56,45.446,30931.6950281008,35
+"tumaco","2020-12",2020-12-01,"Tumaco Region","Tumaco regional cluster",15,6,4,5,0,0,5,0,1,1862.845455,49.54909091,30878.1791155264,36
+"tumaco","2021-01",2021-01-01,"Tumaco Region","Tumaco regional cluster",23,8,6,7,1,1,5,0,1,1867.557895,53.15473684,30822.8793391994,37
+"tumaco","2021-02",2021-02-01,"Tumaco Region","Tumaco regional cluster",26,12,8,5,0,1,5,0,1,1807.452632,58.37368421,30767.5795628724,38
+"tumaco","2021-03",2021-03-01,"Tumaco Region","Tumaco regional cluster",15,7,4,4,0,0,5,0,1,1720.691304,62.24,30717.6313778029,39
+"tumaco","2021-04",2021-04-01,"Tumaco Region","Tumaco regional cluster",40,22,14,3,0,1,5,0,1,1760.909524,62.84,30662.3316014759,40
+"tumaco","2021-05",2021-05-01,"Tumaco Region","Tumaco regional cluster",15,8,1,5,1,0,5,0,1,1851.62,66.2995,30608.8156889015,41
+"tumaco","2021-06",2021-06-01,"Tumaco Region","Tumaco regional cluster",11,3,2,6,0,0,5,0,1,1835.75,70.91272727,30553.5159125745,42
+"tumaco","2021-07",2021-07-01,"Tumaco Region","Tumaco regional cluster",18,5,4,7,1,1,5,0,1,1807.433333,71.88380952,30500,43
+"tumaco","2021-08",2021-08-01,"Tumaco Region","Tumaco regional cluster",6,5,0,0,1,0,5,0,1,1788.372727,69.36409091,30500,44
+"tumaco","2021-09",2021-09-01,"Tumaco Region","Tumaco regional cluster",26,6,6,11,2,1,5,0,1,1778.161905,74.32047619,30500,45
+"tumaco","2021-10",2021-10-01,"Tumaco Region","Tumaco regional cluster",7,3,2,1,0,1,5,0,1,1777.480952,82.87952381,30500,46
+"tumaco","2021-11",2021-11-01,"Tumaco Region","Tumaco regional cluster",8,4,3,1,0,0,5,0,1,1821.085714,73.81428571,30500,47
+"tumaco","2021-12",2021-12-01,"Tumaco Region","Tumaco regional cluster",7,3,2,2,0,0,5,0,1,1792.636364,71.14,30500,48
+"tumaco","2022-01",2022-01-01,"Tumaco Region","Tumaco regional cluster",12,5,3,4,0,0,5,0,1,1817.75,78.9725,30500,49
+"tumaco","2022-02",2022-02-01,"Tumaco Region","Tumaco regional cluster",9,3,3,2,0,1,5,0,1,1858.989474,84.49894737,30500,50
+"tumaco","2022-03",2022-03-01,"Tumaco Region","Tumaco regional cluster",5,3,0,2,0,0,5,0,1,1954.369565,96.33826087,30500,51
+"tumaco","2022-04",2022-04-01,"Tumaco Region","Tumaco regional cluster",7,3,1,1,0,2,5,0,1,1937.545,99.2955,30500,52
+"tumaco","2022-05",2022-05-01,"Tumaco Region","Tumaco regional cluster",6,2,1,2,1,0,5,0,1,1849.357143,101.4547619,30500,53
+"tumaco","2022-06",2022-06-01,"Tumaco Region","Tumaco regional cluster",5,3,1,0,0,1,5,0,1,1838.780952,107.4790476,30500,54
+"tumaco","2022-07",2022-07-01,"Tumaco Region","Tumaco regional cluster",20,6,6,7,0,1,5,0,1,1738.96,95.687,30500,55
+"tumaco","2022-08",2022-08-01,"Tumaco Region","Tumaco regional cluster",4,1,0,3,0,0,5,0,1,1778.647826,95.28130435,30500,56
+"tumaco","2022-09",2022-09-01,"Tumaco Region","Tumaco regional cluster",14,4,4,5,0,1,5,0,1,1690.057143,89.12952381,30500,57
+"tumaco","2022-10",2022-10-01,"Tumaco Region","Tumaco regional cluster",10,7,3,0,0,0,5,0,1,1672.738095,92.37809524,30500,58
+"tumaco","2022-11",2022-11-01,"Tumaco Region","Tumaco regional cluster",27,14,8,4,0,1,5,0,1,1734.966667,83.08,30500,59
+"tumaco","2022-12",2022-12-01,"Tumaco Region","Tumaco regional cluster",17,8,5,2,1,1,5,0,1,1807.728571,79.13047619,30500,60
+"tumaco","2023-01",2023-01-01,"Tumaco Region","Tumaco regional cluster",23,11,8,3,1,0,5,0,1,1909.43,80.9545,30500,61
+"tumaco","2023-02",2023-02-01,"Tumaco Region","Tumaco regional cluster",28,14,10,4,0,0,5,0,1,1864.415789,80.07052632,30500,62
+"tumaco","2023-03",2023-03-01,"Tumaco Region","Tumaco regional cluster",19,7,7,4,0,1,5,0,1,1925.826087,76.77608696,30500,63
+"tumaco","2023-04",2023-04-01,"Tumaco Region","Tumaco regional cluster",7,4,1,1,0,1,5,0,1,2013.757895,80.44210526,30500,64
+"tumaco","2023-05",2023-05-01,"Tumaco Region","Tumaco regional cluster",13,4,3,5,0,1,5,0,1,2005.540909,74.14772727,30500,65
+"tumaco","2023-06",2023-06-01,"Tumaco Region","Tumaco regional cluster",8,4,1,3,0,0,5,0,1,1954.628571,74.22,30500,66
+"tumaco","2023-07",2023-07-01,"Tumaco Region","Tumaco regional cluster",23,13,6,3,0,1,5,0,1,1972.1,79.3095,30500,67
+"tumaco","2023-08",2023-08-01,"Tumaco Region","Tumaco regional cluster",20,10,5,5,0,0,5,0,1,1949.947826,84.18608696,30500,68
+"tumaco","2023-09",2023-09-01,"Tumaco Region","Tumaco regional cluster",10,3,3,1,2,1,5,0,1,1934.715,91.5905,30500,69
+"tumaco","2023-10",2023-10-01,"Tumaco Region","Tumaco regional cluster",13,5,5,2,0,1,5,0,1,1928.622727,88.70454545,30500,70
+"tumaco","2023-11",2023-11-01,"Tumaco Region","Tumaco regional cluster",2,0,0,1,0,1,5,0,1,1997,81.56789474,30500,71
+"tumaco","2023-12",2023-12-01,"Tumaco Region","Tumaco regional cluster",7,2,1,2,0,2,5,0,1,2046.035,77.139,30500,72
+"tumaco","2024-01",2024-01-01,"Tumaco Region","Tumaco regional cluster",9,4,3,1,0,1,5,0,1,2040.27619,78.3647619,30500,73
+"tumaco","2024-02",2024-02-01,"Tumaco Region","Tumaco regional cluster",3,0,0,1,0,2,5,0,1,2038.775,80.3765,30500,74
+"tumaco","2024-03",2024-03-01,"Tumaco Region","Tumaco regional cluster",8,2,2,3,1,0,5,0,1,2175.09,84.028,30500,75
+"tumaco","2024-04",2024-04-01,"Tumaco Region","Tumaco regional cluster",12,5,1,3,0,3,5,0,1,2349.3,87.89545455,30500,76
+"tumaco","2024-05",2024-05-01,"Tumaco Region","Tumaco regional cluster",1,0,0,1,0,0,5,0,1,2363.568182,82.01363636,30500,77
+"tumaco","2024-06",2024-06-01,"Tumaco Region","Tumaco regional cluster",4,1,0,1,0,2,5,1,1,2343.384211,80.65421053,30500,78
+"tumaco","2024-07",2024-07-01,"Tumaco Region","Tumaco regional cluster",6,2,2,2,0,0,5,1,1,2415.668182,81.50681818,30500,79
+"tumaco","2024-08",2024-08-01,"Tumaco Region","Tumaco regional cluster",11,2,2,4,1,2,5,1,1,2506.981818,77.51363636,30500,80
+"tumaco","2024-09",2024-09-01,"Tumaco Region","Tumaco regional cluster",8,2,1,3,1,1,5,1,1,2601.175,72.1055,30500,81
+"tumaco","2024-10",2024-10-01,"Tumaco Region","Tumaco regional cluster",2,1,1,0,0,0,5,1,1,2706.173913,75.37565217,30500,82
+"tumaco","2024-11",2024-11-01,"Tumaco Region","Tumaco regional cluster",4,2,2,0,0,0,5,1,1,2662.2,73.31157895,30500,83
+"tumaco","2024-12",2024-12-01,"Tumaco Region","Tumaco regional cluster",1,1,0,0,0,0,5,1,1,2662.085714,72.91095238,30500,84
+"tumaco","2025-01",2025-01-01,"Tumaco Region","Tumaco regional cluster",3,1,1,0,1,0,5,1,1,2735.535,77.5535,30500,85
+"tumaco","2025-02",2025-02-01,"Tumaco Region","Tumaco regional cluster",2,1,1,0,0,0,5,1,1,2914.915789,74.69736842,30500,86
+"tumaco","2025-03",2025-03-01,"Tumaco Region","Tumaco regional cluster",6,2,2,2,0,0,5,1,1,2998.995238,70.95428571,30500,87
+"tumaco","2025-04",2025-04-01,"Tumaco Region","Tumaco regional cluster",1,1,0,0,0,0,5,1,1,3231.538095,66.26142857,30500,88
+"tumaco","2025-05",2025-05-01,"Tumaco Region","Tumaco regional cluster",8,2,2,3,0,1,5,1,1,3297.452381,63.52142857,30500,89
+"tumaco","2025-06",2025-06-01,"Tumaco Region","Tumaco regional cluster",7,3,2,1,0,1,5,1,1,3371.285,67.3095,30500,90
+"tumaco","2025-07",2025-07-01,"Tumaco Region","Tumaco regional cluster",9,5,3,0,0,1,5,1,1,3353.340909,67.76681818,30500,91
+"tumaco","2025-08",2025-08-01,"Tumaco Region","Tumaco regional cluster",5,3,1,1,0,0,5,1,1,3420.566667,66.20095238,30500,92
+"tumaco","2025-09",2025-09-01,"Tumaco Region","Tumaco regional cluster",9,4,3,2,0,0,5,1,1,3719.17619,66.98428571,30500,93
+"tumaco","2025-10",2025-10-01,"Tumaco Region","Tumaco regional cluster",3,2,0,1,0,0,5,1,1,4067.295652,63.8626087,30500,94
+"tumaco","2025-11",2025-11-01,"Tumaco Region","Tumaco regional cluster",0,0,0,0,0,0,5,1,1,4098.626316,63.21684211,30500,95
+"tumaco","2025-12",2025-12-01,"Tumaco Region","Tumaco regional cluster",0,0,0,0,0,0,5,1,1,4337.672727,61.16045455,30500,96
+"tumaco","2026-01",2026-01-01,"Tumaco Region","Tumaco regional cluster",1,1,0,0,0,0,5,1,1,4747.465,63.375,30500,97
+"tumaco","2026-02",2026-02-01,"Tumaco Region","Tumaco regional cluster",0,0,0,0,0,0,5,1,1,5035.536842,68.43526316,30500,98
+"tumaco","2026-03",2026-03-01,"Tumaco Region","Tumaco regional cluster",4,2,2,0,0,0,5,0,1,NA,NA,30500,99

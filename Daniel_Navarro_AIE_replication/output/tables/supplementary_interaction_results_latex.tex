@@ -1,0 +1,28 @@
+
+\begin{table}
+\caption{Supplementary interaction model: peace talks and active armed-group dispute}
+\begin{center}
+\begin{tabular}{l c c}
+\toprule
+ & (1) TWFE + Clashes & (2) TWFE + Clashes + Interaction \\
+\midrule
+Peace talks active           & $2.91$        & $10.61^{**}$  \\
+                             & $(2.83)$      & $(5.28)$      \\
+Active armed-group dispute   & $16.70^{***}$ & $18.78^{***}$ \\
+                             & $(2.63)$      & $(2.88)$      \\
+Peace talks x active dispute &               & $-9.20^{*}$   \\
+                             &               & $(5.33)$      \\
+\midrule
+Num. obs.                    & $297$         & $297$         \\
+Num. groups: case id        & $3$           & $3$           \\
+Num. groups: month id       & $99$          & $99$          \\
+R$^2$ (full model)           & $0.75$        & $0.75$        \\
+R$^2$ (proj model)           & $0.18$        & $0.19$        \\
+Adj. R$^2$ (full model)      & $0.61$        & $0.62$        \\
+Adj. R$^2$ (proj model)      & $0.17$        & $0.18$        \\
+\bottomrule
+\multicolumn{3}{l}{\scriptsize{\parbox{\linewidth}{Standard errors in parentheses.\\[0.35em] Both columns include territorial-case and month fixed effects.\\[0.35em] \textbf{Col.~(2):} Adds peace talks $\times$ active armed-group dispute.}}}
+\end{tabular}
+\label{tab:twfe_interaction}
+\end{center}
+\end{table}

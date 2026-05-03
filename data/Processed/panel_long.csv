@@ -1,0 +1,1264 @@
+"month_id","case_id","count","departamento_std","violence_type","month_start","treatment_dummy","clash_dummy"
+"2026-03","arauca",7,"arauca","extortion",2026-03-01,0,1
+"2026-03","buenaventura",6,"valle del cauca","extortion",2026-03-01,0,0
+"2026-02","arauca",14,"arauca","extortion",2026-02-01,0,1
+"2026-02","buenaventura",9,"valle del cauca","extortion",2026-02-01,0,0
+"2026-01","arauca",8,"arauca","extortion",2026-01-01,0,1
+"2026-01","buenaventura",5,"valle del cauca","extortion",2026-01-01,0,0
+"2026-01","tumaco",1,"nariño","extortion",2026-01-01,1,1
+"2025-12","buenaventura",9,"valle del cauca","extortion",2025-12-01,1,1
+"2025-12","tumaco",1,"nariño","extortion",2025-12-01,1,1
+"2025-12","arauca",13,"arauca","extortion",2025-12-01,0,1
+"2025-11","buenaventura",11,"valle del cauca","extortion",2025-11-01,1,1
+"2025-11","arauca",9,"arauca","extortion",2025-11-01,0,1
+"2025-10","buenaventura",10,"valle del cauca","extortion",2025-10-01,1,1
+"2025-10","arauca",9,"arauca","extortion",2025-10-01,0,1
+"2025-10","tumaco",1,"nariño","extortion",2025-10-01,1,1
+"2025-09","buenaventura",8,"valle del cauca","extortion",2025-09-01,1,1
+"2025-09","arauca",9,"arauca","extortion",2025-09-01,0,1
+"2025-09","tumaco",1,"nariño","extortion",2025-09-01,1,1
+"2025-08","buenaventura",7,"valle del cauca","extortion",2025-08-01,1,1
+"2025-08","arauca",5,"arauca","extortion",2025-08-01,0,1
+"2025-07","arauca",6,"arauca","extortion",2025-07-01,0,1
+"2025-07","buenaventura",10,"valle del cauca","extortion",2025-07-01,1,1
+"2025-07","tumaco",1,"nariño","extortion",2025-07-01,1,1
+"2025-06","buenaventura",5,"valle del cauca","extortion",2025-06-01,1,1
+"2025-06","arauca",5,"arauca","extortion",2025-06-01,0,1
+"2025-06","tumaco",1,"nariño","extortion",2025-06-01,1,1
+"2025-05","buenaventura",8,"valle del cauca","extortion",2025-05-01,1,1
+"2025-05","arauca",6,"arauca","extortion",2025-05-01,0,1
+"2025-05","tumaco",1,"nariño","extortion",2025-05-01,1,1
+"2025-04","buenaventura",13,"valle del cauca","extortion",2025-04-01,1,1
+"2025-04","arauca",3,"arauca","extortion",2025-04-01,0,1
+"2025-03","buenaventura",5,"valle del cauca","extortion",2025-03-01,1,1
+"2025-03","arauca",5,"arauca","extortion",2025-03-01,0,1
+"2025-02","buenaventura",14,"valle del cauca","extortion",2025-02-01,1,1
+"2025-02","arauca",4,"arauca","extortion",2025-02-01,0,1
+"2025-01","buenaventura",12,"valle del cauca","extortion",2025-01-01,1,1
+"2025-01","arauca",4,"arauca","extortion",2025-01-01,0,1
+"2024-12","buenaventura",15,"valle del cauca","extortion",2024-12-01,1,1
+"2024-12","arauca",7,"arauca","extortion",2024-12-01,0,1
+"2024-11","buenaventura",5,"valle del cauca","extortion",2024-11-01,1,0
+"2024-11","arauca",6,"arauca","extortion",2024-11-01,0,1
+"2024-10","arauca",8,"arauca","extortion",2024-10-01,0,1
+"2024-10","buenaventura",7,"valle del cauca","extortion",2024-10-01,1,0
+"2024-09","arauca",7,"arauca","extortion",2024-09-01,0,1
+"2024-09","tumaco",1,"nariño","extortion",2024-09-01,1,1
+"2024-09","buenaventura",10,"valle del cauca","extortion",2024-09-01,1,0
+"2024-08","buenaventura",13,"valle del cauca","extortion",2024-08-01,1,0
+"2024-08","tumaco",2,"nariño","extortion",2024-08-01,1,1
+"2024-08","arauca",5,"arauca","extortion",2024-08-01,1,1
+"2024-07","buenaventura",17,"valle del cauca","extortion",2024-07-01,1,0
+"2024-07","arauca",4,"arauca","extortion",2024-07-01,1,1
+"2024-06","arauca",5,"arauca","extortion",2024-06-01,1,1
+"2024-06","buenaventura",16,"valle del cauca","extortion",2024-06-01,1,0
+"2024-06","tumaco",2,"nariño","extortion",2024-06-01,1,1
+"2024-05","buenaventura",18,"valle del cauca","extortion",2024-05-01,1,0
+"2024-05","arauca",6,"arauca","extortion",2024-05-01,1,1
+"2024-04","buenaventura",16,"valle del cauca","extortion",2024-04-01,1,0
+"2024-04","arauca",6,"arauca","extortion",2024-04-01,1,1
+"2024-04","tumaco",3,"nariño","extortion",2024-04-01,0,1
+"2024-03","arauca",3,"arauca","extortion",2024-03-01,1,1
+"2024-03","buenaventura",9,"valle del cauca","extortion",2024-03-01,1,0
+"2024-02","arauca",10,"arauca","extortion",2024-02-01,1,1
+"2024-02","buenaventura",21,"valle del cauca","extortion",2024-02-01,1,0
+"2024-02","tumaco",2,"nariño","extortion",2024-02-01,0,1
+"2024-01","buenaventura",9,"valle del cauca","extortion",2024-01-01,1,0
+"2024-01","arauca",8,"arauca","extortion",2024-01-01,1,1
+"2024-01","tumaco",1,"nariño","extortion",2024-01-01,0,1
+"2023-12","buenaventura",15,"valle del cauca","extortion",2023-12-01,1,0
+"2023-12","tumaco",2,"nariño","extortion",2023-12-01,0,1
+"2023-12","arauca",11,"arauca","extortion",2023-12-01,1,1
+"2023-11","arauca",8,"arauca","extortion",2023-11-01,1,1
+"2023-11","buenaventura",8,"valle del cauca","extortion",2023-11-01,1,0
+"2023-11","tumaco",1,"nariño","extortion",2023-11-01,0,1
+"2023-10","arauca",7,"arauca","extortion",2023-10-01,1,1
+"2023-10","buenaventura",9,"valle del cauca","extortion",2023-10-01,1,0
+"2023-10","tumaco",1,"nariño","extortion",2023-10-01,0,1
+"2023-09","arauca",2,"arauca","extortion",2023-09-01,1,1
+"2023-09","tumaco",1,"nariño","extortion",2023-09-01,0,1
+"2023-09","buenaventura",12,"valle del cauca","extortion",2023-09-01,1,0
+"2023-08","arauca",6,"arauca","extortion",2023-08-01,1,1
+"2023-08","buenaventura",21,"valle del cauca","extortion",2023-08-01,1,0
+"2023-07","buenaventura",10,"valle del cauca","extortion",2023-07-01,1,0
+"2023-07","tumaco",1,"nariño","extortion",2023-07-01,0,1
+"2023-07","arauca",3,"arauca","extortion",2023-07-01,1,1
+"2023-06","buenaventura",9,"valle del cauca","extortion",2023-06-01,1,0
+"2023-06","arauca",11,"arauca","extortion",2023-06-01,1,1
+"2023-05","arauca",4,"arauca","extortion",2023-05-01,1,1
+"2023-05","buenaventura",22,"valle del cauca","extortion",2023-05-01,1,0
+"2023-05","tumaco",1,"nariño","extortion",2023-05-01,0,1
+"2023-04","arauca",3,"arauca","extortion",2023-04-01,1,1
+"2023-04","buenaventura",10,"valle del cauca","extortion",2023-04-01,1,0
+"2023-04","tumaco",1,"nariño","extortion",2023-04-01,0,1
+"2023-03","buenaventura",21,"valle del cauca","extortion",2023-03-01,1,0
+"2023-03","tumaco",1,"nariño","extortion",2023-03-01,0,1
+"2023-03","arauca",7,"arauca","extortion",2023-03-01,1,1
+"2023-02","buenaventura",5,"valle del cauca","extortion",2023-02-01,1,0
+"2023-02","arauca",5,"arauca","extortion",2023-02-01,1,1
+"2023-01","arauca",8,"arauca","extortion",2023-01-01,1,1
+"2023-01","buenaventura",16,"valle del cauca","extortion",2023-01-01,1,0
+"2022-12","buenaventura",22,"valle del cauca","extortion",2022-12-01,1,0
+"2022-12","tumaco",1,"nariño","extortion",2022-12-01,0,1
+"2022-12","arauca",10,"arauca","extortion",2022-12-01,1,1
+"2022-11","arauca",17,"arauca","extortion",2022-11-01,1,1
+"2022-11","buenaventura",15,"valle del cauca","extortion",2022-11-01,1,0
+"2022-11","tumaco",1,"nariño","extortion",2022-11-01,0,1
+"2022-10","buenaventura",15,"valle del cauca","extortion",2022-10-01,1,0
+"2022-10","arauca",7,"arauca","extortion",2022-10-01,1,1
+"2022-09","buenaventura",16,"valle del cauca","extortion",2022-09-01,1,0
+"2022-09","tumaco",1,"nariño","extortion",2022-09-01,0,1
+"2022-09","arauca",6,"arauca","extortion",2022-09-01,1,1
+"2022-08","buenaventura",22,"valle del cauca","extortion",2022-08-01,0,1
+"2022-08","arauca",3,"arauca","extortion",2022-08-01,1,1
+"2022-07","buenaventura",17,"valle del cauca","extortion",2022-07-01,0,1
+"2022-07","arauca",6,"arauca","extortion",2022-07-01,0,1
+"2022-07","tumaco",1,"nariño","extortion",2022-07-01,0,1
+"2022-06","buenaventura",14,"valle del cauca","extortion",2022-06-01,0,1
+"2022-06","arauca",2,"arauca","extortion",2022-06-01,0,1
+"2022-06","tumaco",1,"nariño","extortion",2022-06-01,0,1
+"2022-05","buenaventura",24,"valle del cauca","extortion",2022-05-01,0,1
+"2022-05","arauca",4,"arauca","extortion",2022-05-01,0,1
+"2022-04","tumaco",2,"nariño","extortion",2022-04-01,0,1
+"2022-04","buenaventura",31,"valle del cauca","extortion",2022-04-01,0,1
+"2022-04","arauca",4,"arauca","extortion",2022-04-01,0,1
+"2022-03","buenaventura",33,"valle del cauca","extortion",2022-03-01,0,1
+"2022-03","arauca",6,"arauca","extortion",2022-03-01,0,1
+"2022-02","arauca",8,"arauca","extortion",2022-02-01,0,1
+"2022-02","buenaventura",23,"valle del cauca","extortion",2022-02-01,0,1
+"2022-02","tumaco",1,"nariño","extortion",2022-02-01,0,1
+"2022-01","arauca",12,"arauca","extortion",2022-01-01,0,1
+"2022-01","buenaventura",25,"valle del cauca","extortion",2022-01-01,0,1
+"2021-12","buenaventura",32,"valle del cauca","extortion",2021-12-01,0,1
+"2021-12","arauca",7,"arauca","extortion",2021-12-01,0,0
+"2021-11","buenaventura",22,"valle del cauca","extortion",2021-11-01,0,1
+"2021-11","arauca",2,"arauca","extortion",2021-11-01,0,0
+"2021-10","buenaventura",21,"valle del cauca","extortion",2021-10-01,0,1
+"2021-10","arauca",8,"arauca","extortion",2021-10-01,0,0
+"2021-10","tumaco",1,"nariño","extortion",2021-10-01,0,1
+"2021-09","buenaventura",16,"valle del cauca","extortion",2021-09-01,0,1
+"2021-09","arauca",13,"arauca","extortion",2021-09-01,0,0
+"2021-09","tumaco",1,"nariño","extortion",2021-09-01,0,1
+"2021-08","buenaventura",35,"valle del cauca","extortion",2021-08-01,0,1
+"2021-08","arauca",13,"arauca","extortion",2021-08-01,0,0
+"2021-07","buenaventura",21,"valle del cauca","extortion",2021-07-01,0,1
+"2021-07","arauca",7,"arauca","extortion",2021-07-01,0,0
+"2021-07","tumaco",1,"nariño","extortion",2021-07-01,0,1
+"2021-06","buenaventura",14,"valle del cauca","extortion",2021-06-01,0,1
+"2021-06","arauca",9,"arauca","extortion",2021-06-01,0,0
+"2021-05","arauca",9,"arauca","extortion",2021-05-01,0,0
+"2021-05","buenaventura",13,"valle del cauca","extortion",2021-05-01,0,1
+"2021-04","buenaventura",8,"valle del cauca","extortion",2021-04-01,0,1
+"2021-04","arauca",11,"arauca","extortion",2021-04-01,0,0
+"2021-04","tumaco",1,"nariño","extortion",2021-04-01,0,1
+"2021-03","buenaventura",9,"valle del cauca","extortion",2021-03-01,0,1
+"2021-03","arauca",8,"arauca","extortion",2021-03-01,0,0
+"2021-02","arauca",5,"arauca","extortion",2021-02-01,0,0
+"2021-02","buenaventura",17,"valle del cauca","extortion",2021-02-01,0,1
+"2021-02","tumaco",1,"nariño","extortion",2021-02-01,0,1
+"2021-01","buenaventura",32,"valle del cauca","extortion",2021-01-01,0,1
+"2021-01","tumaco",1,"nariño","extortion",2021-01-01,0,1
+"2021-01","arauca",6,"arauca","extortion",2021-01-01,0,0
+"2020-12","buenaventura",23,"valle del cauca","extortion",2020-12-01,0,1
+"2020-12","arauca",5,"arauca","extortion",2020-12-01,0,0
+"2020-11","arauca",7,"arauca","extortion",2020-11-01,0,0
+"2020-11","buenaventura",11,"valle del cauca","extortion",2020-11-01,0,0
+"2020-10","arauca",10,"arauca","extortion",2020-10-01,0,0
+"2020-10","buenaventura",7,"valle del cauca","extortion",2020-10-01,0,0
+"2020-09","buenaventura",7,"valle del cauca","extortion",2020-09-01,0,0
+"2020-09","arauca",8,"arauca","extortion",2020-09-01,0,0
+"2020-08","arauca",12,"arauca","extortion",2020-08-01,0,0
+"2020-08","buenaventura",6,"valle del cauca","extortion",2020-08-01,0,0
+"2020-08","tumaco",1,"nariño","extortion",2020-08-01,0,1
+"2020-07","arauca",11,"arauca","extortion",2020-07-01,0,0
+"2020-07","buenaventura",13,"valle del cauca","extortion",2020-07-01,0,0
+"2020-06","arauca",9,"arauca","extortion",2020-06-01,0,0
+"2020-06","buenaventura",4,"valle del cauca","extortion",2020-06-01,0,0
+"2020-06","tumaco",1,"nariño","extortion",2020-06-01,0,1
+"2020-05","buenaventura",2,"valle del cauca","extortion",2020-05-01,0,0
+"2020-05","arauca",12,"arauca","extortion",2020-05-01,0,0
+"2020-04","buenaventura",5,"valle del cauca","extortion",2020-04-01,0,0
+"2020-04","arauca",2,"arauca","extortion",2020-04-01,0,0
+"2020-04","tumaco",1,"nariño","extortion",2020-04-01,0,1
+"2020-03","buenaventura",3,"valle del cauca","extortion",2020-03-01,0,0
+"2020-03","arauca",8,"arauca","extortion",2020-03-01,0,0
+"2020-03","tumaco",2,"nariño","extortion",2020-03-01,0,1
+"2020-02","arauca",11,"arauca","extortion",2020-02-01,0,0
+"2020-02","buenaventura",10,"valle del cauca","extortion",2020-02-01,0,0
+"2020-02","tumaco",1,"nariño","extortion",2020-02-01,0,1
+"2020-01","buenaventura",10,"valle del cauca","extortion",2020-01-01,0,0
+"2020-01","arauca",11,"arauca","extortion",2020-01-01,0,0
+"2019-12","buenaventura",11,"valle del cauca","extortion",2019-12-01,0,0
+"2019-12","arauca",10,"arauca","extortion",2019-12-01,0,0
+"2019-11","arauca",15,"arauca","extortion",2019-11-01,0,0
+"2019-11","buenaventura",14,"valle del cauca","extortion",2019-11-01,0,0
+"2019-10","buenaventura",7,"valle del cauca","extortion",2019-10-01,0,0
+"2019-10","arauca",22,"arauca","extortion",2019-10-01,0,0
+"2019-10","tumaco",2,"nariño","extortion",2019-10-01,0,1
+"2019-09","buenaventura",16,"valle del cauca","extortion",2019-09-01,0,0
+"2019-09","arauca",16,"arauca","extortion",2019-09-01,0,0
+"2019-08","buenaventura",15,"valle del cauca","extortion",2019-08-01,0,0
+"2019-08","arauca",6,"arauca","extortion",2019-08-01,0,0
+"2019-08","tumaco",2,"nariño","extortion",2019-08-01,0,1
+"2019-07","arauca",11,"arauca","extortion",2019-07-01,0,0
+"2019-07","tumaco",1,"nariño","extortion",2019-07-01,0,1
+"2019-07","buenaventura",6,"valle del cauca","extortion",2019-07-01,0,0
+"2019-06","buenaventura",6,"valle del cauca","extortion",2019-06-01,0,0
+"2019-06","arauca",13,"arauca","extortion",2019-06-01,0,0
+"2019-06","tumaco",1,"nariño","extortion",2019-06-01,0,1
+"2019-05","buenaventura",11,"valle del cauca","extortion",2019-05-01,0,0
+"2019-05","arauca",9,"arauca","extortion",2019-05-01,0,0
+"2019-04","arauca",10,"arauca","extortion",2019-04-01,0,0
+"2019-04","buenaventura",6,"valle del cauca","extortion",2019-04-01,0,0
+"2019-03","arauca",9,"arauca","extortion",2019-03-01,0,0
+"2019-03","buenaventura",7,"valle del cauca","extortion",2019-03-01,0,0
+"2019-03","tumaco",2,"nariño","extortion",2019-03-01,0,1
+"2019-02","arauca",9,"arauca","extortion",2019-02-01,0,0
+"2019-02","buenaventura",10,"valle del cauca","extortion",2019-02-01,0,0
+"2019-02","tumaco",1,"nariño","extortion",2019-02-01,0,1
+"2019-01","buenaventura",10,"valle del cauca","extortion",2019-01-01,0,0
+"2019-01","arauca",11,"arauca","extortion",2019-01-01,0,0
+"2019-01","tumaco",2,"nariño","extortion",2019-01-01,0,1
+"2018-12","arauca",7,"arauca","extortion",2018-12-01,0,0
+"2018-12","buenaventura",5,"valle del cauca","extortion",2018-12-01,0,0
+"2018-12","tumaco",1,"nariño","extortion",2018-12-01,0,1
+"2018-11","arauca",18,"arauca","extortion",2018-11-01,0,0
+"2018-11","buenaventura",4,"valle del cauca","extortion",2018-11-01,0,0
+"2018-10","buenaventura",5,"valle del cauca","extortion",2018-10-01,0,0
+"2018-10","arauca",6,"arauca","extortion",2018-10-01,0,0
+"2018-10","tumaco",1,"nariño","extortion",2018-10-01,0,1
+"2018-09","buenaventura",7,"valle del cauca","extortion",2018-09-01,0,0
+"2018-09","arauca",12,"arauca","extortion",2018-09-01,0,0
+"2018-08","buenaventura",9,"valle del cauca","extortion",2018-08-01,0,0
+"2018-08","arauca",8,"arauca","extortion",2018-08-01,0,0
+"2018-07","buenaventura",12,"valle del cauca","extortion",2018-07-01,0,0
+"2018-07","arauca",8,"arauca","extortion",2018-07-01,0,0
+"2018-06","buenaventura",9,"valle del cauca","extortion",2018-06-01,0,0
+"2018-06","arauca",13,"arauca","extortion",2018-06-01,0,0
+"2018-05","arauca",10,"arauca","extortion",2018-05-01,0,0
+"2018-05","buenaventura",3,"valle del cauca","extortion",2018-05-01,0,0
+"2018-05","tumaco",2,"nariño","extortion",2018-05-01,0,1
+"2018-04","arauca",9,"arauca","extortion",2018-04-01,0,0
+"2018-04","buenaventura",12,"valle del cauca","extortion",2018-04-01,0,0
+"2018-03","arauca",5,"arauca","extortion",2018-03-01,0,0
+"2018-03","buenaventura",5,"valle del cauca","extortion",2018-03-01,0,0
+"2018-02","buenaventura",12,"valle del cauca","extortion",2018-02-01,0,0
+"2018-02","arauca",10,"arauca","extortion",2018-02-01,0,0
+"2018-01","buenaventura",7,"valle del cauca","extortion",2018-01-01,0,0
+"2018-01","arauca",7,"arauca","extortion",2018-01-01,0,0
+"2018-01","tumaco",1,"nariño","extortion",2018-01-01,0,1
+"2018-01","tumaco",3,"nariño","homicide",2018-01-01,0,1
+"2018-01","arauca",14,"arauca","homicide",2018-01-01,0,0
+"2018-01","buenaventura",4,"valle del cauca","homicide",2018-01-01,0,0
+"2018-02","arauca",5,"arauca","homicide",2018-02-01,0,0
+"2018-02","tumaco",1,"nariño","homicide",2018-02-01,0,1
+"2018-02","buenaventura",3,"valle del cauca","homicide",2018-02-01,0,0
+"2018-03","arauca",8,"arauca","homicide",2018-03-01,0,0
+"2018-03","tumaco",2,"nariño","homicide",2018-03-01,0,1
+"2018-03","buenaventura",1,"valle del cauca","homicide",2018-03-01,0,0
+"2018-04","tumaco",6,"nariño","homicide",2018-04-01,0,1
+"2018-04","buenaventura",3,"valle del cauca","homicide",2018-04-01,0,0
+"2018-04","arauca",12,"arauca","homicide",2018-04-01,0,0
+"2018-05","arauca",7,"arauca","homicide",2018-05-01,0,0
+"2018-05","buenaventura",5,"valle del cauca","homicide",2018-05-01,0,0
+"2018-05","tumaco",3,"nariño","homicide",2018-05-01,0,1
+"2018-06","arauca",7,"arauca","homicide",2018-06-01,0,0
+"2018-06","buenaventura",3,"valle del cauca","homicide",2018-06-01,0,0
+"2018-06","tumaco",3,"nariño","homicide",2018-06-01,0,1
+"2018-07","tumaco",11,"nariño","homicide",2018-07-01,0,1
+"2018-07","arauca",9,"arauca","homicide",2018-07-01,0,0
+"2018-07","buenaventura",9,"valle del cauca","homicide",2018-07-01,0,0
+"2018-08","arauca",17,"arauca","homicide",2018-08-01,0,0
+"2018-08","buenaventura",2,"valle del cauca","homicide",2018-08-01,0,0
+"2018-08","tumaco",5,"nariño","homicide",2018-08-01,0,1
+"2018-09","arauca",3,"arauca","homicide",2018-09-01,0,0
+"2018-09","tumaco",6,"nariño","homicide",2018-09-01,0,1
+"2018-09","buenaventura",2,"valle del cauca","homicide",2018-09-01,0,0
+"2018-10","arauca",15,"arauca","homicide",2018-10-01,0,0
+"2018-10","buenaventura",9,"valle del cauca","homicide",2018-10-01,0,0
+"2018-10","tumaco",1,"nariño","homicide",2018-10-01,0,1
+"2018-11","buenaventura",10,"valle del cauca","homicide",2018-11-01,0,0
+"2018-11","arauca",7,"arauca","homicide",2018-11-01,0,0
+"2018-12","buenaventura",16,"valle del cauca","homicide",2018-12-01,0,0
+"2018-12","arauca",7,"arauca","homicide",2018-12-01,0,0
+"2019-01","buenaventura",6,"valle del cauca","homicide",2019-01-01,0,0
+"2019-01","arauca",7,"arauca","homicide",2019-01-01,0,0
+"2019-02","arauca",23,"arauca","homicide",2019-02-01,0,0
+"2019-02","buenaventura",6,"valle del cauca","homicide",2019-02-01,0,0
+"2019-02","tumaco",2,"nariño","homicide",2019-02-01,0,1
+"2019-03","arauca",18,"arauca","homicide",2019-03-01,0,0
+"2019-03","tumaco",3,"nariño","homicide",2019-03-01,0,1
+"2019-03","buenaventura",8,"valle del cauca","homicide",2019-03-01,0,0
+"2019-04","arauca",10,"arauca","homicide",2019-04-01,0,0
+"2019-04","buenaventura",8,"valle del cauca","homicide",2019-04-01,0,0
+"2019-04","tumaco",5,"nariño","homicide",2019-04-01,0,1
+"2019-05","tumaco",4,"nariño","homicide",2019-05-01,0,1
+"2019-05","arauca",19,"arauca","homicide",2019-05-01,0,0
+"2019-05","buenaventura",10,"valle del cauca","homicide",2019-05-01,0,0
+"2019-06","arauca",16,"arauca","homicide",2019-06-01,0,0
+"2019-06","tumaco",4,"nariño","homicide",2019-06-01,0,1
+"2019-06","buenaventura",15,"valle del cauca","homicide",2019-06-01,0,0
+"2019-07","buenaventura",11,"valle del cauca","homicide",2019-07-01,0,0
+"2019-07","arauca",13,"arauca","homicide",2019-07-01,0,0
+"2019-07","tumaco",1,"nariño","homicide",2019-07-01,0,1
+"2019-08","arauca",6,"arauca","homicide",2019-08-01,0,0
+"2019-08","buenaventura",9,"valle del cauca","homicide",2019-08-01,0,0
+"2019-08","tumaco",1,"nariño","homicide",2019-08-01,0,1
+"2019-09","arauca",8,"arauca","homicide",2019-09-01,0,0
+"2019-09","buenaventura",7,"valle del cauca","homicide",2019-09-01,0,0
+"2019-10","arauca",2,"arauca","homicide",2019-10-01,0,0
+"2019-10","buenaventura",4,"valle del cauca","homicide",2019-10-01,0,0
+"2019-10","tumaco",3,"nariño","homicide",2019-10-01,0,1
+"2019-11","buenaventura",7,"valle del cauca","homicide",2019-11-01,0,0
+"2019-11","arauca",5,"arauca","homicide",2019-11-01,0,0
+"2019-12","tumaco",5,"nariño","homicide",2019-12-01,0,1
+"2019-12","buenaventura",6,"valle del cauca","homicide",2019-12-01,0,0
+"2019-12","arauca",11,"arauca","homicide",2019-12-01,0,0
+"2020-01","buenaventura",4,"valle del cauca","homicide",2020-01-01,0,0
+"2020-01","arauca",7,"arauca","homicide",2020-01-01,0,0
+"2020-01","tumaco",7,"nariño","homicide",2020-01-01,0,1
+"2020-02","buenaventura",6,"valle del cauca","homicide",2020-02-01,0,0
+"2020-02","arauca",8,"arauca","homicide",2020-02-01,0,0
+"2020-02","tumaco",1,"nariño","homicide",2020-02-01,0,1
+"2020-03","arauca",7,"arauca","homicide",2020-03-01,0,0
+"2020-03","tumaco",7,"nariño","homicide",2020-03-01,0,1
+"2020-03","buenaventura",1,"valle del cauca","homicide",2020-03-01,0,0
+"2020-04","buenaventura",9,"valle del cauca","homicide",2020-04-01,0,0
+"2020-04","arauca",2,"arauca","homicide",2020-04-01,0,0
+"2020-04","tumaco",2,"nariño","homicide",2020-04-01,0,1
+"2020-05","buenaventura",5,"valle del cauca","homicide",2020-05-01,0,0
+"2020-05","tumaco",1,"nariño","homicide",2020-05-01,0,1
+"2020-05","arauca",4,"arauca","homicide",2020-05-01,0,0
+"2020-06","buenaventura",7,"valle del cauca","homicide",2020-06-01,0,0
+"2020-06","tumaco",3,"nariño","homicide",2020-06-01,0,1
+"2020-06","arauca",4,"arauca","homicide",2020-06-01,0,0
+"2020-07","buenaventura",5,"valle del cauca","homicide",2020-07-01,0,0
+"2020-07","arauca",8,"arauca","homicide",2020-07-01,0,0
+"2020-07","tumaco",6,"nariño","homicide",2020-07-01,0,1
+"2020-08","buenaventura",4,"valle del cauca","homicide",2020-08-01,0,0
+"2020-08","arauca",12,"arauca","homicide",2020-08-01,0,0
+"2020-08","tumaco",2,"nariño","homicide",2020-08-01,0,1
+"2020-09","arauca",8,"arauca","homicide",2020-09-01,0,0
+"2020-09","buenaventura",12,"valle del cauca","homicide",2020-09-01,0,0
+"2020-10","arauca",5,"arauca","homicide",2020-10-01,0,0
+"2020-10","tumaco",2,"nariño","homicide",2020-10-01,0,1
+"2020-10","buenaventura",6,"valle del cauca","homicide",2020-10-01,0,0
+"2020-11","tumaco",6,"nariño","homicide",2020-11-01,0,1
+"2020-11","buenaventura",3,"valle del cauca","homicide",2020-11-01,0,0
+"2020-11","arauca",7,"arauca","homicide",2020-11-01,0,0
+"2020-12","tumaco",5,"nariño","homicide",2020-12-01,0,1
+"2020-12","buenaventura",11,"valle del cauca","homicide",2020-12-01,0,1
+"2020-12","arauca",9,"arauca","homicide",2020-12-01,0,0
+"2021-01","buenaventura",21,"valle del cauca","homicide",2021-01-01,0,1
+"2021-01","arauca",8,"arauca","homicide",2021-01-01,0,0
+"2021-01","tumaco",7,"nariño","homicide",2021-01-01,0,1
+"2021-02","buenaventura",8,"valle del cauca","homicide",2021-02-01,0,1
+"2021-02","arauca",16,"arauca","homicide",2021-02-01,0,0
+"2021-02","tumaco",5,"nariño","homicide",2021-02-01,0,1
+"2021-03","buenaventura",8,"valle del cauca","homicide",2021-03-01,0,1
+"2021-03","arauca",10,"arauca","homicide",2021-03-01,0,0
+"2021-03","tumaco",2,"nariño","homicide",2021-03-01,0,1
+"2021-04","buenaventura",16,"valle del cauca","homicide",2021-04-01,0,1
+"2021-04","arauca",11,"arauca","homicide",2021-04-01,0,0
+"2021-04","tumaco",3,"nariño","homicide",2021-04-01,0,1
+"2021-05","arauca",16,"arauca","homicide",2021-05-01,0,0
+"2021-05","buenaventura",18,"valle del cauca","homicide",2021-05-01,0,1
+"2021-05","tumaco",5,"nariño","homicide",2021-05-01,0,1
+"2021-06","buenaventura",13,"valle del cauca","homicide",2021-06-01,0,1
+"2021-06","tumaco",6,"nariño","homicide",2021-06-01,0,1
+"2021-06","arauca",8,"arauca","homicide",2021-06-01,0,0
+"2021-07","buenaventura",25,"valle del cauca","homicide",2021-07-01,0,1
+"2021-07","arauca",17,"arauca","homicide",2021-07-01,0,0
+"2021-07","tumaco",7,"nariño","homicide",2021-07-01,0,1
+"2021-08","buenaventura",13,"valle del cauca","homicide",2021-08-01,0,1
+"2021-08","arauca",27,"arauca","homicide",2021-08-01,0,0
+"2021-09","tumaco",11,"nariño","homicide",2021-09-01,0,1
+"2021-09","arauca",21,"arauca","homicide",2021-09-01,0,0
+"2021-09","buenaventura",10,"valle del cauca","homicide",2021-09-01,0,1
+"2021-10","arauca",15,"arauca","homicide",2021-10-01,0,0
+"2021-10","buenaventura",15,"valle del cauca","homicide",2021-10-01,0,1
+"2021-10","tumaco",1,"nariño","homicide",2021-10-01,0,1
+"2021-11","arauca",12,"arauca","homicide",2021-11-01,0,0
+"2021-11","buenaventura",13,"valle del cauca","homicide",2021-11-01,0,1
+"2021-11","tumaco",1,"nariño","homicide",2021-11-01,0,1
+"2021-12","arauca",9,"arauca","homicide",2021-12-01,0,0
+"2021-12","buenaventura",12,"valle del cauca","homicide",2021-12-01,0,1
+"2021-12","tumaco",2,"nariño","homicide",2021-12-01,0,1
+"2022-01","arauca",64,"arauca","homicide",2022-01-01,0,1
+"2022-01","tumaco",3,"nariño","homicide",2022-01-01,0,1
+"2022-01","buenaventura",14,"valle del cauca","homicide",2022-01-01,0,1
+"2022-02","arauca",39,"arauca","homicide",2022-02-01,0,1
+"2022-02","buenaventura",13,"valle del cauca","homicide",2022-02-01,0,1
+"2022-02","tumaco",2,"nariño","homicide",2022-02-01,0,1
+"2022-03","arauca",30,"arauca","homicide",2022-03-01,0,1
+"2022-03","buenaventura",13,"valle del cauca","homicide",2022-03-01,0,1
+"2022-04","buenaventura",10,"valle del cauca","homicide",2022-04-01,0,1
+"2022-04","arauca",24,"arauca","homicide",2022-04-01,0,1
+"2022-04","tumaco",1,"nariño","homicide",2022-04-01,0,1
+"2022-05","arauca",25,"arauca","homicide",2022-05-01,0,1
+"2022-05","buenaventura",9,"valle del cauca","homicide",2022-05-01,0,1
+"2022-05","tumaco",1,"nariño","homicide",2022-05-01,0,1
+"2022-06","arauca",32,"arauca","homicide",2022-06-01,0,1
+"2022-06","buenaventura",7,"valle del cauca","homicide",2022-06-01,0,1
+"2022-07","arauca",21,"arauca","homicide",2022-07-01,0,1
+"2022-07","buenaventura",9,"valle del cauca","homicide",2022-07-01,0,1
+"2022-07","tumaco",7,"nariño","homicide",2022-07-01,0,1
+"2022-08","buenaventura",14,"valle del cauca","homicide",2022-08-01,0,1
+"2022-08","arauca",23,"arauca","homicide",2022-08-01,1,1
+"2022-08","tumaco",1,"nariño","homicide",2022-08-01,0,1
+"2022-09","arauca",15,"arauca","homicide",2022-09-01,1,1
+"2022-09","tumaco",5,"nariño","homicide",2022-09-01,0,1
+"2022-09","buenaventura",1,"valle del cauca","homicide",2022-09-01,1,0
+"2022-10","arauca",11,"arauca","homicide",2022-10-01,1,1
+"2022-10","buenaventura",3,"valle del cauca","homicide",2022-10-01,1,0
+"2022-11","arauca",28,"arauca","homicide",2022-11-01,1,1
+"2022-11","tumaco",4,"nariño","homicide",2022-11-01,0,1
+"2022-11","buenaventura",1,"valle del cauca","homicide",2022-11-01,1,0
+"2022-12","arauca",32,"arauca","homicide",2022-12-01,1,1
+"2022-12","buenaventura",2,"valle del cauca","homicide",2022-12-01,1,0
+"2022-12","tumaco",1,"nariño","homicide",2022-12-01,0,1
+"2023-01","arauca",20,"arauca","homicide",2023-01-01,1,1
+"2023-01","buenaventura",8,"valle del cauca","homicide",2023-01-01,1,0
+"2023-01","tumaco",1,"nariño","homicide",2023-01-01,0,1
+"2023-02","arauca",14,"arauca","homicide",2023-02-01,1,1
+"2023-02","tumaco",2,"nariño","homicide",2023-02-01,0,1
+"2023-02","buenaventura",1,"valle del cauca","homicide",2023-02-01,1,0
+"2023-03","arauca",13,"arauca","homicide",2023-03-01,1,1
+"2023-03","tumaco",4,"nariño","homicide",2023-03-01,0,1
+"2023-03","buenaventura",2,"valle del cauca","homicide",2023-03-01,1,0
+"2023-04","buenaventura",10,"valle del cauca","homicide",2023-04-01,1,0
+"2023-04","arauca",4,"arauca","homicide",2023-04-01,1,1
+"2023-04","tumaco",1,"nariño","homicide",2023-04-01,0,1
+"2023-05","arauca",12,"arauca","homicide",2023-05-01,1,1
+"2023-05","buenaventura",16,"valle del cauca","homicide",2023-05-01,1,0
+"2023-05","tumaco",3,"nariño","homicide",2023-05-01,0,1
+"2023-06","arauca",15,"arauca","homicide",2023-06-01,1,1
+"2023-06","buenaventura",15,"valle del cauca","homicide",2023-06-01,1,0
+"2023-06","tumaco",2,"nariño","homicide",2023-06-01,0,1
+"2023-07","tumaco",2,"nariño","homicide",2023-07-01,0,1
+"2023-07","buenaventura",18,"valle del cauca","homicide",2023-07-01,1,0
+"2023-07","arauca",3,"arauca","homicide",2023-07-01,1,1
+"2023-08","buenaventura",4,"valle del cauca","homicide",2023-08-01,1,0
+"2023-08","arauca",8,"arauca","homicide",2023-08-01,1,1
+"2023-08","tumaco",5,"nariño","homicide",2023-08-01,0,1
+"2023-09","arauca",19,"arauca","homicide",2023-09-01,1,1
+"2023-09","buenaventura",4,"valle del cauca","homicide",2023-09-01,1,0
+"2023-09","tumaco",1,"nariño","homicide",2023-09-01,0,1
+"2023-10","buenaventura",9,"valle del cauca","homicide",2023-10-01,1,0
+"2023-10","arauca",7,"arauca","homicide",2023-10-01,1,1
+"2023-10","tumaco",2,"nariño","homicide",2023-10-01,0,1
+"2023-11","buenaventura",18,"valle del cauca","homicide",2023-11-01,1,0
+"2023-11","arauca",10,"arauca","homicide",2023-11-01,1,1
+"2023-11","tumaco",1,"nariño","homicide",2023-11-01,0,1
+"2023-12","arauca",15,"arauca","homicide",2023-12-01,1,1
+"2023-12","buenaventura",13,"valle del cauca","homicide",2023-12-01,1,0
+"2023-12","tumaco",2,"nariño","homicide",2023-12-01,0,1
+"2024-01","buenaventura",6,"valle del cauca","homicide",2024-01-01,1,0
+"2024-01","arauca",7,"arauca","homicide",2024-01-01,1,1
+"2024-01","tumaco",1,"nariño","homicide",2024-01-01,0,1
+"2024-02","buenaventura",3,"valle del cauca","homicide",2024-02-01,1,0
+"2024-02","arauca",2,"arauca","homicide",2024-02-01,1,1
+"2024-02","tumaco",1,"nariño","homicide",2024-02-01,0,1
+"2024-03","buenaventura",8,"valle del cauca","homicide",2024-03-01,1,0
+"2024-03","arauca",15,"arauca","homicide",2024-03-01,1,1
+"2024-03","tumaco",2,"nariño","homicide",2024-03-01,0,1
+"2024-04","arauca",13,"arauca","homicide",2024-04-01,1,1
+"2024-04","buenaventura",9,"valle del cauca","homicide",2024-04-01,1,0
+"2024-04","tumaco",3,"nariño","homicide",2024-04-01,0,1
+"2024-05","buenaventura",8,"valle del cauca","homicide",2024-05-01,1,0
+"2024-05","arauca",20,"arauca","homicide",2024-05-01,1,1
+"2024-05","tumaco",1,"nariño","homicide",2024-05-01,0,1
+"2024-06","arauca",15,"arauca","homicide",2024-06-01,1,1
+"2024-06","buenaventura",3,"valle del cauca","homicide",2024-06-01,1,0
+"2024-07","buenaventura",5,"valle del cauca","homicide",2024-07-01,1,0
+"2024-07","arauca",15,"arauca","homicide",2024-07-01,1,1
+"2024-07","tumaco",2,"nariño","homicide",2024-07-01,1,1
+"2024-08","arauca",18,"arauca","homicide",2024-08-01,1,1
+"2024-08","buenaventura",2,"valle del cauca","homicide",2024-08-01,1,0
+"2024-08","tumaco",4,"nariño","homicide",2024-08-01,1,1
+"2024-09","tumaco",3,"nariño","homicide",2024-09-01,1,1
+"2024-09","arauca",15,"arauca","homicide",2024-09-01,0,1
+"2024-09","buenaventura",4,"valle del cauca","homicide",2024-09-01,1,0
+"2024-10","arauca",13,"arauca","homicide",2024-10-01,0,1
+"2024-10","buenaventura",2,"valle del cauca","homicide",2024-10-01,1,0
+"2024-11","arauca",21,"arauca","homicide",2024-11-01,0,1
+"2024-11","buenaventura",8,"valle del cauca","homicide",2024-11-01,1,0
+"2024-12","buenaventura",4,"valle del cauca","homicide",2024-12-01,1,1
+"2024-12","arauca",12,"arauca","homicide",2024-12-01,0,1
+"2025-01","buenaventura",14,"valle del cauca","homicide",2025-01-01,1,1
+"2025-01","arauca",7,"arauca","homicide",2025-01-01,0,1
+"2025-02","arauca",7,"arauca","homicide",2025-02-01,0,1
+"2025-02","buenaventura",12,"valle del cauca","homicide",2025-02-01,1,1
+"2025-03","arauca",10,"arauca","homicide",2025-03-01,0,1
+"2025-03","buenaventura",19,"valle del cauca","homicide",2025-03-01,1,1
+"2025-03","tumaco",2,"nariño","homicide",2025-03-01,1,1
+"2025-04","buenaventura",7,"valle del cauca","homicide",2025-04-01,1,1
+"2025-04","arauca",6,"arauca","homicide",2025-04-01,0,1
+"2025-05","buenaventura",6,"valle del cauca","homicide",2025-05-01,1,1
+"2025-05","arauca",2,"arauca","homicide",2025-05-01,0,1
+"2025-05","tumaco",3,"nariño","homicide",2025-05-01,1,1
+"2025-06","tumaco",1,"nariño","homicide",2025-06-01,1,1
+"2025-06","buenaventura",12,"valle del cauca","homicide",2025-06-01,1,1
+"2025-06","arauca",8,"arauca","homicide",2025-06-01,0,1
+"2025-07","buenaventura",13,"valle del cauca","homicide",2025-07-01,1,1
+"2025-07","arauca",9,"arauca","homicide",2025-07-01,0,1
+"2025-08","arauca",13,"arauca","homicide",2025-08-01,0,1
+"2025-08","buenaventura",11,"valle del cauca","homicide",2025-08-01,1,1
+"2025-08","tumaco",2,"nariño","homicide",2025-08-01,1,1
+"2025-09","buenaventura",11,"valle del cauca","homicide",2025-09-01,1,1
+"2025-09","arauca",18,"arauca","homicide",2025-09-01,0,1
+"2025-09","tumaco",1,"nariño","homicide",2025-09-01,1,1
+"2025-10","arauca",12,"arauca","homicide",2025-10-01,0,1
+"2025-10","buenaventura",1,"valle del cauca","homicide",2025-10-01,1,1
+"2025-11","buenaventura",6,"valle del cauca","homicide",2025-11-01,1,1
+"2025-11","arauca",8,"arauca","homicide",2025-11-01,0,1
+"2025-12","arauca",5,"arauca","homicide",2025-12-01,0,1
+"2025-12","buenaventura",2,"valle del cauca","homicide",2025-12-01,1,1
+"2026-01","buenaventura",5,"valle del cauca","homicide",2026-01-01,0,0
+"2026-01","arauca",3,"arauca","homicide",2026-01-01,0,1
+"2026-02","buenaventura",6,"valle del cauca","homicide",2026-02-01,0,0
+"2026-02","arauca",6,"arauca","homicide",2026-02-01,0,1
+"2026-03","arauca",7,"arauca","homicide",2026-03-01,0,1
+"2026-03","buenaventura",19,"valle del cauca","homicide",2026-03-01,0,0
+"2026-03","tumaco",1,"nariño","homicide",2026-03-01,0,1
+"2026-03","arauca",2,"arauca","terrorism",2026-03-01,0,1
+"2026-02","arauca",7,"arauca","terrorism",2026-02-01,0,1
+"2026-02","buenaventura",2,"valle del cauca","terrorism",2026-02-01,0,0
+"2026-01","arauca",6,"arauca","terrorism",2026-01-01,0,1
+"2025-12","arauca",3,"arauca","terrorism",2025-12-01,0,1
+"2025-12","buenaventura",2,"valle del cauca","terrorism",2025-12-01,1,1
+"2025-11","arauca",6,"arauca","terrorism",2025-11-01,0,1
+"2025-11","buenaventura",3,"valle del cauca","terrorism",2025-11-01,1,1
+"2025-10","buenaventura",5,"valle del cauca","terrorism",2025-10-01,1,1
+"2025-10","arauca",4,"arauca","terrorism",2025-10-01,0,1
+"2025-09","arauca",7,"arauca","terrorism",2025-09-01,0,1
+"2025-09","buenaventura",1,"valle del cauca","terrorism",2025-09-01,1,1
+"2025-08","arauca",7,"arauca","terrorism",2025-08-01,0,1
+"2025-08","buenaventura",1,"valle del cauca","terrorism",2025-08-01,1,1
+"2025-07","arauca",10,"arauca","terrorism",2025-07-01,0,1
+"2025-07","buenaventura",5,"valle del cauca","terrorism",2025-07-01,1,1
+"2025-06","buenaventura",6,"valle del cauca","terrorism",2025-06-01,1,1
+"2025-06","arauca",1,"arauca","terrorism",2025-06-01,0,1
+"2025-05","arauca",5,"arauca","terrorism",2025-05-01,0,1
+"2025-04","arauca",8,"arauca","terrorism",2025-04-01,0,1
+"2025-04","buenaventura",3,"valle del cauca","terrorism",2025-04-01,1,1
+"2025-03","arauca",8,"arauca","terrorism",2025-03-01,0,1
+"2025-03","buenaventura",2,"valle del cauca","terrorism",2025-03-01,1,1
+"2025-02","arauca",11,"arauca","terrorism",2025-02-01,0,1
+"2025-02","buenaventura",2,"valle del cauca","terrorism",2025-02-01,1,1
+"2025-01","arauca",15,"arauca","terrorism",2025-01-01,0,1
+"2025-01","tumaco",1,"nariño","terrorism",2025-01-01,1,1
+"2025-01","buenaventura",2,"valle del cauca","terrorism",2025-01-01,1,1
+"2024-12","buenaventura",1,"valle del cauca","terrorism",2024-12-01,1,1
+"2024-12","arauca",2,"arauca","terrorism",2024-12-01,0,1
+"2024-11","arauca",5,"arauca","terrorism",2024-11-01,0,1
+"2024-10","arauca",5,"arauca","terrorism",2024-10-01,0,1
+"2024-09","arauca",14,"arauca","terrorism",2024-09-01,0,1
+"2024-09","tumaco",1,"nariño","terrorism",2024-09-01,1,1
+"2024-08","arauca",14,"arauca","terrorism",2024-08-01,1,1
+"2024-08","tumaco",1,"nariño","terrorism",2024-08-01,1,1
+"2024-07","arauca",12,"arauca","terrorism",2024-07-01,1,1
+"2024-07","buenaventura",1,"valle del cauca","terrorism",2024-07-01,1,0
+"2024-06","arauca",8,"arauca","terrorism",2024-06-01,1,1
+"2024-06","buenaventura",2,"valle del cauca","terrorism",2024-06-01,1,0
+"2024-05","arauca",1,"arauca","terrorism",2024-05-01,1,1
+"2024-05","buenaventura",1,"valle del cauca","terrorism",2024-05-01,1,0
+"2024-04","arauca",1,"arauca","terrorism",2024-04-01,1,1
+"2024-03","arauca",3,"arauca","terrorism",2024-03-01,1,1
+"2024-03","tumaco",1,"nariño","terrorism",2024-03-01,0,1
+"2024-03","buenaventura",1,"valle del cauca","terrorism",2024-03-01,1,0
+"2024-02","arauca",4,"arauca","terrorism",2024-02-01,1,1
+"2024-01","arauca",2,"arauca","terrorism",2024-01-01,1,1
+"2023-12","arauca",3,"arauca","terrorism",2023-12-01,1,1
+"2023-12","buenaventura",1,"valle del cauca","terrorism",2023-12-01,1,0
+"2023-11","arauca",2,"arauca","terrorism",2023-11-01,1,1
+"2023-10","arauca",6,"arauca","terrorism",2023-10-01,1,1
+"2023-10","buenaventura",1,"valle del cauca","terrorism",2023-10-01,1,0
+"2023-09","arauca",2,"arauca","terrorism",2023-09-01,1,1
+"2023-09","tumaco",2,"nariño","terrorism",2023-09-01,0,1
+"2023-08","arauca",1,"arauca","terrorism",2023-08-01,1,1
+"2023-07","arauca",8,"arauca","terrorism",2023-07-01,1,1
+"2023-07","buenaventura",1,"valle del cauca","terrorism",2023-07-01,1,0
+"2023-06","arauca",4,"arauca","terrorism",2023-06-01,1,1
+"2023-05","arauca",9,"arauca","terrorism",2023-05-01,1,1
+"2023-04","arauca",1,"arauca","terrorism",2023-04-01,1,1
+"2023-03","arauca",7,"arauca","terrorism",2023-03-01,1,1
+"2023-02","arauca",6,"arauca","terrorism",2023-02-01,1,1
+"2023-01","tumaco",1,"nariño","terrorism",2023-01-01,0,1
+"2022-12","tumaco",1,"nariño","terrorism",2022-12-01,0,1
+"2022-11","arauca",8,"arauca","terrorism",2022-11-01,1,1
+"2022-10","arauca",2,"arauca","terrorism",2022-10-01,1,1
+"2022-08","arauca",1,"arauca","terrorism",2022-08-01,1,1
+"2022-07","arauca",1,"arauca","terrorism",2022-07-01,0,1
+"2022-06","arauca",1,"arauca","terrorism",2022-06-01,0,1
+"2022-05","arauca",4,"arauca","terrorism",2022-05-01,0,1
+"2022-05","tumaco",1,"nariño","terrorism",2022-05-01,0,1
+"2022-05","buenaventura",2,"valle del cauca","terrorism",2022-05-01,0,1
+"2022-04","arauca",1,"arauca","terrorism",2022-04-01,0,1
+"2022-02","arauca",3,"arauca","terrorism",2022-02-01,0,1
+"2022-01","arauca",13,"arauca","terrorism",2022-01-01,0,1
+"2021-12","arauca",3,"arauca","terrorism",2021-12-01,0,0
+"2021-11","arauca",3,"arauca","terrorism",2021-11-01,0,0
+"2021-10","buenaventura",4,"valle del cauca","terrorism",2021-10-01,0,1
+"2021-10","arauca",4,"arauca","terrorism",2021-10-01,0,0
+"2021-09","arauca",7,"arauca","terrorism",2021-09-01,0,0
+"2021-09","tumaco",2,"nariño","terrorism",2021-09-01,0,1
+"2021-08","arauca",3,"arauca","terrorism",2021-08-01,0,0
+"2021-08","tumaco",1,"nariño","terrorism",2021-08-01,0,1
+"2021-07","arauca",4,"arauca","terrorism",2021-07-01,0,0
+"2021-07","tumaco",1,"nariño","terrorism",2021-07-01,0,1
+"2021-06","arauca",3,"arauca","terrorism",2021-06-01,0,0
+"2021-05","arauca",2,"arauca","terrorism",2021-05-01,0,0
+"2021-05","buenaventura",3,"valle del cauca","terrorism",2021-05-01,0,1
+"2021-05","tumaco",1,"nariño","terrorism",2021-05-01,0,1
+"2021-03","buenaventura",2,"valle del cauca","terrorism",2021-03-01,0,1
+"2021-03","arauca",5,"arauca","terrorism",2021-03-01,0,0
+"2021-02","arauca",3,"arauca","terrorism",2021-02-01,0,0
+"2021-01","arauca",8,"arauca","terrorism",2021-01-01,0,0
+"2021-01","tumaco",1,"nariño","terrorism",2021-01-01,0,1
+"2020-12","arauca",8,"arauca","terrorism",2020-12-01,0,0
+"2020-11","arauca",2,"arauca","terrorism",2020-11-01,0,0
+"2020-11","tumaco",1,"nariño","terrorism",2020-11-01,0,1
+"2020-10","arauca",3,"arauca","terrorism",2020-10-01,0,0
+"2020-09","arauca",7,"arauca","terrorism",2020-09-01,0,0
+"2020-08","arauca",1,"arauca","terrorism",2020-08-01,0,0
+"2020-07","arauca",7,"arauca","terrorism",2020-07-01,0,0
+"2020-06","arauca",1,"arauca","terrorism",2020-06-01,0,0
+"2020-05","tumaco",1,"nariño","terrorism",2020-05-01,0,1
+"2020-05","arauca",11,"arauca","terrorism",2020-05-01,0,0
+"2020-05","buenaventura",1,"valle del cauca","terrorism",2020-05-01,0,0
+"2020-04","arauca",1,"arauca","terrorism",2020-04-01,0,0
+"2020-03","tumaco",1,"nariño","terrorism",2020-03-01,0,1
+"2020-03","arauca",1,"arauca","terrorism",2020-03-01,0,0
+"2020-02","arauca",20,"arauca","terrorism",2020-02-01,0,0
+"2020-01","arauca",17,"arauca","terrorism",2020-01-01,0,0
+"2020-01","tumaco",2,"nariño","terrorism",2020-01-01,0,1
+"2019-11","arauca",7,"arauca","terrorism",2019-11-01,0,0
+"2019-10","tumaco",1,"nariño","terrorism",2019-10-01,0,1
+"2019-10","buenaventura",1,"valle del cauca","terrorism",2019-10-01,0,0
+"2019-10","arauca",3,"arauca","terrorism",2019-10-01,0,0
+"2019-09","arauca",12,"arauca","terrorism",2019-09-01,0,0
+"2019-08","arauca",10,"arauca","terrorism",2019-08-01,0,0
+"2019-08","tumaco",1,"nariño","terrorism",2019-08-01,0,1
+"2019-07","arauca",20,"arauca","terrorism",2019-07-01,0,0
+"2019-07","tumaco",1,"nariño","terrorism",2019-07-01,0,1
+"2019-06","arauca",10,"arauca","terrorism",2019-06-01,0,0
+"2019-05","arauca",29,"arauca","terrorism",2019-05-01,0,0
+"2019-04","arauca",11,"arauca","terrorism",2019-04-01,0,0
+"2019-03","arauca",14,"arauca","terrorism",2019-03-01,0,0
+"2019-02","arauca",8,"arauca","terrorism",2019-02-01,0,0
+"2019-02","tumaco",2,"nariño","terrorism",2019-02-01,0,1
+"2019-01","arauca",12,"arauca","terrorism",2019-01-01,0,0
+"2019-01","tumaco",1,"nariño","terrorism",2019-01-01,0,1
+"2018-12","arauca",6,"arauca","terrorism",2018-12-01,0,0
+"2018-11","arauca",13,"arauca","terrorism",2018-11-01,0,0
+"2018-11","tumaco",1,"nariño","terrorism",2018-11-01,0,1
+"2018-10","buenaventura",3,"valle del cauca","terrorism",2018-10-01,0,0
+"2018-10","arauca",3,"arauca","terrorism",2018-10-01,0,0
+"2018-09","arauca",7,"arauca","terrorism",2018-09-01,0,0
+"2018-08","arauca",13,"arauca","terrorism",2018-08-01,0,0
+"2018-07","arauca",14,"arauca","terrorism",2018-07-01,0,0
+"2018-07","buenaventura",4,"valle del cauca","terrorism",2018-07-01,0,0
+"2018-06","arauca",3,"arauca","terrorism",2018-06-01,0,0
+"2018-05","arauca",5,"arauca","terrorism",2018-05-01,0,0
+"2018-04","arauca",1,"arauca","terrorism",2018-04-01,0,0
+"2018-04","tumaco",3,"nariño","terrorism",2018-04-01,0,1
+"2018-03","arauca",17,"arauca","terrorism",2018-03-01,0,0
+"2018-03","tumaco",2,"nariño","terrorism",2018-03-01,0,1
+"2018-02","arauca",14,"arauca","terrorism",2018-02-01,0,0
+"2018-02","tumaco",5,"nariño","terrorism",2018-02-01,0,1
+"2018-01","arauca",14,"arauca","terrorism",2018-01-01,0,0
+"2018-01","tumaco",17,"narino","political_violence",2018-01-01,0,1
+"2018-01","buenaventura",2,"valle del cauca","political_violence",2018-01-01,0,0
+"2018-01","arauca",36,"arauca","political_violence",2018-01-01,0,0
+"2018-02","tumaco",17,"narino","political_violence",2018-02-01,0,1
+"2018-02","buenaventura",1,"valle del cauca","political_violence",2018-02-01,0,0
+"2018-02","arauca",13,"arauca","political_violence",2018-02-01,0,0
+"2018-03","tumaco",17,"narino","political_violence",2018-03-01,0,1
+"2018-03","buenaventura",0,"valle del cauca","political_violence",2018-03-01,0,0
+"2018-03","arauca",14,"arauca","political_violence",2018-03-01,0,0
+"2018-04","tumaco",22,"narino","political_violence",2018-04-01,0,1
+"2018-04","buenaventura",2,"valle del cauca","political_violence",2018-04-01,0,0
+"2018-04","arauca",15,"arauca","political_violence",2018-04-01,0,0
+"2018-05","tumaco",17,"narino","political_violence",2018-05-01,0,1
+"2018-05","buenaventura",4,"valle del cauca","political_violence",2018-05-01,0,0
+"2018-05","arauca",10,"arauca","political_violence",2018-05-01,0,0
+"2018-06","tumaco",21,"narino","political_violence",2018-06-01,0,1
+"2018-06","buenaventura",3,"valle del cauca","political_violence",2018-06-01,0,0
+"2018-06","arauca",8,"arauca","political_violence",2018-06-01,0,0
+"2018-07","tumaco",19,"narino","political_violence",2018-07-01,0,1
+"2018-07","buenaventura",2,"valle del cauca","political_violence",2018-07-01,0,0
+"2018-07","arauca",15,"arauca","political_violence",2018-07-01,0,0
+"2018-08","tumaco",13,"narino","political_violence",2018-08-01,0,1
+"2018-08","buenaventura",0,"valle del cauca","political_violence",2018-08-01,0,0
+"2018-08","arauca",22,"arauca","political_violence",2018-08-01,0,0
+"2018-09","tumaco",14,"narino","political_violence",2018-09-01,0,1
+"2018-09","buenaventura",1,"valle del cauca","political_violence",2018-09-01,0,0
+"2018-09","arauca",9,"arauca","political_violence",2018-09-01,0,0
+"2018-10","tumaco",15,"narino","political_violence",2018-10-01,0,1
+"2018-10","buenaventura",0,"valle del cauca","political_violence",2018-10-01,0,0
+"2018-10","arauca",14,"arauca","political_violence",2018-10-01,0,0
+"2018-11","tumaco",19,"narino","political_violence",2018-11-01,0,1
+"2018-11","buenaventura",1,"valle del cauca","political_violence",2018-11-01,0,0
+"2018-11","arauca",15,"arauca","political_violence",2018-11-01,0,0
+"2018-12","tumaco",10,"narino","political_violence",2018-12-01,0,1
+"2018-12","buenaventura",1,"valle del cauca","political_violence",2018-12-01,0,0
+"2018-12","arauca",10,"arauca","political_violence",2018-12-01,0,0
+"2019-01","tumaco",13,"narino","political_violence",2019-01-01,0,1
+"2019-01","buenaventura",1,"valle del cauca","political_violence",2019-01-01,0,0
+"2019-01","arauca",19,"arauca","political_violence",2019-01-01,0,0
+"2019-02","tumaco",7,"narino","political_violence",2019-02-01,0,1
+"2019-02","buenaventura",0,"valle del cauca","political_violence",2019-02-01,0,0
+"2019-02","arauca",33,"arauca","political_violence",2019-02-01,0,0
+"2019-03","tumaco",20,"narino","political_violence",2019-03-01,0,1
+"2019-03","buenaventura",2,"valle del cauca","political_violence",2019-03-01,0,0
+"2019-03","arauca",29,"arauca","political_violence",2019-03-01,0,0
+"2019-04","tumaco",10,"narino","political_violence",2019-04-01,0,1
+"2019-04","buenaventura",0,"valle del cauca","political_violence",2019-04-01,0,0
+"2019-04","arauca",15,"arauca","political_violence",2019-04-01,0,0
+"2019-05","tumaco",2,"narino","political_violence",2019-05-01,0,1
+"2019-05","buenaventura",0,"valle del cauca","political_violence",2019-05-01,0,0
+"2019-05","arauca",33,"arauca","political_violence",2019-05-01,0,0
+"2019-06","tumaco",6,"narino","political_violence",2019-06-01,0,1
+"2019-06","buenaventura",2,"valle del cauca","political_violence",2019-06-01,0,0
+"2019-06","arauca",23,"arauca","political_violence",2019-06-01,0,0
+"2019-07","tumaco",1,"narino","political_violence",2019-07-01,0,1
+"2019-07","buenaventura",3,"valle del cauca","political_violence",2019-07-01,0,0
+"2019-07","arauca",17,"arauca","political_violence",2019-07-01,0,0
+"2019-08","tumaco",2,"narino","political_violence",2019-08-01,0,1
+"2019-08","buenaventura",0,"valle del cauca","political_violence",2019-08-01,0,0
+"2019-08","arauca",11,"arauca","political_violence",2019-08-01,0,0
+"2019-09","tumaco",1,"narino","political_violence",2019-09-01,0,1
+"2019-09","buenaventura",0,"valle del cauca","political_violence",2019-09-01,0,0
+"2019-09","arauca",18,"arauca","political_violence",2019-09-01,0,0
+"2019-10","tumaco",4,"narino","political_violence",2019-10-01,0,1
+"2019-10","buenaventura",0,"valle del cauca","political_violence",2019-10-01,0,0
+"2019-10","arauca",6,"arauca","political_violence",2019-10-01,0,0
+"2019-11","tumaco",2,"narino","political_violence",2019-11-01,0,1
+"2019-11","buenaventura",1,"valle del cauca","political_violence",2019-11-01,0,0
+"2019-11","arauca",9,"arauca","political_violence",2019-11-01,0,0
+"2019-12","tumaco",2,"narino","political_violence",2019-12-01,0,1
+"2019-12","buenaventura",0,"valle del cauca","political_violence",2019-12-01,0,0
+"2019-12","arauca",4,"arauca","political_violence",2019-12-01,0,0
+"2020-01","tumaco",14,"narino","political_violence",2020-01-01,0,1
+"2020-01","buenaventura",1,"valle del cauca","political_violence",2020-01-01,0,0
+"2020-01","arauca",15,"arauca","political_violence",2020-01-01,0,0
+"2020-02","tumaco",8,"narino","political_violence",2020-02-01,0,1
+"2020-02","buenaventura",2,"valle del cauca","political_violence",2020-02-01,0,0
+"2020-02","arauca",6,"arauca","political_violence",2020-02-01,0,0
+"2020-03","tumaco",7,"narino","political_violence",2020-03-01,0,1
+"2020-03","buenaventura",2,"valle del cauca","political_violence",2020-03-01,0,0
+"2020-03","arauca",5,"arauca","political_violence",2020-03-01,0,0
+"2020-04","tumaco",8,"narino","political_violence",2020-04-01,0,1
+"2020-04","buenaventura",0,"valle del cauca","political_violence",2020-04-01,0,0
+"2020-04","arauca",5,"arauca","political_violence",2020-04-01,0,0
+"2020-05","tumaco",8,"narino","political_violence",2020-05-01,0,1
+"2020-05","buenaventura",0,"valle del cauca","political_violence",2020-05-01,0,0
+"2020-05","arauca",13,"arauca","political_violence",2020-05-01,0,0
+"2020-06","tumaco",4,"narino","political_violence",2020-06-01,0,1
+"2020-06","buenaventura",0,"valle del cauca","political_violence",2020-06-01,0,0
+"2020-06","arauca",12,"arauca","political_violence",2020-06-01,0,0
+"2020-07","tumaco",9,"narino","political_violence",2020-07-01,0,1
+"2020-07","buenaventura",1,"valle del cauca","political_violence",2020-07-01,0,0
+"2020-07","arauca",11,"arauca","political_violence",2020-07-01,0,0
+"2020-08","tumaco",9,"narino","political_violence",2020-08-01,0,1
+"2020-08","buenaventura",1,"valle del cauca","political_violence",2020-08-01,0,0
+"2020-08","arauca",12,"arauca","political_violence",2020-08-01,0,0
+"2020-09","tumaco",12,"narino","political_violence",2020-09-01,0,1
+"2020-09","buenaventura",2,"valle del cauca","political_violence",2020-09-01,0,0
+"2020-09","arauca",28,"arauca","political_violence",2020-09-01,0,0
+"2020-10","tumaco",7,"narino","political_violence",2020-10-01,0,1
+"2020-10","buenaventura",0,"valle del cauca","political_violence",2020-10-01,0,0
+"2020-10","arauca",5,"arauca","political_violence",2020-10-01,0,0
+"2020-11","tumaco",31,"narino","political_violence",2020-11-01,0,1
+"2020-11","buenaventura",1,"valle del cauca","political_violence",2020-11-01,0,0
+"2020-11","arauca",12,"arauca","political_violence",2020-11-01,0,0
+"2020-12","tumaco",6,"narino","political_violence",2020-12-01,0,1
+"2020-12","buenaventura",3,"valle del cauca","political_violence",2020-12-01,0,1
+"2020-12","arauca",14,"arauca","political_violence",2020-12-01,0,0
+"2021-01","tumaco",8,"narino","political_violence",2021-01-01,0,1
+"2021-01","buenaventura",0,"valle del cauca","political_violence",2021-01-01,0,1
+"2021-01","arauca",19,"arauca","political_violence",2021-01-01,0,0
+"2021-02","tumaco",12,"narino","political_violence",2021-02-01,0,1
+"2021-02","buenaventura",5,"valle del cauca","political_violence",2021-02-01,0,1
+"2021-02","arauca",14,"arauca","political_violence",2021-02-01,0,0
+"2021-03","tumaco",7,"narino","political_violence",2021-03-01,0,1
+"2021-03","buenaventura",0,"valle del cauca","political_violence",2021-03-01,0,1
+"2021-03","arauca",22,"arauca","political_violence",2021-03-01,0,0
+"2021-04","tumaco",22,"narino","political_violence",2021-04-01,0,1
+"2021-04","buenaventura",1,"valle del cauca","political_violence",2021-04-01,0,1
+"2021-04","arauca",9,"arauca","political_violence",2021-04-01,0,0
+"2021-05","tumaco",8,"narino","political_violence",2021-05-01,0,1
+"2021-05","buenaventura",6,"valle del cauca","political_violence",2021-05-01,0,1
+"2021-05","arauca",10,"arauca","political_violence",2021-05-01,0,0
+"2021-06","tumaco",3,"narino","political_violence",2021-06-01,0,1
+"2021-06","buenaventura",4,"valle del cauca","political_violence",2021-06-01,0,1
+"2021-06","arauca",8,"arauca","political_violence",2021-06-01,0,0
+"2021-07","tumaco",5,"narino","political_violence",2021-07-01,0,1
+"2021-07","buenaventura",4,"valle del cauca","political_violence",2021-07-01,0,1
+"2021-07","arauca",12,"arauca","political_violence",2021-07-01,0,0
+"2021-08","tumaco",5,"narino","political_violence",2021-08-01,0,1
+"2021-08","buenaventura",2,"valle del cauca","political_violence",2021-08-01,0,1
+"2021-08","arauca",10,"arauca","political_violence",2021-08-01,0,0
+"2021-09","tumaco",6,"narino","political_violence",2021-09-01,0,1
+"2021-09","buenaventura",1,"valle del cauca","political_violence",2021-09-01,0,1
+"2021-09","arauca",15,"arauca","political_violence",2021-09-01,0,0
+"2021-10","tumaco",3,"narino","political_violence",2021-10-01,0,1
+"2021-10","buenaventura",8,"valle del cauca","political_violence",2021-10-01,0,1
+"2021-10","arauca",11,"arauca","political_violence",2021-10-01,0,0
+"2021-11","tumaco",4,"narino","political_violence",2021-11-01,0,1
+"2021-11","buenaventura",6,"valle del cauca","political_violence",2021-11-01,0,1
+"2021-11","arauca",7,"arauca","political_violence",2021-11-01,0,0
+"2021-12","tumaco",3,"narino","political_violence",2021-12-01,0,1
+"2021-12","buenaventura",1,"valle del cauca","political_violence",2021-12-01,0,1
+"2021-12","arauca",5,"arauca","political_violence",2021-12-01,0,0
+"2022-01","tumaco",5,"narino","political_violence",2022-01-01,0,1
+"2022-01","buenaventura",13,"valle del cauca","political_violence",2022-01-01,0,1
+"2022-01","arauca",28,"arauca","political_violence",2022-01-01,0,1
+"2022-02","tumaco",3,"narino","political_violence",2022-02-01,0,1
+"2022-02","buenaventura",13,"valle del cauca","political_violence",2022-02-01,0,1
+"2022-02","arauca",27,"arauca","political_violence",2022-02-01,0,1
+"2022-03","tumaco",3,"narino","political_violence",2022-03-01,0,1
+"2022-03","buenaventura",9,"valle del cauca","political_violence",2022-03-01,0,1
+"2022-03","arauca",8,"arauca","political_violence",2022-03-01,0,1
+"2022-04","tumaco",3,"narino","political_violence",2022-04-01,0,1
+"2022-04","buenaventura",5,"valle del cauca","political_violence",2022-04-01,0,1
+"2022-04","arauca",7,"arauca","political_violence",2022-04-01,0,1
+"2022-05","tumaco",2,"narino","political_violence",2022-05-01,0,1
+"2022-05","buenaventura",3,"valle del cauca","political_violence",2022-05-01,0,1
+"2022-05","arauca",15,"arauca","political_violence",2022-05-01,0,1
+"2022-06","tumaco",3,"narino","political_violence",2022-06-01,0,1
+"2022-06","buenaventura",9,"valle del cauca","political_violence",2022-06-01,0,1
+"2022-06","arauca",17,"arauca","political_violence",2022-06-01,0,1
+"2022-07","tumaco",6,"narino","political_violence",2022-07-01,0,1
+"2022-07","buenaventura",5,"valle del cauca","political_violence",2022-07-01,0,1
+"2022-07","arauca",11,"arauca","political_violence",2022-07-01,0,1
+"2022-08","tumaco",1,"narino","political_violence",2022-08-01,0,1
+"2022-08","buenaventura",0,"valle del cauca","political_violence",2022-08-01,0,1
+"2022-08","arauca",22,"arauca","political_violence",2022-08-01,1,1
+"2022-09","tumaco",4,"narino","political_violence",2022-09-01,0,1
+"2022-09","buenaventura",1,"valle del cauca","political_violence",2022-09-01,1,0
+"2022-09","arauca",12,"arauca","political_violence",2022-09-01,1,1
+"2022-10","tumaco",7,"narino","political_violence",2022-10-01,0,1
+"2022-10","buenaventura",3,"valle del cauca","political_violence",2022-10-01,1,0
+"2022-10","arauca",19,"arauca","political_violence",2022-10-01,1,1
+"2022-11","tumaco",14,"narino","political_violence",2022-11-01,0,1
+"2022-11","buenaventura",5,"valle del cauca","political_violence",2022-11-01,1,0
+"2022-11","arauca",37,"arauca","political_violence",2022-11-01,1,1
+"2022-12","tumaco",8,"narino","political_violence",2022-12-01,0,1
+"2022-12","buenaventura",2,"valle del cauca","political_violence",2022-12-01,1,0
+"2022-12","arauca",16,"arauca","political_violence",2022-12-01,1,1
+"2023-01","tumaco",11,"narino","political_violence",2023-01-01,0,1
+"2023-01","buenaventura",6,"valle del cauca","political_violence",2023-01-01,1,0
+"2023-01","arauca",12,"arauca","political_violence",2023-01-01,1,1
+"2023-02","tumaco",14,"narino","political_violence",2023-02-01,0,1
+"2023-02","buenaventura",1,"valle del cauca","political_violence",2023-02-01,1,0
+"2023-02","arauca",29,"arauca","political_violence",2023-02-01,1,1
+"2023-03","tumaco",7,"narino","political_violence",2023-03-01,0,1
+"2023-03","buenaventura",1,"valle del cauca","political_violence",2023-03-01,1,0
+"2023-03","arauca",30,"arauca","political_violence",2023-03-01,1,1
+"2023-04","tumaco",4,"narino","political_violence",2023-04-01,0,1
+"2023-04","buenaventura",3,"valle del cauca","political_violence",2023-04-01,1,0
+"2023-04","arauca",15,"arauca","political_violence",2023-04-01,1,1
+"2023-05","tumaco",4,"narino","political_violence",2023-05-01,0,1
+"2023-05","buenaventura",3,"valle del cauca","political_violence",2023-05-01,1,0
+"2023-05","arauca",13,"arauca","political_violence",2023-05-01,1,1
+"2023-06","tumaco",4,"narino","political_violence",2023-06-01,0,1
+"2023-06","buenaventura",2,"valle del cauca","political_violence",2023-06-01,1,0
+"2023-06","arauca",16,"arauca","political_violence",2023-06-01,1,1
+"2023-07","tumaco",13,"narino","political_violence",2023-07-01,0,1
+"2023-07","buenaventura",2,"valle del cauca","political_violence",2023-07-01,1,0
+"2023-07","arauca",23,"arauca","political_violence",2023-07-01,1,1
+"2023-08","tumaco",10,"narino","political_violence",2023-08-01,0,1
+"2023-08","buenaventura",2,"valle del cauca","political_violence",2023-08-01,1,0
+"2023-08","arauca",29,"arauca","political_violence",2023-08-01,1,1
+"2023-09","tumaco",3,"narino","political_violence",2023-09-01,0,1
+"2023-09","buenaventura",0,"valle del cauca","political_violence",2023-09-01,1,0
+"2023-09","arauca",30,"arauca","political_violence",2023-09-01,1,1
+"2023-10","tumaco",5,"narino","political_violence",2023-10-01,0,1
+"2023-10","buenaventura",3,"valle del cauca","political_violence",2023-10-01,1,0
+"2023-10","arauca",11,"arauca","political_violence",2023-10-01,1,1
+"2023-11","tumaco",0,"narino","political_violence",2023-11-01,0,1
+"2023-11","buenaventura",5,"valle del cauca","political_violence",2023-11-01,1,0
+"2023-11","arauca",16,"arauca","political_violence",2023-11-01,1,1
+"2023-12","tumaco",2,"narino","political_violence",2023-12-01,0,1
+"2023-12","buenaventura",6,"valle del cauca","political_violence",2023-12-01,1,0
+"2023-12","arauca",18,"arauca","political_violence",2023-12-01,1,1
+"2024-01","tumaco",4,"narino","political_violence",2024-01-01,0,1
+"2024-01","buenaventura",4,"valle del cauca","political_violence",2024-01-01,1,0
+"2024-01","arauca",17,"arauca","political_violence",2024-01-01,1,1
+"2024-02","tumaco",0,"narino","political_violence",2024-02-01,0,1
+"2024-02","buenaventura",0,"valle del cauca","political_violence",2024-02-01,1,0
+"2024-02","arauca",6,"arauca","political_violence",2024-02-01,1,1
+"2024-03","tumaco",2,"narino","political_violence",2024-03-01,0,1
+"2024-03","buenaventura",0,"valle del cauca","political_violence",2024-03-01,1,0
+"2024-03","arauca",22,"arauca","political_violence",2024-03-01,1,1
+"2024-04","tumaco",5,"narino","political_violence",2024-04-01,0,1
+"2024-04","buenaventura",1,"valle del cauca","political_violence",2024-04-01,1,0
+"2024-04","arauca",27,"arauca","political_violence",2024-04-01,1,1
+"2024-05","tumaco",0,"narino","political_violence",2024-05-01,0,1
+"2024-05","buenaventura",1,"valle del cauca","political_violence",2024-05-01,1,0
+"2024-05","arauca",19,"arauca","political_violence",2024-05-01,1,1
+"2024-06","tumaco",1,"narino","political_violence",2024-06-01,1,1
+"2024-06","buenaventura",1,"valle del cauca","political_violence",2024-06-01,1,0
+"2024-06","arauca",12,"arauca","political_violence",2024-06-01,1,1
+"2024-07","tumaco",2,"narino","political_violence",2024-07-01,1,1
+"2024-07","buenaventura",1,"valle del cauca","political_violence",2024-07-01,1,0
+"2024-07","arauca",10,"arauca","political_violence",2024-07-01,1,1
+"2024-08","tumaco",2,"narino","political_violence",2024-08-01,1,1
+"2024-08","buenaventura",0,"valle del cauca","political_violence",2024-08-01,1,0
+"2024-08","arauca",26,"arauca","political_violence",2024-08-01,1,1
+"2024-09","tumaco",2,"narino","political_violence",2024-09-01,1,1
+"2024-09","buenaventura",1,"valle del cauca","political_violence",2024-09-01,1,0
+"2024-09","arauca",18,"arauca","political_violence",2024-09-01,0,1
+"2024-10","tumaco",1,"narino","political_violence",2024-10-01,1,1
+"2024-10","buenaventura",0,"valle del cauca","political_violence",2024-10-01,1,0
+"2024-10","arauca",24,"arauca","political_violence",2024-10-01,0,1
+"2024-11","tumaco",2,"narino","political_violence",2024-11-01,1,1
+"2024-11","buenaventura",1,"valle del cauca","political_violence",2024-11-01,1,0
+"2024-11","arauca",26,"arauca","political_violence",2024-11-01,0,1
+"2024-12","tumaco",1,"narino","political_violence",2024-12-01,1,1
+"2024-12","buenaventura",2,"valle del cauca","political_violence",2024-12-01,1,1
+"2024-12","arauca",15,"arauca","political_violence",2024-12-01,0,1
+"2025-01","tumaco",1,"narino","political_violence",2025-01-01,1,1
+"2025-01","buenaventura",4,"valle del cauca","political_violence",2025-01-01,1,1
+"2025-01","arauca",13,"arauca","political_violence",2025-01-01,0,1
+"2025-02","tumaco",1,"narino","political_violence",2025-02-01,1,1
+"2025-02","buenaventura",1,"valle del cauca","political_violence",2025-02-01,1,1
+"2025-02","arauca",11,"arauca","political_violence",2025-02-01,0,1
+"2025-03","tumaco",2,"narino","political_violence",2025-03-01,1,1
+"2025-03","buenaventura",1,"valle del cauca","political_violence",2025-03-01,1,1
+"2025-03","arauca",29,"arauca","political_violence",2025-03-01,0,1
+"2025-04","tumaco",1,"narino","political_violence",2025-04-01,1,1
+"2025-04","buenaventura",4,"valle del cauca","political_violence",2025-04-01,1,1
+"2025-04","arauca",19,"arauca","political_violence",2025-04-01,0,1
+"2025-05","tumaco",2,"narino","political_violence",2025-05-01,1,1
+"2025-05","buenaventura",0,"valle del cauca","political_violence",2025-05-01,1,1
+"2025-05","arauca",18,"arauca","political_violence",2025-05-01,0,1
+"2025-06","tumaco",3,"narino","political_violence",2025-06-01,1,1
+"2025-06","buenaventura",4,"valle del cauca","political_violence",2025-06-01,1,1
+"2025-06","arauca",10,"arauca","political_violence",2025-06-01,0,1
+"2025-07","tumaco",5,"narino","political_violence",2025-07-01,1,1
+"2025-07","buenaventura",2,"valle del cauca","political_violence",2025-07-01,1,1
+"2025-07","arauca",14,"arauca","political_violence",2025-07-01,0,1
+"2025-08","tumaco",3,"narino","political_violence",2025-08-01,1,1
+"2025-08","buenaventura",4,"valle del cauca","political_violence",2025-08-01,1,1
+"2025-08","arauca",23,"arauca","political_violence",2025-08-01,0,1
+"2025-09","tumaco",4,"narino","political_violence",2025-09-01,1,1
+"2025-09","buenaventura",11,"valle del cauca","political_violence",2025-09-01,1,1
+"2025-09","arauca",29,"arauca","political_violence",2025-09-01,0,1
+"2025-10","tumaco",2,"narino","political_violence",2025-10-01,1,1
+"2025-10","buenaventura",4,"valle del cauca","political_violence",2025-10-01,1,1
+"2025-10","arauca",17,"arauca","political_violence",2025-10-01,0,1
+"2025-11","tumaco",0,"narino","political_violence",2025-11-01,1,1
+"2025-11","buenaventura",2,"valle del cauca","political_violence",2025-11-01,1,1
+"2025-11","arauca",9,"arauca","political_violence",2025-11-01,0,1
+"2025-12","tumaco",0,"narino","political_violence",2025-12-01,1,1
+"2025-12","buenaventura",0,"valle del cauca","political_violence",2025-12-01,1,1
+"2025-12","arauca",7,"arauca","political_violence",2025-12-01,0,1
+"2026-01","tumaco",1,"narino","political_violence",2026-01-01,1,1
+"2026-01","buenaventura",1,"valle del cauca","political_violence",2026-01-01,0,0
+"2026-01","arauca",11,"arauca","political_violence",2026-01-01,0,1
+"2026-02","tumaco",0,"narino","political_violence",2026-02-01,1,1
+"2026-02","buenaventura",1,"valle del cauca","political_violence",2026-02-01,0,0
+"2026-02","arauca",14,"arauca","political_violence",2026-02-01,0,1
+"2026-03","tumaco",2,"narino","political_violence",2026-03-01,0,1
+"2026-03","buenaventura",2,"valle del cauca","political_violence",2026-03-01,0,0
+"2026-03","arauca",3,"arauca","political_violence",2026-03-01,0,1
+"2018-01","tumaco",12,"narino","civilian_targeting",2018-01-01,0,1
+"2018-01","buenaventura",2,"valle del cauca","civilian_targeting",2018-01-01,0,0
+"2018-01","arauca",15,"arauca","civilian_targeting",2018-01-01,0,0
+"2018-02","tumaco",11,"narino","civilian_targeting",2018-02-01,0,1
+"2018-02","buenaventura",1,"valle del cauca","civilian_targeting",2018-02-01,0,0
+"2018-02","arauca",3,"arauca","civilian_targeting",2018-02-01,0,0
+"2018-03","tumaco",7,"narino","civilian_targeting",2018-03-01,0,1
+"2018-03","buenaventura",0,"valle del cauca","civilian_targeting",2018-03-01,0,0
+"2018-03","arauca",7,"arauca","civilian_targeting",2018-03-01,0,0
+"2018-04","tumaco",11,"narino","civilian_targeting",2018-04-01,0,1
+"2018-04","buenaventura",1,"valle del cauca","civilian_targeting",2018-04-01,0,0
+"2018-04","arauca",11,"arauca","civilian_targeting",2018-04-01,0,0
+"2018-05","tumaco",10,"narino","civilian_targeting",2018-05-01,0,1
+"2018-05","buenaventura",3,"valle del cauca","civilian_targeting",2018-05-01,0,0
+"2018-05","arauca",7,"arauca","civilian_targeting",2018-05-01,0,0
+"2018-06","tumaco",15,"narino","civilian_targeting",2018-06-01,0,1
+"2018-06","buenaventura",3,"valle del cauca","civilian_targeting",2018-06-01,0,0
+"2018-06","arauca",4,"arauca","civilian_targeting",2018-06-01,0,0
+"2018-07","tumaco",14,"narino","civilian_targeting",2018-07-01,0,1
+"2018-07","buenaventura",1,"valle del cauca","civilian_targeting",2018-07-01,0,0
+"2018-07","arauca",8,"arauca","civilian_targeting",2018-07-01,0,0
+"2018-08","tumaco",8,"narino","civilian_targeting",2018-08-01,0,1
+"2018-08","buenaventura",0,"valle del cauca","civilian_targeting",2018-08-01,0,0
+"2018-08","arauca",11,"arauca","civilian_targeting",2018-08-01,0,0
+"2018-09","tumaco",8,"narino","civilian_targeting",2018-09-01,0,1
+"2018-09","buenaventura",1,"valle del cauca","civilian_targeting",2018-09-01,0,0
+"2018-09","arauca",4,"arauca","civilian_targeting",2018-09-01,0,0
+"2018-10","tumaco",9,"narino","civilian_targeting",2018-10-01,0,1
+"2018-10","buenaventura",0,"valle del cauca","civilian_targeting",2018-10-01,0,0
+"2018-10","arauca",11,"arauca","civilian_targeting",2018-10-01,0,0
+"2018-11","tumaco",14,"narino","civilian_targeting",2018-11-01,0,1
+"2018-11","buenaventura",0,"valle del cauca","civilian_targeting",2018-11-01,0,0
+"2018-11","arauca",7,"arauca","civilian_targeting",2018-11-01,0,0
+"2018-12","tumaco",8,"narino","civilian_targeting",2018-12-01,0,1
+"2018-12","buenaventura",1,"valle del cauca","civilian_targeting",2018-12-01,0,0
+"2018-12","arauca",8,"arauca","civilian_targeting",2018-12-01,0,0
+"2019-01","tumaco",10,"narino","civilian_targeting",2019-01-01,0,1
+"2019-01","buenaventura",0,"valle del cauca","civilian_targeting",2019-01-01,0,0
+"2019-01","arauca",8,"arauca","civilian_targeting",2019-01-01,0,0
+"2019-02","tumaco",3,"narino","civilian_targeting",2019-02-01,0,1
+"2019-02","buenaventura",0,"valle del cauca","civilian_targeting",2019-02-01,0,0
+"2019-02","arauca",14,"arauca","civilian_targeting",2019-02-01,0,0
+"2019-03","tumaco",12,"narino","civilian_targeting",2019-03-01,0,1
+"2019-03","buenaventura",0,"valle del cauca","civilian_targeting",2019-03-01,0,0
+"2019-03","arauca",16,"arauca","civilian_targeting",2019-03-01,0,0
+"2019-04","tumaco",1,"narino","civilian_targeting",2019-04-01,0,1
+"2019-04","buenaventura",0,"valle del cauca","civilian_targeting",2019-04-01,0,0
+"2019-04","arauca",7,"arauca","civilian_targeting",2019-04-01,0,0
+"2019-05","tumaco",2,"narino","civilian_targeting",2019-05-01,0,1
+"2019-05","buenaventura",0,"valle del cauca","civilian_targeting",2019-05-01,0,0
+"2019-05","arauca",17,"arauca","civilian_targeting",2019-05-01,0,0
+"2019-06","tumaco",6,"narino","civilian_targeting",2019-06-01,0,1
+"2019-06","buenaventura",2,"valle del cauca","civilian_targeting",2019-06-01,0,0
+"2019-06","arauca",10,"arauca","civilian_targeting",2019-06-01,0,0
+"2019-07","tumaco",1,"narino","civilian_targeting",2019-07-01,0,1
+"2019-07","buenaventura",1,"valle del cauca","civilian_targeting",2019-07-01,0,0
+"2019-07","arauca",10,"arauca","civilian_targeting",2019-07-01,0,0
+"2019-08","tumaco",1,"narino","civilian_targeting",2019-08-01,0,1
+"2019-08","buenaventura",0,"valle del cauca","civilian_targeting",2019-08-01,0,0
+"2019-08","arauca",7,"arauca","civilian_targeting",2019-08-01,0,0
+"2019-09","tumaco",1,"narino","civilian_targeting",2019-09-01,0,1
+"2019-09","buenaventura",0,"valle del cauca","civilian_targeting",2019-09-01,0,0
+"2019-09","arauca",5,"arauca","civilian_targeting",2019-09-01,0,0
+"2019-10","tumaco",3,"narino","civilian_targeting",2019-10-01,0,1
+"2019-10","buenaventura",0,"valle del cauca","civilian_targeting",2019-10-01,0,0
+"2019-10","arauca",2,"arauca","civilian_targeting",2019-10-01,0,0
+"2019-11","tumaco",0,"narino","civilian_targeting",2019-11-01,0,1
+"2019-11","buenaventura",1,"valle del cauca","civilian_targeting",2019-11-01,0,0
+"2019-11","arauca",2,"arauca","civilian_targeting",2019-11-01,0,0
+"2019-12","tumaco",1,"narino","civilian_targeting",2019-12-01,0,1
+"2019-12","buenaventura",0,"valle del cauca","civilian_targeting",2019-12-01,0,0
+"2019-12","arauca",3,"arauca","civilian_targeting",2019-12-01,0,0
+"2020-01","tumaco",4,"narino","civilian_targeting",2020-01-01,0,1
+"2020-01","buenaventura",0,"valle del cauca","civilian_targeting",2020-01-01,0,0
+"2020-01","arauca",4,"arauca","civilian_targeting",2020-01-01,0,0
+"2020-02","tumaco",3,"narino","civilian_targeting",2020-02-01,0,1
+"2020-02","buenaventura",2,"valle del cauca","civilian_targeting",2020-02-01,0,0
+"2020-02","arauca",1,"arauca","civilian_targeting",2020-02-01,0,0
+"2020-03","tumaco",1,"narino","civilian_targeting",2020-03-01,0,1
+"2020-03","buenaventura",1,"valle del cauca","civilian_targeting",2020-03-01,0,0
+"2020-03","arauca",5,"arauca","civilian_targeting",2020-03-01,0,0
+"2020-04","tumaco",8,"narino","civilian_targeting",2020-04-01,0,1
+"2020-04","buenaventura",0,"valle del cauca","civilian_targeting",2020-04-01,0,0
+"2020-04","arauca",4,"arauca","civilian_targeting",2020-04-01,0,0
+"2020-05","tumaco",4,"narino","civilian_targeting",2020-05-01,0,1
+"2020-05","buenaventura",0,"valle del cauca","civilian_targeting",2020-05-01,0,0
+"2020-05","arauca",4,"arauca","civilian_targeting",2020-05-01,0,0
+"2020-06","tumaco",0,"narino","civilian_targeting",2020-06-01,0,1
+"2020-06","buenaventura",0,"valle del cauca","civilian_targeting",2020-06-01,0,0
+"2020-06","arauca",2,"arauca","civilian_targeting",2020-06-01,0,0
+"2020-07","tumaco",6,"narino","civilian_targeting",2020-07-01,0,1
+"2020-07","buenaventura",0,"valle del cauca","civilian_targeting",2020-07-01,0,0
+"2020-07","arauca",4,"arauca","civilian_targeting",2020-07-01,0,0
+"2020-08","tumaco",6,"narino","civilian_targeting",2020-08-01,0,1
+"2020-08","buenaventura",0,"valle del cauca","civilian_targeting",2020-08-01,0,0
+"2020-08","arauca",7,"arauca","civilian_targeting",2020-08-01,0,0
+"2020-09","tumaco",8,"narino","civilian_targeting",2020-09-01,0,1
+"2020-09","buenaventura",2,"valle del cauca","civilian_targeting",2020-09-01,0,0
+"2020-09","arauca",7,"arauca","civilian_targeting",2020-09-01,0,0
+"2020-10","tumaco",5,"narino","civilian_targeting",2020-10-01,0,1
+"2020-10","buenaventura",0,"valle del cauca","civilian_targeting",2020-10-01,0,0
+"2020-10","arauca",2,"arauca","civilian_targeting",2020-10-01,0,0
+"2020-11","tumaco",23,"narino","civilian_targeting",2020-11-01,0,1
+"2020-11","buenaventura",1,"valle del cauca","civilian_targeting",2020-11-01,0,0
+"2020-11","arauca",9,"arauca","civilian_targeting",2020-11-01,0,0
+"2020-12","tumaco",4,"narino","civilian_targeting",2020-12-01,0,1
+"2020-12","buenaventura",2,"valle del cauca","civilian_targeting",2020-12-01,0,1
+"2020-12","arauca",6,"arauca","civilian_targeting",2020-12-01,0,0
+"2021-01","tumaco",6,"narino","civilian_targeting",2021-01-01,0,1
+"2021-01","buenaventura",0,"valle del cauca","civilian_targeting",2021-01-01,0,1
+"2021-01","arauca",6,"arauca","civilian_targeting",2021-01-01,0,0
+"2021-02","tumaco",8,"narino","civilian_targeting",2021-02-01,0,1
+"2021-02","buenaventura",4,"valle del cauca","civilian_targeting",2021-02-01,0,1
+"2021-02","arauca",5,"arauca","civilian_targeting",2021-02-01,0,0
+"2021-03","tumaco",4,"narino","civilian_targeting",2021-03-01,0,1
+"2021-03","buenaventura",0,"valle del cauca","civilian_targeting",2021-03-01,0,1
+"2021-03","arauca",14,"arauca","civilian_targeting",2021-03-01,0,0
+"2021-04","tumaco",14,"narino","civilian_targeting",2021-04-01,0,1
+"2021-04","buenaventura",1,"valle del cauca","civilian_targeting",2021-04-01,0,1
+"2021-04","arauca",5,"arauca","civilian_targeting",2021-04-01,0,0
+"2021-05","tumaco",1,"narino","civilian_targeting",2021-05-01,0,1
+"2021-05","buenaventura",6,"valle del cauca","civilian_targeting",2021-05-01,0,1
+"2021-05","arauca",7,"arauca","civilian_targeting",2021-05-01,0,0
+"2021-06","tumaco",2,"narino","civilian_targeting",2021-06-01,0,1
+"2021-06","buenaventura",2,"valle del cauca","civilian_targeting",2021-06-01,0,1
+"2021-06","arauca",3,"arauca","civilian_targeting",2021-06-01,0,0
+"2021-07","tumaco",4,"narino","civilian_targeting",2021-07-01,0,1
+"2021-07","buenaventura",4,"valle del cauca","civilian_targeting",2021-07-01,0,1
+"2021-07","arauca",7,"arauca","civilian_targeting",2021-07-01,0,0
+"2021-08","tumaco",0,"narino","civilian_targeting",2021-08-01,0,1
+"2021-08","buenaventura",1,"valle del cauca","civilian_targeting",2021-08-01,0,1
+"2021-08","arauca",2,"arauca","civilian_targeting",2021-08-01,0,0
+"2021-09","tumaco",6,"narino","civilian_targeting",2021-09-01,0,1
+"2021-09","buenaventura",1,"valle del cauca","civilian_targeting",2021-09-01,0,1
+"2021-09","arauca",6,"arauca","civilian_targeting",2021-09-01,0,0
+"2021-10","tumaco",2,"narino","civilian_targeting",2021-10-01,0,1
+"2021-10","buenaventura",3,"valle del cauca","civilian_targeting",2021-10-01,0,1
+"2021-10","arauca",6,"arauca","civilian_targeting",2021-10-01,0,0
+"2021-11","tumaco",3,"narino","civilian_targeting",2021-11-01,0,1
+"2021-11","buenaventura",4,"valle del cauca","civilian_targeting",2021-11-01,0,1
+"2021-11","arauca",7,"arauca","civilian_targeting",2021-11-01,0,0
+"2021-12","tumaco",2,"narino","civilian_targeting",2021-12-01,0,1
+"2021-12","buenaventura",0,"valle del cauca","civilian_targeting",2021-12-01,0,1
+"2021-12","arauca",3,"arauca","civilian_targeting",2021-12-01,0,0
+"2022-01","tumaco",3,"narino","civilian_targeting",2022-01-01,0,1
+"2022-01","buenaventura",9,"valle del cauca","civilian_targeting",2022-01-01,0,1
+"2022-01","arauca",19,"arauca","civilian_targeting",2022-01-01,0,1
+"2022-02","tumaco",3,"narino","civilian_targeting",2022-02-01,0,1
+"2022-02","buenaventura",11,"valle del cauca","civilian_targeting",2022-02-01,0,1
+"2022-02","arauca",20,"arauca","civilian_targeting",2022-02-01,0,1
+"2022-03","tumaco",0,"narino","civilian_targeting",2022-03-01,0,1
+"2022-03","buenaventura",8,"valle del cauca","civilian_targeting",2022-03-01,0,1
+"2022-03","arauca",5,"arauca","civilian_targeting",2022-03-01,0,1
+"2022-04","tumaco",1,"narino","civilian_targeting",2022-04-01,0,1
+"2022-04","buenaventura",3,"valle del cauca","civilian_targeting",2022-04-01,0,1
+"2022-04","arauca",5,"arauca","civilian_targeting",2022-04-01,0,1
+"2022-05","tumaco",1,"narino","civilian_targeting",2022-05-01,0,1
+"2022-05","buenaventura",1,"valle del cauca","civilian_targeting",2022-05-01,0,1
+"2022-05","arauca",12,"arauca","civilian_targeting",2022-05-01,0,1
+"2022-06","tumaco",1,"narino","civilian_targeting",2022-06-01,0,1
+"2022-06","buenaventura",7,"valle del cauca","civilian_targeting",2022-06-01,0,1
+"2022-06","arauca",13,"arauca","civilian_targeting",2022-06-01,0,1
+"2022-07","tumaco",6,"narino","civilian_targeting",2022-07-01,0,1
+"2022-07","buenaventura",3,"valle del cauca","civilian_targeting",2022-07-01,0,1
+"2022-07","arauca",6,"arauca","civilian_targeting",2022-07-01,0,1
+"2022-08","tumaco",0,"narino","civilian_targeting",2022-08-01,0,1
+"2022-08","buenaventura",0,"valle del cauca","civilian_targeting",2022-08-01,0,1
+"2022-08","arauca",21,"arauca","civilian_targeting",2022-08-01,1,1
+"2022-09","tumaco",4,"narino","civilian_targeting",2022-09-01,0,1
+"2022-09","buenaventura",0,"valle del cauca","civilian_targeting",2022-09-01,1,0
+"2022-09","arauca",9,"arauca","civilian_targeting",2022-09-01,1,1
+"2022-10","tumaco",3,"narino","civilian_targeting",2022-10-01,0,1
+"2022-10","buenaventura",1,"valle del cauca","civilian_targeting",2022-10-01,1,0
+"2022-10","arauca",8,"arauca","civilian_targeting",2022-10-01,1,1
+"2022-11","tumaco",8,"narino","civilian_targeting",2022-11-01,0,1
+"2022-11","buenaventura",2,"valle del cauca","civilian_targeting",2022-11-01,1,0
+"2022-11","arauca",29,"arauca","civilian_targeting",2022-11-01,1,1
+"2022-12","tumaco",5,"narino","civilian_targeting",2022-12-01,0,1
+"2022-12","buenaventura",1,"valle del cauca","civilian_targeting",2022-12-01,1,0
+"2022-12","arauca",13,"arauca","civilian_targeting",2022-12-01,1,1
+"2023-01","tumaco",8,"narino","civilian_targeting",2023-01-01,0,1
+"2023-01","buenaventura",0,"valle del cauca","civilian_targeting",2023-01-01,1,0
+"2023-01","arauca",10,"arauca","civilian_targeting",2023-01-01,1,1
+"2023-02","tumaco",10,"narino","civilian_targeting",2023-02-01,0,1
+"2023-02","buenaventura",0,"valle del cauca","civilian_targeting",2023-02-01,1,0
+"2023-02","arauca",20,"arauca","civilian_targeting",2023-02-01,1,1
+"2023-03","tumaco",7,"narino","civilian_targeting",2023-03-01,0,1
+"2023-03","buenaventura",1,"valle del cauca","civilian_targeting",2023-03-01,1,0
+"2023-03","arauca",11,"arauca","civilian_targeting",2023-03-01,1,1
+"2023-04","tumaco",1,"narino","civilian_targeting",2023-04-01,0,1
+"2023-04","buenaventura",0,"valle del cauca","civilian_targeting",2023-04-01,1,0
+"2023-04","arauca",8,"arauca","civilian_targeting",2023-04-01,1,1
+"2023-05","tumaco",3,"narino","civilian_targeting",2023-05-01,0,1
+"2023-05","buenaventura",2,"valle del cauca","civilian_targeting",2023-05-01,1,0
+"2023-05","arauca",12,"arauca","civilian_targeting",2023-05-01,1,1
+"2023-06","tumaco",1,"narino","civilian_targeting",2023-06-01,0,1
+"2023-06","buenaventura",2,"valle del cauca","civilian_targeting",2023-06-01,1,0
+"2023-06","arauca",11,"arauca","civilian_targeting",2023-06-01,1,1
+"2023-07","tumaco",6,"narino","civilian_targeting",2023-07-01,0,1
+"2023-07","buenaventura",1,"valle del cauca","civilian_targeting",2023-07-01,1,0
+"2023-07","arauca",13,"arauca","civilian_targeting",2023-07-01,1,1
+"2023-08","tumaco",5,"narino","civilian_targeting",2023-08-01,0,1
+"2023-08","buenaventura",1,"valle del cauca","civilian_targeting",2023-08-01,1,0
+"2023-08","arauca",11,"arauca","civilian_targeting",2023-08-01,1,1
+"2023-09","tumaco",3,"narino","civilian_targeting",2023-09-01,0,1
+"2023-09","buenaventura",0,"valle del cauca","civilian_targeting",2023-09-01,1,0
+"2023-09","arauca",9,"arauca","civilian_targeting",2023-09-01,1,1
+"2023-10","tumaco",5,"narino","civilian_targeting",2023-10-01,0,1
+"2023-10","buenaventura",2,"valle del cauca","civilian_targeting",2023-10-01,1,0
+"2023-10","arauca",10,"arauca","civilian_targeting",2023-10-01,1,1
+"2023-11","tumaco",0,"narino","civilian_targeting",2023-11-01,0,1
+"2023-11","buenaventura",2,"valle del cauca","civilian_targeting",2023-11-01,1,0
+"2023-11","arauca",15,"arauca","civilian_targeting",2023-11-01,1,1
+"2023-12","tumaco",1,"narino","civilian_targeting",2023-12-01,0,1
+"2023-12","buenaventura",0,"valle del cauca","civilian_targeting",2023-12-01,1,0
+"2023-12","arauca",17,"arauca","civilian_targeting",2023-12-01,1,1
+"2024-01","tumaco",3,"narino","civilian_targeting",2024-01-01,0,1
+"2024-01","buenaventura",2,"valle del cauca","civilian_targeting",2024-01-01,1,0
+"2024-01","arauca",16,"arauca","civilian_targeting",2024-01-01,1,1
+"2024-02","tumaco",0,"narino","civilian_targeting",2024-02-01,0,1
+"2024-02","buenaventura",0,"valle del cauca","civilian_targeting",2024-02-01,1,0
+"2024-02","arauca",6,"arauca","civilian_targeting",2024-02-01,1,1
+"2024-03","tumaco",2,"narino","civilian_targeting",2024-03-01,0,1
+"2024-03","buenaventura",0,"valle del cauca","civilian_targeting",2024-03-01,1,0
+"2024-03","arauca",21,"arauca","civilian_targeting",2024-03-01,1,1
+"2024-04","tumaco",1,"narino","civilian_targeting",2024-04-01,0,1
+"2024-04","buenaventura",1,"valle del cauca","civilian_targeting",2024-04-01,1,0
+"2024-04","arauca",26,"arauca","civilian_targeting",2024-04-01,1,1
+"2024-05","tumaco",0,"narino","civilian_targeting",2024-05-01,0,1
+"2024-05","buenaventura",1,"valle del cauca","civilian_targeting",2024-05-01,1,0
+"2024-05","arauca",18,"arauca","civilian_targeting",2024-05-01,1,1
+"2024-06","tumaco",0,"narino","civilian_targeting",2024-06-01,1,1
+"2024-06","buenaventura",0,"valle del cauca","civilian_targeting",2024-06-01,1,0
+"2024-06","arauca",12,"arauca","civilian_targeting",2024-06-01,1,1
+"2024-07","tumaco",2,"narino","civilian_targeting",2024-07-01,1,1
+"2024-07","buenaventura",0,"valle del cauca","civilian_targeting",2024-07-01,1,0
+"2024-07","arauca",9,"arauca","civilian_targeting",2024-07-01,1,1
+"2024-08","tumaco",2,"narino","civilian_targeting",2024-08-01,1,1
+"2024-08","buenaventura",0,"valle del cauca","civilian_targeting",2024-08-01,1,0
+"2024-08","arauca",16,"arauca","civilian_targeting",2024-08-01,1,1
+"2024-09","tumaco",1,"narino","civilian_targeting",2024-09-01,1,1
+"2024-09","buenaventura",0,"valle del cauca","civilian_targeting",2024-09-01,1,0
+"2024-09","arauca",9,"arauca","civilian_targeting",2024-09-01,0,1
+"2024-10","tumaco",1,"narino","civilian_targeting",2024-10-01,1,1
+"2024-10","buenaventura",0,"valle del cauca","civilian_targeting",2024-10-01,1,0
+"2024-10","arauca",19,"arauca","civilian_targeting",2024-10-01,0,1
+"2024-11","tumaco",2,"narino","civilian_targeting",2024-11-01,1,1
+"2024-11","buenaventura",0,"valle del cauca","civilian_targeting",2024-11-01,1,0
+"2024-11","arauca",19,"arauca","civilian_targeting",2024-11-01,0,1
+"2024-12","tumaco",0,"narino","civilian_targeting",2024-12-01,1,1
+"2024-12","buenaventura",2,"valle del cauca","civilian_targeting",2024-12-01,1,1
+"2024-12","arauca",12,"arauca","civilian_targeting",2024-12-01,0,1
+"2025-01","tumaco",1,"narino","civilian_targeting",2025-01-01,1,1
+"2025-01","buenaventura",0,"valle del cauca","civilian_targeting",2025-01-01,1,1
+"2025-01","arauca",6,"arauca","civilian_targeting",2025-01-01,0,1
+"2025-02","tumaco",1,"narino","civilian_targeting",2025-02-01,1,1
+"2025-02","buenaventura",1,"valle del cauca","civilian_targeting",2025-02-01,1,1
+"2025-02","arauca",4,"arauca","civilian_targeting",2025-02-01,0,1
+"2025-03","tumaco",2,"narino","civilian_targeting",2025-03-01,1,1
+"2025-03","buenaventura",0,"valle del cauca","civilian_targeting",2025-03-01,1,1
+"2025-03","arauca",14,"arauca","civilian_targeting",2025-03-01,0,1
+"2025-04","tumaco",0,"narino","civilian_targeting",2025-04-01,1,1
+"2025-04","buenaventura",3,"valle del cauca","civilian_targeting",2025-04-01,1,1
+"2025-04","arauca",9,"arauca","civilian_targeting",2025-04-01,0,1
+"2025-05","tumaco",2,"narino","civilian_targeting",2025-05-01,1,1
+"2025-05","buenaventura",0,"valle del cauca","civilian_targeting",2025-05-01,1,1
+"2025-05","arauca",7,"arauca","civilian_targeting",2025-05-01,0,1
+"2025-06","tumaco",2,"narino","civilian_targeting",2025-06-01,1,1
+"2025-06","buenaventura",2,"valle del cauca","civilian_targeting",2025-06-01,1,1
+"2025-06","arauca",3,"arauca","civilian_targeting",2025-06-01,0,1
+"2025-07","tumaco",3,"narino","civilian_targeting",2025-07-01,1,1
+"2025-07","buenaventura",1,"valle del cauca","civilian_targeting",2025-07-01,1,1
+"2025-07","arauca",7,"arauca","civilian_targeting",2025-07-01,0,1
+"2025-08","tumaco",1,"narino","civilian_targeting",2025-08-01,1,1
+"2025-08","buenaventura",1,"valle del cauca","civilian_targeting",2025-08-01,1,1
+"2025-08","arauca",12,"arauca","civilian_targeting",2025-08-01,0,1
+"2025-09","tumaco",3,"narino","civilian_targeting",2025-09-01,1,1
+"2025-09","buenaventura",9,"valle del cauca","civilian_targeting",2025-09-01,1,1
+"2025-09","arauca",20,"arauca","civilian_targeting",2025-09-01,0,1
+"2025-10","tumaco",0,"narino","civilian_targeting",2025-10-01,1,1
+"2025-10","buenaventura",1,"valle del cauca","civilian_targeting",2025-10-01,1,1
+"2025-10","arauca",14,"arauca","civilian_targeting",2025-10-01,0,1
+"2025-11","tumaco",0,"narino","civilian_targeting",2025-11-01,1,1
+"2025-11","buenaventura",1,"valle del cauca","civilian_targeting",2025-11-01,1,1
+"2025-11","arauca",4,"arauca","civilian_targeting",2025-11-01,0,1
+"2025-12","tumaco",0,"narino","civilian_targeting",2025-12-01,1,1
+"2025-12","buenaventura",0,"valle del cauca","civilian_targeting",2025-12-01,1,1
+"2025-12","arauca",5,"arauca","civilian_targeting",2025-12-01,0,1
+"2026-01","tumaco",0,"narino","civilian_targeting",2026-01-01,1,1
+"2026-01","buenaventura",1,"valle del cauca","civilian_targeting",2026-01-01,0,0
+"2026-01","arauca",5,"arauca","civilian_targeting",2026-01-01,0,1
+"2026-02","tumaco",0,"narino","civilian_targeting",2026-02-01,1,1
+"2026-02","buenaventura",1,"valle del cauca","civilian_targeting",2026-02-01,0,0
+"2026-02","arauca",5,"arauca","civilian_targeting",2026-02-01,0,1
+"2026-03","tumaco",2,"narino","civilian_targeting",2026-03-01,0,1
+"2026-03","buenaventura",0,"valle del cauca","civilian_targeting",2026-03-01,0,0
+"2026-03","arauca",2,"arauca","civilian_targeting",2026-03-01,0,1

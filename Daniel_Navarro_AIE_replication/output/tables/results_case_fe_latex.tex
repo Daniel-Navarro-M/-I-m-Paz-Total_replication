@@ -1,0 +1,27 @@
+
+\begin{table}
+\caption{Case fixed effects: effect of peace talks on aggregate monthly event counts}
+\begin{center}
+\begin{tabular}{l c c c}
+\toprule
+ & \makecell{(1) Case FE\\treat. only} & \makecell{(2) + active\\dispute} & \makecell{(3) + treat.$\times$\\dispute} \\
+\midrule
+Peace talks active           & $-1.92$  & $-5.04^{**}$  & $1.28$        \\
+                             & $(2.21)$ & $(2.22)$      & $(4.39)$      \\
+Active armed-group dispute   &          & $12.03^{***}$ & $13.69^{***}$ \\
+                             &          & $(2.39)$      & $(2.58)$      \\
+Peace talks × active dispute &          &               & $-8.50^{*}$   \\
+                             &          &               & $(5.11)$      \\
+\midrule
+Num. obs.                    & $297$    & $297$         & $297$         \\
+Num. groups: case id        & $3$      & $3$           & $3$           \\
+R$^2$ (full model)           & $0.49$   & $0.53$        & $0.53$        \\
+R$^2$ (proj model)           & $0.00$   & $0.08$        & $0.09$        \\
+Adj. R$^2$ (full model)      & $0.48$   & $0.52$        & $0.52$        \\
+Adj. R$^2$ (proj model)      & $-0.00$  & $0.08$        & $0.08$        \\
+\bottomrule
+\multicolumn{4}{l}{\scriptsize{\parbox{\linewidth}{Standard errors in parentheses.\\[0.35em] All columns include territorial-case fixed effects.\\[0.35em] \textbf{Col.~(3):} Adds peace talks $\times$ active armed-group dispute.}}}
+\end{tabular}
+\label{tab:results_case_fe}
+\end{center}
+\end{table}

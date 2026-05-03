@@ -1,0 +1,23 @@
+\begin{table}[ht]
+\centering
+\caption{Variable dictionary for the aggregate panel.}
+\label{tab:variable_dictionary}
+\begin{tabular}{l c}
+\hline
+column name & description \\
+\hline
+case\_id & Study case identifier: buenaventura, arauca, tumaco. \\
+case\_label & Human-readable study case label. \\
+spatial\_definition & Territorial scope of each study case. \\
+month\_id & Calendar month in YYYY-MM format. \\
+month\_start & First day of the month for plotting. \\
+total\_events & Aggregate monthly count of all included observations across the merged Excel sources. \\
+treatment & Peace talks active in that case-month (1=yes, 0=no). \\
+clash\_dummy & Dummy equal to 1 in months with active armed-group dispute or clashes in the territorial case. \\
+gold\_price & Monthly gold price matched by month from gold.xlsx. \\
+oil\_price & Monthly oil price matched by month from oil.xlsx. \\
+cocaine\_price & Monthly cocaine price interpolated from yearly values. \\
+month\_index & Sequential month index used for panel ordering. \\
+\hline
+\end{tabular}
+\end{table}

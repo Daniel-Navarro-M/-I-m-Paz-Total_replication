@@ -1,0 +1,26 @@
+
+\begin{table}
+\caption{Pooled OLS: effect of peace talks on aggregate monthly event counts}
+\begin{center}
+\begin{tabular}{l c c c}
+\toprule
+ & \makecell{(1) Pooled\\treat. only} & \makecell{(2) + active\\dispute} & \makecell{(3) + treat.$\times$\\dispute} \\
+\midrule
+Constant                     & $31.53^{***}$ & $33.12^{***}$ & $34.51^{***}$ \\
+                             & $(1.52)$      & $(2.19)$      & $(2.30)$      \\
+Peace talks active           & $-1.84$       & $-1.24$       & $-11.01^{*}$  \\
+                             & $(3.07)$      & $(3.12)$      & $(6.12)$      \\
+Active armed-group dispute   &               & $-2.81$       & $-5.25^{*}$   \\
+                             &               & $(2.77)$      & $(3.06)$      \\
+Peace talks × active dispute &               &               & $13.17^{*}$   \\
+                             &               &               & $(7.10)$      \\
+\midrule
+R$^2$                        & $0.00$        & $0.00$        & $0.02$        \\
+Adj. R$^2$                   & $-0.00$       & $-0.00$       & $0.01$        \\
+Num. obs.                    & $297$         & $297$         & $297$         \\
+\bottomrule
+\multicolumn{4}{l}{\scriptsize{\parbox{\linewidth}{Standard errors in parentheses.\\[0.35em] \textbf{Col.~(3):} Peace talks, active armed-group dispute, and treat.$\times$dispute.}}}
+\end{tabular}
+\label{tab:results_pooled_ols}
+\end{center}
+\end{table}

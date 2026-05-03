@@ -1,0 +1,36 @@
+
+\begin{table}
+\caption{Two-way fixed effects: effect of peace talks on aggregate monthly event counts}
+\begin{center}
+\begin{tabular}{l c c c c}
+\toprule
+ & \makecell{(1) TWFE\\treat. only} & \makecell{(2) + active\\dispute} & \makecell{(3) + treat.$\times$\\dispute} & \makecell{(4) By case\\+ interact.} \\
+\midrule
+Peace talks active                   & $4.30$   & $2.91$        & $10.61^{**}$  &               \\
+                                     & $(3.10)$ & $(2.83)$      & $(5.28)$      &               \\
+Active armed-group dispute           &          & $16.70^{***}$ & $18.78^{***}$ & $22.15^{***}$ \\
+                                     &          & $(2.63)$      & $(2.88)$      & $(3.57)$      \\
+Peace talks × active dispute         &          &               & $-9.20^{*}$   &               \\
+                                     &          &               & $(5.33)$      &               \\
+Peace talks (Buenaventura)           &          &               &               & $11.80^{**}$  \\
+                                     &          &               &               & $(5.31)$      \\
+Peace talks (Arauca)                 &          &               &               & $-6.03$       \\
+                                     &          &               &               & $(5.07)$      \\
+Peace talks (Tumaco)                 &          &               &               & $7.73$        \\
+                                     &          &               &               & $(5.02)$      \\
+Peace talks × dispute (Buenaventura) &          &               &               & $-5.28$       \\
+                                     &          &               &               & $(7.06)$      \\
+\midrule
+Num. obs.                            & $297$    & $297$         & $297$         & $297$         \\
+Num. groups: case id                & $3$      & $3$           & $3$           & $3$           \\
+Num. groups: month id               & $99$     & $99$          & $99$          & $99$          \\
+R$^2$ (full model)                   & $0.69$   & $0.75$        & $0.75$        & $0.76$        \\
+R$^2$ (proj model)                   & $0.01$   & $0.18$        & $0.19$        & $0.21$        \\
+Adj. R$^2$ (full model)              & $0.54$   & $0.61$        & $0.62$        & $0.62$        \\
+Adj. R$^2$ (proj model)              & $0.00$   & $0.17$        & $0.18$        & $0.19$        \\
+\bottomrule
+\multicolumn{5}{l}{\scriptsize{\parbox{\linewidth}{Standard errors in parentheses.\\[0.35em] \textbf{Cols.~(1)--(3):} Territorial-case and month fixed effects.\\[0.35em] \textbf{Col.~(4):} Case-specific peace talks and treat.$\times$dispute.\\[0.35em] Arauca/Tumaco interaction terms omitted when collinear; only Buenaventura treat.$\times$dispute reported among interactions.}}}
+\end{tabular}
+\label{tab:results_twfe}
+\end{center}
+\end{table}

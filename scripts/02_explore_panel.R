@@ -38,6 +38,11 @@ panel_long <- bind_rows(
 ) |>
   mutate(case_id = factor(case_id, levels = c("All", "arauca", "buenaventura", "tumaco")))
 
+hist(panel_long$count)
+
+mean(panel_long$count)
+var(panel_long$count)
+
 ## Setting colors ----
 component_labels <- c(
   political_violence = "Political violence",

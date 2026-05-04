@@ -229,7 +229,6 @@ library(lmtest)
 
 # robusness checks for the appendix. One using poisson fixed effects and a coeftest
 coeftest(m1_2, vcov. = vcovHC(m1_2, type = "HC1"))
-fepois(count ~ treatment_dummy * clash_dummy, data = panel)
 
 screenreg(
   list(m1, m1_1, m1_2),
@@ -400,6 +399,40 @@ plot_broom_models(
   title       = "TWFE coefficients"
 )
 
+library(fixest)
+
+# Robustness Check (YESSS) ----
+
+m_ols   <- feols(count ~ treatment_dummy + clash_dummy + treatment_dummy * clash_dummy | case_id + month_id, 
+                 data = panel)
+m_pois  <- fepois(count ~ treatment_dummy + clash_dummy + treatment_dummy * clash_dummy | case_id + month_id, 
+                  data = panel)
+m_nb    <- fenegbin(count ~ treatment_dummy + clash_dummy + treatment_dummy * clash_dummy | case_id + month_id, 
+                    data = panel)
+
+etable(m_ols, m_pois, m_nb,
+       headers = c("OLS (TWFE)", "Poisson", "Negative Binomial"),
+       tex = FALSE)
+
+robustness_twfe_latex <- etable(
+  m_ols, m_pois, m_nb,
+  headers = c("OLS (TWFE)", "Poisson", "Negative Binomial"),
+  title   = "Robustness check: alternative count-data specifications",
+  label   = "tab:robustness_twfe",
+  notes   = "Standard errors in parentheses. All models include case and month fixed effects.",
+  tex     = TRUE
+)
+
+writeLines(clean_tex_table_text(robustness_twfe_latex),
+           "output/tables/Robustness_Check_twfe.tex")
+
+plot_broom_models(
+  models      = list(m_ols, m_pois, m_nb),
+  model_names = c("OLS (TWFE)", "Poisson", "Negative Binomial"),
+  coef_map    = coef_map_main,
+  plot_path   = "output/figures/coefplot_robustness_twfe.png",
+  title       = "Robustness: TWFE coefficients across model specifications"
+)
 
 # 3. Violence-specific outcome models ----
 

@@ -1,0 +1,36 @@
+\begin{table}[htbp]
+   \caption{\label{tab:robustness_twfe} Robustness check: alternative count-data specifications}
+   \centering
+   \begin{tabular}{lccc}
+      \tabularnewline \midrule \midrule
+      Dependent Variable: & \multicolumn{3}{c}{count}\\
+                                                & OLS (TWFE)     & Poisson         & Negative Binomial \\   
+      Model:                                    & (1)            & (2)             & (3)\\  
+                                                &  OLS           & Poisson         & Neg. Bin.\\  
+      \midrule
+      \emph{Variables}\\
+      treatment\_dummy                          & 3.207$^{***}$  & 0.6346$^{***}$  & 0.6642$^{***}$\\   
+                                                & (1.071)        & (0.0839)        & (0.1593)\\   
+      clash\_dummy                              & 5.275$^{***}$  & 0.8987$^{***}$  & 0.9643$^{***}$\\   
+                                                & (0.6753)       & (0.0475)        & (0.0985)\\   
+      treatment\_dummy $\times$ clash\_dummy    & -3.403$^{***}$ & -0.7889$^{***}$ & -0.8647$^{***}$\\   
+                                                & (1.037)        & (0.0764)        & (0.1524)\\   
+      \midrule
+      \emph{Fixed-effects}\\
+      case id                                  & Yes            & Yes             & Yes\\  
+      month id                                 & Yes            & Yes             & Yes\\  
+      \midrule
+      \emph{Fit statistics}\\
+      Observations                              & 1,263          & 1,263           & 1,263\\  
+      Squared Correlation                       & 0.29329        & 0.31581         & 0.29249\\  
+      Pseudo R$^2$                              & 0.05155        & 0.21399         & 0.06148\\  
+      BIC                                       & 8,809.4        & 10,138.4        & 7,945.2\\  
+      Over-dispersion                           &                &                 & 1.9514\\  
+      \midrule \midrule
+      \multicolumn{4}{l}{\emph{IID standard-errors in parentheses}}\\
+      \multicolumn{4}{l}{\emph{Signif. Codes: ***: 0.01, **: 0.05, *: 0.1}}\\
+   \end{tabular}
+   
+   \par \raggedright 
+   Standard errors in parentheses. All models include case and month fixed effects.
+\end{table}

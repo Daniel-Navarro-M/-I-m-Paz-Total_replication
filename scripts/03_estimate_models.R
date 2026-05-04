@@ -434,6 +434,32 @@ plot_broom_models(
   title       = "Robustness: TWFE coefficients across model specifications"
 )
 
+
+# Robustness Check with clustered SE
+
+m_ols_cl   <- feols(count ~ treatment_dummy + clash_dummy + treatment_dummy * clash_dummy | case_id + month_id, 
+                 data = panel, cluster = ~case_id)
+m_pois_cl  <- fepois(count ~ treatment_dummy + clash_dummy + treatment_dummy * clash_dummy | case_id + month_id, 
+                  data = panel, cluster = ~case_id)
+m_nb_cl    <- fenegbin(count ~ treatment_dummy + clash_dummy + treatment_dummy * clash_dummy | case_id + month_id, 
+                    data = panel, cluster = ~case_id)
+
+etable(m_ols_cl, m_pois_cl, m_nb_cl,
+       headers = c("OLS (TWFE)", "Poisson", "Negative Binomial"),
+       tex = FALSE)
+
+robustness_twfe_latex <- etable(
+  m_ols, m_pois, m_nb,
+  headers = c("OLS (TWFE)", "Poisson", "Negative Binomial"),
+  title   = "Robustness check: alternative count-data specifications",
+  label   = "tab:robustness_twfe_cl",
+  notes   = "Standard errors in parentheses. All models include case and month fixed effects.",
+  tex     = TRUE
+)
+
+writeLines(clean_tex_table_text(robustness_twfe_latex),
+           "output/tables/Robustness_Check_twfe_clustered_error.tex")
+
 # 3. Violence-specific outcome models ----
 
 ## OLS by outcome ----

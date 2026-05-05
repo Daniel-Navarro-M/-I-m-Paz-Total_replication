@@ -546,8 +546,9 @@ These cases are not treated as interchangeable. Rather, they are
 approached as territorially distinct expressions of Colombia's
 contemporary armed conflict, each shaped by a different configuration of
 governance, dispute, and spatial reach.
-[\[fig:Map Treatment Areas\]](#fig:Map Treatment Areas){reference-type="ref"
-reference="fig:Map Treatment Areas"} illustrates this first territorial
+![Map Treatment Areas](output/figures/TreatmentAreas.png)
+
+*Figure: Map Treatment Areas* illustrates this first territorial
 distinction by locating the broader geography of armed spillovers and
 conflict dynamics in which the three cases are embedded. In line with
 Valencia and Serrano's argument that the contemporary Colombian war is

@@ -449,7 +449,7 @@ etable(m_ols_cl, m_pois_cl, m_nb_cl,
        tex = FALSE)
 
 robustness_twfe_latex <- etable(
-  m_ols, m_pois, m_nb,
+  m_ols_cl, m_pois_cl, m_nb_cl,
   headers = c("OLS (TWFE)", "Poisson", "Negative Binomial"),
   title   = "Robustness check: alternative count-data specifications",
   label   = "tab:robustness_twfe_cl",

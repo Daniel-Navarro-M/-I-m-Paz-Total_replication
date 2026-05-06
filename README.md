@@ -546,16 +546,6 @@ These cases are not treated as interchangeable. Rather, they are
 approached as territorially distinct expressions of Colombia's
 contemporary armed conflict, each shaped by a different configuration of
 governance, dispute, and spatial reach.
-![Map Treatment Areas](output/figures/TreatmentAreas.png)
-
-*Figure: Map Treatment Areas* illustrates this first territorial
-distinction by locating the broader geography of armed spillovers and
-conflict dynamics in which the three cases are embedded. In line with
-Valencia and Serrano's argument that the contemporary Colombian war is
-increasingly subnational, the map shows that violence is not organized
-through a single national conflict line, but through localized and
-regionalized patterns of dispute, coexistence, and dominance (Valencia
-and Serrano, 2025, pp. 44-45).
 
 The violent mechanisms will be hence explained in different contexts of
 violence: a rebelocracy (Arjona, 2016) in the case of Arauca, as ELN has
@@ -568,13 +558,22 @@ governance from a rebel group that has come to certain agreements with
 local authorities that would make it to some extend an aliocracy.
 
 ![Selected areas for analysis. Source: Prepared by the author with ESRI
-basemap](Treatment Areas.png){#Map 1: Geographical Areas of Analysis
-width="75%"}
+basemap](output/figures/TreatmentAreas.png){#Map 1: Geographical Areas of Analysis
+width="50%"}
+
+*Figure: Map Treatment Areas* illustrates this first territorial
+distinction by locating the broader geography of armed spillovers and
+conflict dynamics in which the three cases are embedded. In line with
+Valencia and Serrano's argument that the contemporary Colombian war is
+increasingly subnational, the map shows that violence is not organized
+through a single national conflict line, but through localized and
+regionalized patterns of dispute, coexistence, and dominance (Valencia
+and Serrano, 2025, pp. 44-45).
 
 ![Cocaine, Seizures and Homicides National, Navarro and Valencia, 2025.
 Source: Prepared by the author and published on Valencia,
-2025](Coca, incautaciones y homicidios nacional.png){#Map 2: Geographical Areas of Analysis
-width="75%"}
+2025](output/figures/Coca%2C%20incautaciones%20y%20homicidios%20nacional.png){#Map 2: Geographical Areas of Analysis
+width="50%"}
 
 [\[fig:Map Treatment Areas\]](#fig:Map Treatment Areas){reference-type="ref"
 reference="fig:Map Treatment Areas"} complements this discussion by
@@ -679,7 +678,7 @@ Crimes) and the territorial control. Territorial control affects the
 violent trends in the region, but mainly depends on the overall strength
 of the armed group, the civilian resistance and the clashes with other
 groups. Clashes, are affecting the outcome and the territorial
-control.](causal_path.png){#fig:placeholder width="80%"}
+control.](output/figures/causal_path.png){#fig:causal path width="60%"}
 
 ## Assumptions
 
@@ -844,7 +843,7 @@ country.
 ![Violence trends by department and type, January 2018 to March 2026.
 Source: Prepared by the author with ACLED and Policía Nacional de
 Colombia
-data.](national_department_trends.png){#fig:national_department_trends
+data.](output/figures/national_department_trends.png){#fig:national_department_trends
 width="\\linewidth"}
 
 The figure reveals two patterns that justify the case-based design of
@@ -874,7 +873,7 @@ violence types, although the magnitudes differ substantially.
 
 ![Distribution of monthly violence events by case and violence type.
 Source: Prepared by the author with ACLED and Policía Nacional de
-Colombia data.](violin_by_case.png){#fig:violin_by_case
+Colombia data.](output/figures/violin_by_case.png){#fig:violin_by_case
 width="\\linewidth"}
 
 In Arauca, all five violence types show meaningful dispersion, with
@@ -901,7 +900,7 @@ violence type changed before and after the onset of peace talks.
 
 ![Total violence events by type and treatment period across cases.
 Source: Prepared by the author with ACLED and Policía Nacional de
-Colombia data.](stacked_bar_events.png){#fig:stacked_bar_events
+Colombia data.](output/figures/stacked_bar_events.png){#fig:stacked_bar_events
 width="\\linewidth"}
 
 The patterns differ substantially across cases. In Arauca, the untreated
@@ -929,7 +928,7 @@ within-case change from the pre-treatment to the treatment period.
 
 ![Monthly events pre and post treatment, by case and violence type.
 Source: Prepared by the author with ACLED and Policía Nacional de
-Colombia data.](mean_events_prepost.png){#fig:mean_events_prepost
+Colombia data.](output/figures/mean_events_prepost.png){#fig:mean_events_prepost
 width="\\linewidth"}
 
 The figure makes the heterogeneity across cases visually evident. In
@@ -965,7 +964,7 @@ lines connecting the cells that share a clash condition.
 ![Mean monthly events by treatment status and active armed-group
 dispute. Source: Prepared by the author with ACLED and Policía Nacional
 de Colombia
-data.](mean_difference_interaction.png){#fig:mean_difference_interaction
+data.](output/figures/mean_difference_interaction.png){#fig:mean_difference_interaction
 width="50%"}
 
 The figure shows that the slope of the line corresponding to no active
@@ -1028,7 +1027,7 @@ count-data specifications close the section.
 ## Pooled OLS
 
 ![Pooled OLS coefficients across three specifications. Source: Author's
-estimation.](coefplot_pooled.png){#fig:coefplot_pooled
+estimation.](output/figures/coefplot_pooled.png){#fig:coefplot_pooled
 width="\\linewidth"}
 
 The pooled OLS coefficients are presented in figure
@@ -1055,7 +1054,7 @@ emerges only once the territorial fixed effects are introduced.
 ## Case fixed effects
 
 ![Case fixed-effects coefficients across three specifications. Source:
-Author's estimation.](coefplot_case_fe.png){#fig:coefplot_case_fe
+Author's estimation.](output/figures/coefplot_case_fe.png){#fig:coefplot_case_fe
 width="\\linewidth"}
 
 Once case fixed effects are added, the within-case variation in violence
@@ -1082,7 +1081,7 @@ the descriptive analysis already anticipated.
 ## Two-way fixed effects
 
 ![Two-way fixed-effects coefficients across three specifications.
-Source: Author's estimation.](coefplot_twfe.png){#fig:coefplot_twfe
+Source: Author's estimation.](output/figures/coefplot_twfe.png){#fig:coefplot_twfe
 width="\\linewidth"}
 
 The TWFE specification adds month fixed effects to absorb common shocks.
@@ -1122,7 +1121,7 @@ downward.
 
 ![TWFE coefficients across violence outcomes and model specifications.
 Source: Author's
-estimation.](coefplot_violence_by_outcome.png){#fig:coefplot_violence_by_outcome
+estimation.](output/figures/coefplot_violence_by_outcome.png){#fig:coefplot_violence_by_outcome
 width="\\linewidth"}
 
 The disaggregated analysis tests whether the aggregate result is driven

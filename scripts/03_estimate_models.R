@@ -566,7 +566,7 @@ screenreg(
 texreg_violence_twfe <- capture.output(
   texreg(
     unname(violence_models_twfe[violence_types]),
-    custom.model.names = unname(violence_col_headers[violence_types]),
+    custom.model.names = unname(violence_labels[violence_types]),
     custom.coef.map    = coef_map_violence,
     caption            = "TWFE models by violence outcome (with clash control and interaction)",
     caption.above      = TRUE,
@@ -648,48 +648,4 @@ p_violence <- ggplot(
 ggsave("output/figures/coefplot_violence_by_outcome.png",
        p_violence, width = 12, height = 5, dpi = 150)
 
-# 4. Excel export ------------------------------------------------------------
-
-to_df <- function(mod, model_name) {
-  ct <- summary(mod)$coeftable
-  if (inherits(mod, "lm")) ct <- summary(mod)$coefficients
-  df <- as.data.frame(ct)
-  df$term  <- rownames(ct)
-  df$model <- model_name
-  rownames(df) <- NULL
-  df[, c("model", "term", setdiff(names(df), c("model", "term")))]
-}
-
-writexl::write_xlsx(
-  list(
-    OLS                       = to_df(m1,   "OLS"),
-    OLS_Clash                 = to_df(m1_1, "OLS + clash"),
-    OLS_Clash_Interaction     = to_df(m1_2, "OLS + clash + interaction"),
-    Case_FE                   = to_df(m2,   "Case FE"),
-    Case_FE_Clash             = to_df(m2_1, "Case FE + clash"),
-    Case_FE_Clash_Interaction = to_df(m2_2, "Case FE + clash + interaction"),
-    TWFE                      = to_df(m3,   "TWFE"),
-    TWFE_Clash                = to_df(m3_1, "TWFE + clash"),
-    TWFE_Clash_Interaction    = to_df(m3_2, "TWFE + clash + interaction"),
-    Political_Violence_OLS    = to_df(violence_models_ols[["political_violence"]],     "OLS: Political violence"),
-    Civilian_Targeting_OLS    = to_df(violence_models_ols[["civilian_targeting"]],     "OLS: Civilian targeting"),
-    Homicide_OLS              = to_df(violence_models_ols[["homicide"]],               "OLS: Homicide"),
-    Terrorism_OLS             = to_df(violence_models_ols[["terrorism"]],              "OLS: Terrorism"),
-    Extortion_OLS             = to_df(violence_models_ols[["extortion"]],              "OLS: Extortion"),
-    Political_Violence_FE     = to_df(violence_models_case_fe[["political_violence"]], "Case FE: Political violence"),
-    Civilian_Targeting_FE     = to_df(violence_models_case_fe[["civilian_targeting"]], "Case FE: Civilian targeting"),
-    Homicide_FE               = to_df(violence_models_case_fe[["homicide"]],           "Case FE: Homicide"),
-    Terrorism_FE              = to_df(violence_models_case_fe[["terrorism"]],          "Case FE: Terrorism"),
-    Extortion_FE              = to_df(violence_models_case_fe[["extortion"]],          "Case FE: Extortion"),
-    Political_Violence_TWFE   = to_df(violence_models_twfe[["political_violence"]],    "TWFE: Political violence"),
-    Civilian_Targeting_TWFE   = to_df(violence_models_twfe[["civilian_targeting"]],    "TWFE: Civilian targeting"),
-    Homicide_TWFE             = to_df(violence_models_twfe[["homicide"]],              "TWFE: Homicide"),
-    Terrorism_TWFE            = to_df(violence_models_twfe[["terrorism"]],             "TWFE: Terrorism"),
-    Extortion_TWFE            = to_df(violence_models_twfe[["extortion"]],             "TWFE: Extortion")
-  ),
-  "output/tables/model_results.xlsx"
-)
-
-cat("\n=== 03_models.R complete ===\n")
-cat("Tables saved to: output/tables/\n")
-cat("Figures saved to: output/figures/\n")
+# 3.5 GitHub table export moved to scripts/4.5_github_tables.R

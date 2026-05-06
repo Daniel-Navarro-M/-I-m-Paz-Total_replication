@@ -6,9 +6,10 @@ options(stringsAsFactors = FALSE)
 if (!requireNamespace("fixest", quietly = TRUE)) stop("Install fixest: install.packages('fixest')")
 if (!requireNamespace("writexl", quietly = TRUE)) stop("Install writexl: install.packages('writexl')")
 library(fixest)
+library(dplyr)
+library(tidyverse)
 
 dir.create("output/tables", recursive = TRUE, showWarnings = FALSE)
-dir.create("output/tables/latex", recursive = TRUE, showWarnings = FALSE)
 
 latex_escape <- function(x) {
   x <- as.character(x)
@@ -44,7 +45,7 @@ write_latex_table <- function(df, path, caption, label) {
   writeLines(lines, path)
 }
 
-panel <- readRDS("output/panel_monthly.rds")
+panel <- read_csv("data/Processed/panel_long.csv")
 panel$month_start <- as.Date(paste0(panel$month_id, "-01"))
 
 shift_months <- function(d, n_back = 6) {
@@ -60,7 +61,7 @@ shift_months <- function(d, n_back = 6) {
 # 1. Placebo treatment: 6 months before the observed start
 # -----------------------------------------------------------------------------
 
-onset <- aggregate(month_start ~ case_id, data = panel[panel$treatment == 1, ], FUN = min)
+onset <- aggregate(month_start ~ case_id, data = panel[panel$treatment_dummy == 1, ], FUN = min)
 onset$placebo_start <- shift_months(onset$month_start, 6)
 
 panel$placebo_treatment <- 0L
@@ -71,7 +72,8 @@ for (i in seq_len(nrow(onset))) {
                             panel$month_start < onset$month_start[i]] <- 1L
 }
 
-placebo_model <- feols(total_events ~ placebo_treatment + clash_dummy | case_id + month_id, data = panel)
+placebo_model <- feols(count ~ placebo_treatment + clash_dummy
+                       + placebo_treatment*clash_dummy| case_id + month_id, data = panel)
 
 # -----------------------------------------------------------------------------
 # 2. Leave-one-case-out TWFE
@@ -80,11 +82,11 @@ placebo_model <- feols(total_events ~ placebo_treatment + clash_dummy | case_id 
 case_ids <- unique(as.character(panel$case_id))
 loo_df <- do.call(rbind, lapply(case_ids, function(drop_case) {
   sub <- panel[panel$case_id != drop_case, ]
-  mod <- feols(total_events ~ treatment + clash_dummy | case_id + month_id, data = sub)
+  mod <- feols(count ~ treatment_dummy + clash_dummy | case_id + month_id, data = sub)
   data.frame(
     dropped_case = drop_case,
-    estimate = unname(coef(mod)["treatment"]),
-    std_error = unname(sqrt(diag(vcov(mod)))["treatment"]),
+    estimate = unname(coef(mod)["treatment_dummt"]),
+    std_error = unname(sqrt(diag(vcov(mod)))["treatment_dummy"]),
     stringsAsFactors = FALSE
   )
 }))

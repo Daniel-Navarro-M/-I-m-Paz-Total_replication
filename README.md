@@ -87,7 +87,7 @@ Null Hypothesis (H0): The initiation of formal peace talks in a municipality has
 
 Alternative Hypothesis 2 (H2): The initiation of peace negotiations is associated with a statistically significant positive change in frequency of specific conflict-related crimes.
 
-## Methodology and Variables {#Methodology-variables}
+## Methodology and Variables
 
 Methodologically, the study uses panel data and estimates two-way fixed-effects models. Two-way fixed models are a preferred tool as they enable us to address confounding biases that are unobservable but are common to all observed units (Dayal and Muruguesan, 2023). In this case, the geographical level fixed effects account for unobserved time-invariant heterogeneity, while time fixed effects absorb time-varying (Dayal and Murugesan, 2023). Applied to this study, territorial-case fixed effects absorb time-invariant characteristics of each case, including geography, long-run armed-group presence, and local institutional structure, while month fixed effects absorb shocks common to all cases, such as macro-political changes, seasonality, and countrywide security dynamics. The identifying logic is therefore within-case overtime comparison: the model tests whether violence changes once peace talks begin in a given case, net of permanent differences across territories and common shocks affecting all territories in the same month.
 
@@ -115,6 +115,12 @@ These cases are not treated as interchangeable. Rather, they are approached as t
 
 The violent mechanisms will be hence explained in different contexts of violence: a rebelocracy (Arjona, 2016) in the case of Arauca, as ELN has been present and taken over power from several years. Criminal Governance in Buenaventura, as Los Shottas and Espartanos are controlling, collecting taxes, defining geographical boundaries and punishing through different mechanisms as explained in Johnson (2025). And finally, the intermediate case of Tumaco, that is a criminal governance from a rebel group that has come to certain agreements with local authorities that would make it to some extend an aliocracy.
 
+<p align="center">
+  <a href="output/figures/TreatmentAreas.png">
+    <img src="output/figures/TreatmentAreas.png" alt="Selected areas for analysis" width="600">
+  </a>
+</p>
+
 
 
 *Figure: Map Treatment Areas* illustrates this first territorial distinction by locating the broader geography of armed spillovers and conflict dynamics in which the three cases are embedded. In line with Valencia and Serrano's argument that the contemporary Colombian war is increasingly subnational, the map shows that violence is not organized through a single national conflict line, but through localized and regionalized patterns of dispute, coexistence, and dominance (Valencia and Serrano, 2025, pp. 44-45).
@@ -122,6 +128,12 @@ The violent mechanisms will be hence explained in different contexts of violence
 
 
 [fig:Map Treatment Areas](#fig:Map Treatment Areas){reference-type="ref" reference="fig:Map Treatment Areas"} complements this discussion by showing the territorial relationship between homicide rates and illicit economies, especially coca cultivation and cocaine seizures. While the national homicide rate may appear relatively stable in aggregate terms, the regional distribution of lethal violence is highly uneven. In 2024, departments such as Arauca, Cauca, Valle del Cauca, Putumayo, and Chocó recorded some of the highest homicide rates in the country, concentrating violence in peripheral and border territories.
+
+<p align="center">
+  <a href="output/figures/Coca%2C%20incautaciones%20y%20homicidios%20nacional.png">
+    <img src="output/figures/Coca%2C%20incautaciones%20y%20homicidios%20nacional.png" alt="Cocaine seizures and homicides map" width="600">
+  </a>
+</p>
 
 When these patterns are read together with the geography of illicit economies, a clearer territorial logic emerges: violence tends to cluster where armed actors compete for control over strategic corridors, rent-generating markets, and local populations. This is particularly visible in southwestern and Pacific regions, where coca cultivation, trafficking routes, and fragmented armed orders overlap.
 
@@ -138,6 +150,12 @@ $$Violence_{it} = \alpha_i + \lambda_t + \beta Treatment_{it} + \delta Clash_{it
 where $Violence_{it}$ is the monthly count of violent events in territorial unit $i$ and month $t$, $\alpha_i$ are territorial-case fixed effects, $\lambda_t$ are month fixed effects, $Treatment_{it}$ equals 1 in months in which peace talks are active in that case, and $Clash_{it}$ equals 1 in months with active armed-group dispute. In this specification, $\beta$ captures the association between peace talks and monthly violence in case-months without active dispute, conditional on both fixed effects. The coefficient $\delta$ captures the association between active armed dispute and violence in non-treatment months, net of negotiations and fixed effects. The interaction coefficient, $\theta$, captures the additional association when peace talks and active armed dispute occur simultaneously. In substantive terms, the interaction term allows the model to assess whether the association between treatment and violence differs between periods with and without clashes.
 
 This design addresses the main sources of bias that fixed effects are intended to absorb. Armed governance, territorial control, and local institutional capacity are highly persistent over time and are therefore plausibly captured by territorial-case fixed effects. At the same time, common national developments, including changes in the broader implementation of *Paz Total*, military strategy, or macro-political shocks, are absorbed by month fixed effects. The inclusion of the armed-dispute dummy additionally accounts for a substantively important time-varying source of violence that would otherwise risk confounding the treatment effect. As a result, the empirical strategy isolates whether the negotiation period is associated with a deviation from the prior violent trend within each case, net of both enduring territorial characteristics and contemporaneous conflict dynamics. Standard errors are clustered at the territorial-case level, although inference must be interpreted cautiously given the small number of units. The design addresses the causal path as displayed in figure 1.
+
+<p align="center">
+  <a href="output/figures/causal_path.png">
+    <img src="output/figures/causal_path.png" alt="Causal path diagram" width="720">
+  </a>
+</p>
 
 
 

@@ -629,7 +629,7 @@ governance from a rebel group that has come to certain agreements with
 local authorities that would make it to some extend an aliocracy.
 
 <p align="center">
-  <img src="./output/figures/Treatment%20Areas.png" alt="Selected areas for analysis. Source: Prepared by the author with ESRI basemap" width="75%" />
+  <img src="./output/figures/TreatmentAreas.png" alt="Selected areas for analysis. Source: Prepared by the author with ESRI basemap" width="75%" />
   <br><em>Selected areas for analysis. Source: Prepared by the author with ESRI basemap</em>
 </p>
 

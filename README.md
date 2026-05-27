@@ -1,4 +1,4 @@
-# (I'm)Paz Total: Quantitative Evaluation of the Política de Paz Total in Colombia
+# Paz Total: Quantitative Evaluation of the Política de Paz Total in Colombia
 
 **Daniel Navarro Madriñán**
 
@@ -170,34 +170,29 @@ capture the full range of coercive practices through which armed actors
 govern territories and populations.
 
 The remainder of the thesis proceeds with seven chapters as follows.
-Chapter [2](#theoretical-framework){reference-type="ref"
-reference="theoretical-framework"} will argue that violence should be
+Chapter [2](#theoretical-framework) will argue that violence should be
 understood as an instrument of territorial control and governance and
 that the effects of peace talks depend on timing, sequencing, and local
 armed order, and review literature that showcases qualitative results of
-PPT. The [3](#research-design){reference-type="ref"
-reference="research-design"} chapter will provide
-[3.1](#research-question){reference-type="ref"
-reference="research-question"},
-[3.2](#Methodology-variables){reference-type="ref"
-reference="Methodology-variables"} and empirical strategy, explaining
+PPT. The [3](#research-design) chapter will provide
+[3.1](#research-question),
+[3.2](#Methodology-variables) and empirical strategy, explaining
 the panel structure, treatment coding, and the logic of the two-way
 fixed-effects models, followed by the
-[3.3](#assumptions){reference-type="ref" reference="assumptions"}.
-Chapter [4](#exploratory-data-analysis){reference-type="ref"
-reference="exploratory-data-analysis"} will contain the exploratory
+[3.3](#assumptions).
+Chapter [4](#exploratory-data-analysis) will contain the exploratory
 results of violence across the country, region and selected cases and
 primary statistical results, with descriptive statistics that shows how
 Buenaventura and Tumaco experience declines in average violence during
 treatment months whereas Arauca shows an increase, although that is
 misleading when accounting for the fixed effects. The following section,
-[5](#Results){reference-type="ref" reference="Results"} will provide the
+[5](#Results) will provide the
 results for each of the implemented models with a description of
 limitations, accepting the thesis hypothesis and quantitatively
 supporting qualitative assestments.
-[6](#Discussion){reference-type="ref" reference="Discussion"} will come
+[6](#Discussion) will come
 back to the theoretical implications of the results, and finally
-[7](#conclusion){reference-type="ref" reference="conclusion"} will
+[7](#conclusion) will
 outline the implications of these results and propose steps for future
 research.
 
@@ -474,8 +469,7 @@ Null Hypothesis (H0): The initiation of formal peace talks in a
 municipality has no statistically significant association with the
 monthly frequency of specific conflict-related events.
 
-## Methodology and Variables {#Methodology-variables}
-
+## Methodology and Variables 
 Methodologically, the study uses panel data and estimates two-way
 fixed-effects models. Two-way fixed models are a preferred tool as they
 enable us to address confounding biases that are unobservable but are
@@ -615,8 +609,7 @@ These cases are not treated as interchangeable. Rather, they are
 approached as territorially distinct expressions of Colombia's
 contemporary armed conflict, each shaped by a different configuration of
 governance, dispute, and spatial reach.
-[\[fig:Map Treatment Areas\]](#fig:Map Treatment Areas){reference-type="ref"
-reference="fig:Map Treatment Areas"} illustrates this first territorial
+the map illustrates this first territorial
 distinction by locating the broader geography of armed spillovers and
 conflict dynamics in which the three cases are embedded. In line with
 Valencia and Serrano's argument that the contemporary Colombian war is
@@ -635,17 +628,17 @@ And finally, the intermediate case of Tumaco, that is a criminal
 governance from a rebel group that has come to certain agreements with
 local authorities that would make it to some extend an aliocracy.
 
-![Selected areas for analysis. Source: Prepared by the author with ESRI
-basemap](./output/figures/Treatment Areas.png){#Map 1: Geographical Areas of Analysis
-width="75%"}
+<p align="center">
+  <img src="./output/figures/Treatment%20Areas.png" alt="Selected areas for analysis. Source: Prepared by the author with ESRI basemap" width="75%" />
+  <br><em>Selected areas for analysis. Source: Prepared by the author with ESRI basemap</em>
+</p>
 
-![Cocaine, Seizures and Homicides National, Navarro and Valencia, 2025.
-Source: Prepared by the author and published on Valencia,
-2025](./output/figures/Coca, incautaciones y homicidios nacional.png){#Map 2: Geographical Areas of Analysis
-width="75%"}
+<p align="center">
+  <img src="./output/figures/Coca%2C%20incautaciones%20y%20homicidios%20nacional.png" alt="Cocaine, Seizures and Homicides National, Navarro and Valencia, 2025. Source: Prepared by the author and published on Valencia, 2025" width="75%" />
+  <br><em>Cocaine, Seizures and Homicides National, Navarro and Valencia, 2025. Source: Prepared by the author and published on Valencia, 2025</em>
+</p>
 
-[\[fig:Map Treatment Areas\]](#fig:Map Treatment Areas){reference-type="ref"
-reference="fig:Map Treatment Areas"} complements this discussion by
+the map complements this discussion by
 showing the territorial relationship between homicide rates and illicit
 economies, especially coca cultivation and cocaine seizures. While the
 national homicide rate may appear relatively stable in aggregate terms,
@@ -713,13 +706,10 @@ the territorial-case level, although inference must be interpreted
 cautiously given the small number of units. The design addresses the
 causal path as displayed in figure 1.
 
-![Causal Path: Peace Talks affect the Output (Observed War Related
-Crimes) and the territorial control. Territorial control affects the
-violent trends in the region, but mainly depends on the overall strength
-of the armed group, the civilian resistance and the clashes with other
-groups. Clashes, are affecting the outcome and the territorial
-control.](./output/figures/causal_path.png){#fig:placeholder
-width="80%"}
+<p align="center">
+  <img src="./output/figures/causal_path.png" alt="Causal Path: Peace Talks affect the Output (Observed War Related Crimes) and the territorial control. Territorial control affects the violent trends in the region, but mainly depends on the overall strength of the armed group, the civilian resistance and the clashes with other groups. Clashes, are affecting the outcome and the territorial control." width="80%" />
+  <br><em>Causal Path: Peace Talks affect the Output (Observed War Related Crimes) and the territorial control. Territorial control affects the violent trends in the region, but mainly depends on the overall strength of the armed group, the civilian resistance and the clashes with other groups. Clashes, are affecting the outcome and the territorial control.</em>
+</p>
 
 ## Assumptions
 
@@ -874,18 +864,16 @@ Buenaventura, and a regionalized armed control structure in Tumaco.
 
 Before focusing on the three study cases, it is important to situate
 them within the broader national distribution of violence. Figure
-[4](#fig:national_department_trends){reference-type="ref"
-reference="fig:national_department_trends"} presents monthly counts of
+[4](#fig:national_department_trends) presents monthly counts of
 each violence type across all Colombian departments, with Arauca, Nariño
 (where Tumaco is located), Valle del Cauca (where Buenaventura is
 located), and the national average highlighted against the rest of the
 country.
 
-![Violence trends by department and type, January 2018 to March 2026.
-Source: Prepared by the author with ACLED and Policía Nacional de
-Colombia
-data.](./output/figures/national_department_trends.png){#fig:national_department_trends
-width="\\linewidth"}
+<p align="center">
+  <img src="./output/figures/national_department_trends.png" alt="Violence trends by department and type, January 2018 to March 2026. Source: Prepared by the author with ACLED and Policía Nacional de Colombia data." width="100%" />
+  <br><em>Violence trends by department and type, January 2018 to March 2026. Source: Prepared by the author with ACLED and Policía Nacional de Colombia data.</em>
+</p>
 
 The figure reveals two patterns that justify the case-based design of
 the thesis. First, Valle del Cauca stands out as a national outlier in
@@ -904,8 +892,7 @@ literature reviewed in the introduction.
 
 ## Distribution and total exposure across cases
 
-Figure [5](#fig:violin_by_case){reference-type="ref"
-reference="fig:violin_by_case"} presents the marginal distribution of
+Figure [5](#fig:violin_by_case) presents the marginal distribution of
 monthly counts for each violence type within each case. The
 distributions are heavily right-skewed and bounded at zero, with most
 months concentrated near low values and a small number of months showing
@@ -935,8 +922,7 @@ within-case variance, but the appendix includes Poisson and negative
 binomial estimations as robustness checks against the distributional
 features visible here.
 
-Figure [6](#fig:stacked_bar_events){reference-type="ref"
-reference="fig:stacked_bar_events"} aggregates total event counts within
+Figure [6](#fig:stacked_bar_events) aggregates total event counts within
 each case and divides them between treated and untreated periods. The
 figure provides a direct visual comparison of how the volume of each
 violence type changed before and after the onset of peace talks.
@@ -965,8 +951,7 @@ offers a useful descriptive complement to the regression analysis.
 
 ## Within-case change and the case-specific direction of treatment
 
-Figure [7](#fig:mean_events_prepost){reference-type="ref"
-reference="fig:mean_events_prepost"} presents pre-treatment and
+Figure [7](#fig:mean_events_prepost) presents pre-treatment and
 post-treatment means of each violence type for each case, with 95
 percent confidence intervals that show the within-case change from the
 pre-treatment to the treatment period.
@@ -1001,8 +986,7 @@ change associated with the negotiation period.
 
 ## The interaction between treatment and clash status
 
-Figure [8](#fig:mean_difference_interaction){reference-type="ref"
-reference="fig:mean_difference_interaction"} presents the four-cell
+Figure [8](#fig:mean_difference_interaction) presents the four-cell
 structure that the regression interaction term formalizes. Mean monthly
 counts are computed for each combination of treatment status and clash
 status, with 95 percent confidence intervals attached to each point and
@@ -1041,8 +1025,7 @@ monthly violence counts between treatment and non-treatment months
 across the pooled sample yields a small and statistically insignificant
 difference. When the comparison is repeated separately for clash-active
 and clash-inactive months, the means diverge in the direction shown in
-figure [8](#fig:mean_difference_interaction){reference-type="ref"
-reference="fig:mean_difference_interaction"}, which is consistent with
+figure [8](#fig:mean_difference_interaction), which is consistent with
 the descriptive evidence and the regression results presented below.
 
 ## Summary of exploratory evidence
@@ -1056,11 +1039,9 @@ regression specification. And the count distribution of the outcome
 motivates the count-data robustness checks reported in the results
 section.
 
-# Results {#Results}
-
+# Results 
 This section presents the regression results from the empirical strategy
-described in [3.2](#Methodology-variables){reference-type="ref"
-reference="Methodology-variables"}. The discussion centers on answering,
+described in [3.2](#Methodology-variables). The discussion centers on answering,
 if within Buenaventura, Arauca, and Tumaco there is an association
 between the timing of peace talks or negotiations and the monthly
 incidence of conflict-related events (homicide, extortion, terrorism,
@@ -1081,8 +1062,7 @@ count-data specifications close the section.
 ## Pooled OLS
 
 The pooled OLS coefficients are presented in figure
-[9](#fig:coefplot_pooled){reference-type="ref"
-reference="fig:coefplot_pooled"}. In the simplest specification with
+[9](#fig:coefplot_pooled). In the simplest specification with
 treatment alone, the association between peace talks and aggregate
 monthly violence is statistically indistinguishable from zero. Adding
 the clash control does not substantially alter this result. When the
@@ -1111,8 +1091,7 @@ emerges only once the territorial fixed effects are introduced.
 
 Once case fixed effects are added, the within-case variation in violence
 becomes the basis for inference. Figure
-[10](#fig:coefplot_case_fe){reference-type="ref"
-reference="fig:coefplot_case_fe"} presents the case-FE coefficients. The
+[10](#fig:coefplot_case_fe) presents the case-FE coefficients. The
 treatment coefficient becomes negative and statistically significant at
 the five percent level when the clash control is added, and the clash
 coefficient is large, positive, and significant at the one percent level
@@ -1139,8 +1118,7 @@ the descriptive analysis already anticipated.
 ## Two-way fixed effects
 
 The TWFE specification adds month fixed effects to absorb common shocks.
-Figure [11](#fig:coefplot_twfe){reference-type="ref"
-reference="fig:coefplot_twfe"} presents the coefficients across three
+Figure [11](#fig:coefplot_twfe) presents the coefficients across three
 specifications: treatment alone, treatment with clash control, and the
 full interaction model. The treatment coefficient is positive across all
 three specifications, the clash coefficient is positive and large in the
@@ -1183,8 +1161,7 @@ specifications. Source: Author’s estimation.</figcaption>
 The disaggregated analysis tests whether the aggregate result is driven
 by specific violence types or whether it reflects a broader shift across
 the types of violence. Figure
-[12](#fig:coefplot_violence_by_outcome){reference-type="ref"
-reference="fig:coefplot_violence_by_outcome"} presents the TWFE
+[12](#fig:coefplot_violence_by_outcome) presents the TWFE
 coefficients for each of the five outcomes (political violence, civilian
 targeting, homicide, terrorism, and extortion), with three model
 specifications presented within the figure.
@@ -1229,8 +1206,7 @@ robustness check reports estimates from four specifications: the main
 TWFE OLS model, a DID model, a Poisson regression with case and month
 fixed effects, and a negative binomial regression with case and month
 fixed effects. The full table is reported in the appendix as table
-[\[tab:robustness_twfe\]](#tab:robustness_twfe){reference-type="ref"
-reference="tab:robustness_twfe"}.
+[\[tab:robustness_twfe\]](#tab:robustness_twfe).
 
 The negative binomial model is the most appropriate for these data on
 theoretical grounds. The dispersion parameter of 1.95 confirms
@@ -1272,8 +1248,7 @@ Poisson and negative binomial models, which provides additional evidence
 that the conditional relationship between peace talks and violence is
 robust across inferential frameworks.
 
-# Discussion {#Discussion}
-
+# Discussion 
 Taken together, the regression results indicate that the implementation
 of Paz Total is associated with a general increase in observable
 violence across the three territorial cases. The TWFE specifications
@@ -1430,8 +1405,7 @@ during active mesa months and switches off if a mesa is suspended
 (within-negotiation effect); `post` equals 1 from each unit's first mesa
 onward and remains 1 thereafter (persistent post-onset effect).
 
-# Bibliography {#Bilbiography}
-
+# Bibliography 
 Acemoglu, Daron, James A. Robinson, and Rafael J. Santos. 2013. "The
 Monopoly of Violence: Evidence from Colombia." Journal of the European
 Economic Association 11 (s1): 5--44.

@@ -1,0 +1,35 @@
+\begin{table}[htbp]
+   \caption{\label{tab:did_robustness} DiD robustness: full panel, narrow panel, and cases + clash.}
+   \centering
+   \begin{tabular}{lccccc}
+      \tabularnewline \midrule \midrule
+      Dependent Variable: & \multicolumn{5}{c}{count}\\
+                                                & Full/Active & Full/Perm & Narrow/Active & Narrow/Perm & Cases+ctrls+clash \\   
+      Model:                                    & (1)         & (2)       & (3)           & (4)         & (5)\\  
+      \midrule
+      \emph{Variables}\\
+      treatment\_dummy                          & 1.564       &           & 1.338         &             & 1.806\\   
+                                                & (5.306)     &           & (3.814)       &             & (3.630)\\   
+      post\_dummy                               &             & 4.872     &               & 5.916       &   \\   
+                                                &             & (6.757)   &               & (4.825)     &   \\   
+      clash\_dummy                              &             &           &               &             & 16.11$^{**}$\\   
+                                                &             &           &               &             & (6.179)\\   
+      treatment\_dummy $\times$ clash\_dummy    &             &           &               &             & -10.11\\   
+                                                &             &           &               &             & (8.270)\\   
+      \midrule
+      \emph{Fixed-effects}\\
+      unit\_id                                  & Yes         & Yes       & Yes           & Yes         & Yes\\  
+      month\_id                                 & Yes         & Yes       & Yes           & Yes         & Yes\\  
+      \midrule
+      \emph{Fit statistics}\\
+      Observations                              & 3,465       & 3,465     & 2,871         & 2,871       & 693\\  
+      R$^2$                                     & 0.90097     & 0.90121   & 0.90509       & 0.90543     & 0.70759\\  
+      Within R$^2$                              & 0.00034     & 0.00278   & 0.00027       & 0.00385     & 0.10310\\  
+      \midrule \midrule
+      \multicolumn{6}{l}{\emph{Clustered (unit\_id) standard-errors in parentheses}}\\
+      \multicolumn{6}{l}{\emph{Signif. Codes: ***: 0.01, **: 0.05, *: 0.1}}\\
+   \end{tabular}
+   
+   \par \raggedright 
+   Standard errors clustered at the unit level.
+\end{table}

@@ -1,0 +1,31 @@
+\begin{table}[htbp]
+   \caption{\label{tab:did_country_robustness} Country-wide DiD robustness: Spec A (active window) vs. Spec B (absorbing post), baseline (Step 1) vs. narrow controls (Step 2).}
+   \centering
+   \begin{tabular}{lcccc}
+      \tabularnewline \midrule \midrule
+      Dependent Variable: & \multicolumn{4}{c}{count}\\
+                        & Step1 Spec A & Step1 Spec B & Step2 Spec A & Step2 Spec B \\   
+      Model:            & (1)          & (2)          & (3)          & (4)\\  
+      \midrule
+      \emph{Variables}\\
+      treatment\_dummy  & 2.841        &              & 1.338        &   \\   
+                        & (5.056)      &              & (3.814)      &   \\   
+      post\_dummy       &              & 6.430        &              & 5.916\\   
+                        &              & (6.138)      &              & (4.825)\\   
+      \midrule
+      \emph{Fixed-effects}\\
+      unit\_id          & Yes          & Yes          & Yes          & Yes\\  
+      month\_id         & Yes          & Yes          & Yes          & Yes\\  
+      \midrule
+      \emph{Fit statistics}\\
+      Observations      & 3,644        & 3,644        & 2,871        & 2,871\\  
+      R$^2$             & 0.90235      & 0.90274      & 0.90509      & 0.90543\\  
+      Within R$^2$      & 0.00114      & 0.00514      & 0.00027      & 0.00385\\  
+      \midrule \midrule
+      \multicolumn{5}{l}{\emph{Clustered (unit\_id) standard-errors in parentheses}}\\
+      \multicolumn{5}{l}{\emph{Signif. Codes: ***: 0.01, **: 0.05, *: 0.1}}\\
+   \end{tabular}
+   
+   \par \raggedright 
+   Standard errors clustered at the unit (department or case-cluster) level.
+\end{table}
